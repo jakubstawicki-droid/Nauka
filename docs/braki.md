@@ -35,3 +35,15 @@ Wszystkie pliki `src/data/*.json` powstają z dwóch PDF-ów w `materialy/` skry
 
 - Pełny tekst kompendium (działy I–VIII z tabelami) dla ekranu „Kompendium” — wyciągnięty zostanie przy
   budowie czytnika; na razie w danych są jego ustrukturyzowane części (glosariusz, oś czasu, zasady).
+
+## Reprodukcje dzieł (etap 3)
+
+- Obrazy pobierane są w czasie działania: główny obraz artykułu w pl.wikipedii → plik na Wikimedia Commons
+  (fallback: wyszukiwanie w Commons). Wyświetlane są tylko pliki PD / CC0 / CC BY / CC BY-SA, z autorem pliku
+  i licencją. Wynik trafia do pamięci podręcznej (IndexedDB) na 60 dni.
+- Bez reprodukcji (link do Wikipedii + opis „Rozpoznasz po”): lista z instrukcji (Picasso, Dalí, Magritte,
+  Warhol, Matisse, Kobro, Strzemiński, Abakanowicz, plakaty) **oraz** Pollock, Duchamp, Le Corbusier, Utzon
+  (twórcy zmarli mniej niż 70 lat temu). Razem 14 kart. Lista: `src/lib/images.ts`.
+- Jeśli wyszukiwanie trafi w zły plik, wpisz w `src/data/imageOverrides.json` np.
+  `"stanczyk": "File:Jan Matejko-Stańczyk.jpg"` (albo `"none"`, żeby nie pokazywać obrazu).
+  Poprawności dopasowań nie dało się sprawdzić automatycznie (sieć środowiska blokowała Wikipedię).

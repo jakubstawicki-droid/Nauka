@@ -40,6 +40,8 @@ function parseSettings(s: unknown): Settings {
   if (isDay(s.examDate)) out.examDate = s.examDate as string | null;
   if (typeof s.dailyReviewLimit === 'number' && s.dailyReviewLimit >= 0) out.dailyReviewLimit = Math.round(s.dailyReviewLimit);
   if (typeof s.dailyNewLimit === 'number' && s.dailyNewLimit >= 0) out.dailyNewLimit = Math.round(s.dailyNewLimit);
+  if (typeof s.artworkReviewLimit === 'number' && s.artworkReviewLimit >= 0) out.artworkReviewLimit = Math.round(s.artworkReviewLimit);
+  if (typeof s.artworkNewLimit === 'number' && s.artworkNewLimit >= 0) out.artworkNewLimit = Math.round(s.artworkNewLimit);
   if (s.theme === 'light' || s.theme === 'dark' || s.theme === 'system') out.theme = s.theme;
   return out;
 }

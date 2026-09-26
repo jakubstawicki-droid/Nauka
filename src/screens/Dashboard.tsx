@@ -1,11 +1,20 @@
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { PageHead } from '../components/ui';
 import { schedule } from '../data';
+import { useCardStates } from '../hooks/useStudy';
 import { currentWeek, daysBetween, formatDay, PROGRAM_WEEKS, toDay } from '../lib/dates';
+import { artworkQueue, questionQueue } from '../lib/sessions';
 import { useProgress } from '../store/useProgress';
 
 export function Dashboard() {
   const { settings, reviews } = useProgress();
+  const states = useCardStates();
+  const [qq, aq] = useMemo(() => {
+    const ctx = { states, reviews, settings, now: new Date() };
+    return [questionQueue(ctx), artworkQueue(ctx)];
+  }, [states, reviews, settings]);
+  const toDo = qq.due.length + qq.fresh.length + aq.due.length + aq.fresh.length;
   const today = toDay(new Date());
   const week = currentWeek(settings.startDate, today);
   const plan = week && week <= PROGRAM_WEEKS ? schedule.weeks[week - 1] : null;
@@ -23,6 +32,20 @@ export function Dashboard() {
           <Link className="btn primary" to="/wiecej/ustawienia">Ustaw daty</Link>
         </div>
       )}
+
+      <div className="card accent">
+        <h2>Na dziś{toDo > 0 ? `: ${toDo}` : ''}</h2>
+        {toDo > 0 ? (
+          <>
+            <p className="small">
+              Pytania: {qq.due.length} powtórek, {qq.fresh.length} nowych · Dzieła: {aq.due.length} powtórek, {aq.fresh.length} nowych
+            </p>
+            <Link className="btn primary" to="/sesja?typ=dzis">Zacznij sesję</Link>
+          </>
+        ) : (
+          <p>Wszystko na dziś zrobione. Jeśli masz ochotę na więcej — <Link to="/sesja?typ=mieszany">tryb mieszany</Link>.</p>
+        )}
+      </div>
 
       <div className="stats">
         <div className="stat"><div className="value">{todayCount}</div><div className="label">odpowiedzi dziś</div></div>

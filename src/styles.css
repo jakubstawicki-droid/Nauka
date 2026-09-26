@@ -179,3 +179,91 @@ p { margin: 0 0 0.75em; }
 @media (min-width: 600px) { .dialog-backdrop { place-items: center; } }
 
 .loading { min-height: 100dvh; display: grid; place-items: center; color: var(--muted); }
+
+/* --- nauka --- */
+.checklist { border: none; padding: 0; margin: 0 0 16px; display: flex; flex-direction: column; gap: 8px; }
+.checklist legend { font-weight: 650; margin-bottom: 8px; padding: 0; }
+.checklist label {
+  display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; min-height: 48px;
+  border: 1px solid var(--line); border-radius: 12px; background: var(--surface); cursor: pointer;
+}
+.checklist label.on { border-color: var(--ok); background: var(--ok-soft); }
+.checklist input { width: 22px; height: 22px; margin: 1px 0 0; flex: none; accent-color: var(--ok); }
+
+.grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.grade {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+  min-height: 64px; padding: 6px 4px; border-radius: 12px; border: 2px solid var(--line);
+  background: var(--surface); cursor: pointer; font-weight: 650; font-size: 0.9rem; line-height: 1.15; text-align: center;
+}
+.grade .g-hint { font-size: 0.72rem; font-weight: 500; color: var(--muted); }
+.grade.suggested { border-color: var(--accent); background: var(--accent-soft); }
+.grade.g1 .g-label { color: #b3261e; }
+:root[data-theme='dark'] .grade.g1 .g-label { color: #f2b8b5; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .grade.g1 .g-label { color: #f2b8b5; } }
+
+.badge.st-due { background: var(--accent-soft); color: var(--accent); }
+.badge.st-learning { background: var(--warn-soft); color: var(--warn); }
+.badge.st-mastered { background: var(--ok-soft); color: var(--ok); }
+
+.art { margin: 0 0 14px; }
+.art-frame {
+  display: grid; place-items: center; width: 100%; min-height: 220px; max-height: 60vh; padding: 0; overflow: hidden;
+  border: none; border-radius: var(--radius); background: var(--surface-2); cursor: zoom-in;
+}
+.art-frame img { display: block; max-width: 100%; max-height: 60vh; object-fit: contain; }
+.art figcaption { margin-top: 6px; font-size: 0.78rem; color: var(--muted); }
+.art figcaption a { color: inherit; }
+.art-missing { cursor: default; padding: 24px; text-align: center; color: var(--muted); gap: 8px; margin-bottom: 14px; }
+.loading-frame { animation: pulse 1.4s ease-in-out infinite; margin-bottom: 14px; }
+@keyframes pulse { 50% { opacity: 0.55; } }
+@media (prefers-reduced-motion: reduce) { .loading-frame { animation: none; } }
+.lightbox { position: fixed; inset: 0; z-index: 60; background: rgb(0 0 0 / 0.92); display: grid; place-items: center; cursor: zoom-out; padding: 12px; }
+.lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+.progress { height: 6px; border-radius: 99px; background: var(--surface-2); overflow: hidden; margin-bottom: 16px; }
+.progress div { height: 100%; background: var(--accent); transition: width 0.3s; }
+
+.session-top { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.session-top .count { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 0.9rem; }
+.session-top .close { margin-left: auto; }
+.clock { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 0.9rem; }
+
+.prompt-label { font-size: 0.8rem; font-weight: 650; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 6px; }
+.question-text { font-family: var(--font-text); font-size: 1.35rem; line-height: 1.4; font-weight: 600; margin-bottom: 16px; }
+.hint-box { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; margin: 0 0 16px; color: var(--muted); }
+.warn-box { background: var(--warn-soft); color: var(--text); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; }
+.warn-box strong, .challenge strong { display: block; margin-bottom: 2px; }
+.challenge { background: var(--accent-soft); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; }
+.grade-area { margin-top: 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+.sticky-actions {
+  position: sticky; bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 8px); z-index: 5;
+  background: var(--bg); padding: 10px 0 4px; margin-top: 8px;
+}
+@media (min-width: 900px) { .sticky-actions { bottom: 8px; } }
+
+.meta-list { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 0 0 16px; font-size: 0.925rem; }
+.meta-list dt { color: var(--muted); }
+.meta-list dd { margin: 0; }
+.features { margin: 0 0 16px; padding-left: 20px; }
+.features li { margin-bottom: 4px; }
+
+.list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.list li + li { border-top: 1px solid var(--line); }
+.list a { display: flex; gap: 12px; align-items: center; padding: 14px 16px; min-height: 56px; color: var(--text); text-decoration: none; }
+.list .l-main { flex: 1; min-width: 0; }
+.list .l-title { font-weight: 600; }
+.list .l-sub { color: var(--muted); font-size: 0.85rem; }
+.list .l-id { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.85rem; min-width: 3.4em; }
+.group-title { margin: 22px 0 8px; font-size: 0.85rem; font-weight: 650; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+
+.filters { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; }
+.filters .field { margin: 0; }
+.toggle { display: flex; align-items: center; gap: 10px; min-height: 48px; font-weight: 600; }
+.toggle input { width: 22px; height: 22px; accent-color: var(--accent); }
+
+.bar-row { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; }
+.bar-row .bar { flex: 1; height: 8px; border-radius: 99px; background: var(--surface-2); overflow: hidden; display: flex; }
+.bar-row .bar .m { background: var(--ok); }
+.bar-row .bar .l { background: var(--warn); }
+.countdown { font-size: 3rem; font-weight: 700; text-align: center; font-variant-numeric: tabular-nums; color: var(--accent); }

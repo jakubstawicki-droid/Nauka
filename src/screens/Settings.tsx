@@ -92,19 +92,20 @@ export function Settings() {
       </section>
 
       <section className="card">
-        <h2>Dzienny limit powtórek</h2>
-        <p className="small muted">Tak, żeby sesja mieściła się w około 30 minutach.</p>
+        <h2>Dzienny limit</h2>
+        <p className="small muted">
+          Domyślne wartości mieszczą się w około 30 minutach: odpowiedź na pytanie na głos trwa 2–3 minuty,
+          rozpoznanie dzieła kilkanaście sekund.
+        </p>
+        <h3>Pytania</h3>
         <div className="row">
-          <div className="field" style={{ flex: 1 }}>
-            <label htmlFor="rev">Powtórki</label>
-            <input id="rev" type="number" inputMode="numeric" min={0} max={200} value={settings.dailyReviewLimit}
-              onChange={(e) => s.updateSettings({ dailyReviewLimit: clamp(e.target.value, 0, 200) })} />
-          </div>
-          <div className="field" style={{ flex: 1 }}>
-            <label htmlFor="new">Nowe</label>
-            <input id="new" type="number" inputMode="numeric" min={0} max={50} value={settings.dailyNewLimit}
-              onChange={(e) => s.updateSettings({ dailyNewLimit: clamp(e.target.value, 0, 50) })} />
-          </div>
+          <LimitField id="q-rev" label="Powtórki" value={settings.dailyReviewLimit} max={100} onChange={(v) => s.updateSettings({ dailyReviewLimit: v })} />
+          <LimitField id="q-new" label="Nowe" value={settings.dailyNewLimit} max={30} onChange={(v) => s.updateSettings({ dailyNewLimit: v })} />
+        </div>
+        <h3>Karty dzieł</h3>
+        <div className="row">
+          <LimitField id="a-rev" label="Powtórki" value={settings.artworkReviewLimit} max={200} onChange={(v) => s.updateSettings({ artworkReviewLimit: v })} />
+          <LimitField id="a-new" label="Nowe" value={settings.artworkNewLimit} max={50} onChange={(v) => s.updateSettings({ artworkNewLimit: v })} />
         </div>
       </section>
 
@@ -171,6 +172,16 @@ export function Settings() {
         </Dialog>
       )}
     </>
+  );
+}
+
+function LimitField({ id, label, value, max, onChange }: { id: string; label: string; value: number; max: number; onChange: (v: number) => void }) {
+  return (
+    <div className="field" style={{ flex: 1 }}>
+      <label htmlFor={id}>{label}</label>
+      <input id={id} type="number" inputMode="numeric" min={0} max={max} value={value}
+        onChange={(e) => onChange(clamp(e.target.value, 0, max))} />
+    </div>
   );
 }
 

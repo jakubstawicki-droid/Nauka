@@ -24,8 +24,12 @@ export interface Settings {
   startDate: string | null;
   /** YYYY-MM-DD */
   examDate: string | null;
+  /** pytania: limit powtórek i nowych dziennie */
   dailyReviewLimit: number;
   dailyNewLimit: number;
+  /** karty dzieł: limit powtórek i nowych dziennie */
+  artworkReviewLimit: number;
+  artworkNewLimit: number;
   theme: Theme;
 }
 
@@ -48,8 +52,11 @@ export interface ProgressData {
 export const DEFAULT_SETTINGS: Settings = {
   startDate: null,
   examDate: null,
-  dailyReviewLimit: 20,
-  dailyNewLimit: 5,
+  // ok. 30 min: pytanie z odpowiedzią na głos to 2–3 min, rozpoznanie dzieła kilkanaście sekund
+  dailyReviewLimit: 8,
+  dailyNewLimit: 3,
+  artworkReviewLimit: 15,
+  artworkNewLimit: 5,
   theme: 'system',
 };
 
