@@ -1,5 +1,220 @@
 {
   "maxPoints": 30,
-  "parts": [],
-  "interpretation": []
+  "when": "Tydzień 0 (przed rozpoczęciem nauki), po Tygodniu 7 i na koniec. Bez zaglądania do materiałów, ok. 30 minut.",
+  "purpose": "Wynik nie służy do oceniania — służy do tego, żeby wiedzieć, gdzie dołożyć czasu.",
+  "parts": [
+    {
+      "code": "A",
+      "title": "Pojęcia",
+      "instruction": "Wyjaśnij krótko, własnymi słowami:",
+      "points": 10,
+      "tasks": [
+        {
+          "n": 1,
+          "text": "kompozycja zamknięta",
+          "points": 1
+        },
+        {
+          "n": 2,
+          "text": "perspektywa powietrzna",
+          "points": 1
+        },
+        {
+          "n": 3,
+          "text": "walor",
+          "points": 1
+        },
+        {
+          "n": 4,
+          "text": "barwy dopełniające",
+          "points": 1
+        },
+        {
+          "n": 5,
+          "text": "światłocień",
+          "points": 1
+        },
+        {
+          "n": 6,
+          "text": "fresk",
+          "points": 1
+        },
+        {
+          "n": 7,
+          "text": "akwaforta",
+          "points": 1
+        },
+        {
+          "n": 8,
+          "text": "płaskorzeźba",
+          "points": 1
+        },
+        {
+          "n": 9,
+          "text": "weduta",
+          "points": 1
+        },
+        {
+          "n": 10,
+          "text": "ikonografia",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Epoki",
+      "instruction": "Podaj ramy czasowe i dwie cechy charakterystyczne:",
+      "points": 5,
+      "tasks": [
+        {
+          "n": 11,
+          "text": "gotyk",
+          "points": 1
+        },
+        {
+          "n": 12,
+          "text": "renesans",
+          "points": 1
+        },
+        {
+          "n": 13,
+          "text": "barok",
+          "points": 1
+        },
+        {
+          "n": 14,
+          "text": "impresjonizm",
+          "points": 1
+        },
+        {
+          "n": 15,
+          "text": "kubizm",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Rozpoznawanie",
+      "instruction": "Kto jest autorem i z jakiej epoki pochodzi:",
+      "points": 7,
+      "tasks": [
+        {
+          "n": 16,
+          "text": "Mona Lisa",
+          "points": 1
+        },
+        {
+          "n": 17,
+          "text": "Bitwa pod Grunwaldem",
+          "points": 1
+        },
+        {
+          "n": 18,
+          "text": "Guernica",
+          "points": 1
+        },
+        {
+          "n": 19,
+          "text": "Gwiaździsta noc",
+          "points": 1
+        },
+        {
+          "n": 20,
+          "text": "Trwałość pamięci",
+          "points": 1
+        },
+        {
+          "n": 21,
+          "text": "Dawid (rzeźba, marmur, Florencja)",
+          "points": 1
+        },
+        {
+          "n": 22,
+          "text": "Krzyk",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Architektura",
+      "instruction": "",
+      "points": 3,
+      "tasks": [
+        {
+          "n": 23,
+          "text": "Czym różni się sklepienie kolebkowe od krzyżowo-żebrowego?",
+          "points": 1
+        },
+        {
+          "n": 24,
+          "text": "Wymień trzy porządki architektoniczne starożytnej Grecji.",
+          "points": 1
+        },
+        {
+          "n": 25,
+          "text": "Podaj po jednym przykładzie budowli romańskiej i gotyckiej w Polsce.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Wypowiedź",
+      "instruction": "26. Wybierz dowolny obraz, który znasz, i opowiadaj o nim przez dwie minuty bez przerwy. Nagraj się. Punkt za:",
+      "points": 5,
+      "tasks": [
+        {
+          "n": 26,
+          "sub": "a",
+          "text": "użycie co najmniej pięciu terminów plastycznych",
+          "points": 1
+        },
+        {
+          "n": 26,
+          "sub": "b",
+          "text": "omówienie kompozycji",
+          "points": 1
+        },
+        {
+          "n": 26,
+          "sub": "c",
+          "text": "omówienie kolorystyki",
+          "points": 1
+        },
+        {
+          "n": 26,
+          "sub": "d",
+          "text": "podanie epoki lub czasu powstania",
+          "points": 1
+        },
+        {
+          "n": 26,
+          "sub": "e",
+          "text": "wypowiedzenie własnej opinii z uzasadnieniem",
+          "points": 1
+        }
+      ]
+    }
+  ],
+  "interpretation": [
+    {
+      "min": 0,
+      "max": 12,
+      "text": "Start od zera. Realizuj plan bez skrótów, w Tygodniach 1–2 nie spiesz się z przechodzeniem dalej."
+    },
+    {
+      "min": 13,
+      "max": 21,
+      "text": "Solidna baza, brakuje terminologii i przykładów. Największy zysk: karty dzieł i mówienie na głos."
+    },
+    {
+      "min": 22,
+      "max": 30,
+      "text": "Wiedza jest. Przesuń nacisk na Część E, czyli na formę wypowiedzi, i na dział VIII."
+    }
+  ],
+  "retakeNote": "Ten sam test warto powtórzyć po Tygodniu 7 i na koniec — różnica w wyniku jest najlepszą motywacją."
 }

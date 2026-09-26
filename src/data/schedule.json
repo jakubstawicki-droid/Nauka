@@ -1,1 +1,463 @@
-[]
+{
+  "assumption": "4 dni nauki w tygodniu po ok. 30 minut + jedna dłuższa sesja weekendowa (60 min) na powtórkę i odpytywanie. Dzień piąty i szósty wolne — to jest częścią planu, nie odstępstwem od niego.",
+  "reminders": [
+    "Punkt VI.3 wymaga własnego przeżycia — wystawy, spektaklu lub koncertu. Bez wizyty w muzeum tego pytania nie da się odpowiedzieć wiarygodnie. Zaplanować wcześniej niż w Tygodniu 12, jeśli się da.",
+    "Zagadnienia wymieniają czterech artystów z nazwiska — Matejko, Wyspiański, Dalí, Picasso. To najsilniejsza podpowiedź, jaką dała szkoła: o nich pytania padną niemal na pewno.",
+    "Sztuka XX wieku (kubizm, surrealizm, abstrakcjonizm, pop-art) nie mieści się w tomach I–III podręcznika. Ten obszar trzeba przerobić z kompendium i z reprodukcji."
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "Fundament",
+      "title": "Środki wyrazu i analiza dzieła (dział I)",
+      "material": "Kompendium dział I w całości; Ars longa t. I, Wprowadzenie (s. 7–27). Karty dzieł: 10 dowolnych — ćwiczenie polega na nazywaniu środków wyrazu, nie na zapamiętywaniu. Pytania: I-01 do I-16.",
+      "goals": [],
+      "questionIds": [
+        "I-01",
+        "I-02",
+        "I-03",
+        "I-04",
+        "I-05",
+        "I-06",
+        "I-07",
+        "I-08"
+      ],
+      "artworkPeriods": [],
+      "artworkCount": 10,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": [
+        "Test diagnostyczny na start (Tydzień 0)"
+      ]
+    },
+    {
+      "week": 2,
+      "phase": "Fundament",
+      "title": "Środki wyrazu i analiza dzieła (dział I)",
+      "material": "Kompendium dział I w całości; Ars longa t. I, Wprowadzenie (s. 7–27). Karty dzieł: 10 dowolnych — ćwiczenie polega na nazywaniu środków wyrazu, nie na zapamiętywaniu. Pytania: I-01 do I-16.",
+      "goals": [
+        "Potrafisz z pamięci wyrecytować schemat analizy dzieła i zastosować go do losowego obrazu."
+      ],
+      "questionIds": [
+        "I-09",
+        "I-10",
+        "I-11",
+        "I-12",
+        "I-13",
+        "I-14",
+        "I-15",
+        "I-16"
+      ],
+      "artworkPeriods": [],
+      "artworkCount": 10,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": []
+    },
+    {
+      "week": 3,
+      "phase": "Fundament",
+      "title": "Techniki plastyczne i dziedziny sztuki (dział I cz. 2 + dział II)",
+      "material": "Kompendium dział I (techniki) i dział II. Pytania: I-17 do I-32, II-01 do II-18.",
+      "goals": [],
+      "questionIds": [
+        "I-17",
+        "I-18",
+        "I-19",
+        "I-20",
+        "I-21",
+        "I-22",
+        "I-23",
+        "I-24",
+        "I-25",
+        "I-26",
+        "I-27",
+        "I-28",
+        "I-29",
+        "I-30",
+        "I-31",
+        "I-32",
+        "II-01",
+        "II-02",
+        "II-03",
+        "II-04",
+        "II-05",
+        "II-06",
+        "II-07",
+        "II-08",
+        "II-09",
+        "II-10",
+        "II-11",
+        "II-12",
+        "II-13",
+        "II-14",
+        "II-15",
+        "II-16",
+        "II-17",
+        "II-18"
+      ],
+      "artworkPeriods": [],
+      "artworkCount": null,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": [
+        "Obejrzeć w internecie po jednym filmiku o drzeworycie, akwaforcie i litografii — różnicy między technikami graficznymi nie da się zapamiętać z samego opisu."
+      ]
+    },
+    {
+      "week": 4,
+      "phase": "Chronologia",
+      "title": "Starożytność: Egipt, Grecja, Rzym",
+      "material": "Kompendium dział III cz. 1 + dział V (architektura Egiptu, Grecji, Rzymu). Ars longa t. I, rozdz. III–VII. Karty dzieł: 21 kart (Prehistoria–Rzym). Pytania: III o Egipcie, Grecji i Rzymie + V-01 do V-05.",
+      "goals": [],
+      "questionIds": [
+        "III-01",
+        "III-02",
+        "III-03",
+        "III-04",
+        "III-05",
+        "III-06",
+        "III-07",
+        "III-08",
+        "V-01",
+        "V-02",
+        "V-03",
+        "V-04",
+        "V-05"
+      ],
+      "artworkPeriods": [
+        "Prehistoria",
+        "Mezopotamia",
+        "Egipt",
+        "Grecja",
+        "Rzym"
+      ],
+      "artworkCount": 21,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": []
+    },
+    {
+      "week": 5,
+      "phase": "Chronologia",
+      "title": "Średniowiecze: sztuka wczesnochrześcijańska, Bizancjum, romanizm, gotyk",
+      "material": "Kompendium dział III cz. 2 + architektura romańska i gotycka. Ars longa t. I, rozdz. VIII–XII. Karty dzieł: 15 kart.",
+      "goals": [
+        "Kluczowe rozróżnienie tygodnia: romanizm kontra gotyk — po czym poznać jedno i drugie w trzy sekundy."
+      ],
+      "questionIds": [
+        "III-09",
+        "III-10",
+        "III-11",
+        "III-12",
+        "III-13"
+      ],
+      "artworkPeriods": [
+        "Wczesnochrześcijańska",
+        "Bizancjum",
+        "Romanizm",
+        "Gotyk"
+      ],
+      "artworkCount": 15,
+      "polishAccent": "Drzwi Gnieźnieńskie, kolegiata w Tumie, kościół Mariacki i ołtarz Wita Stwosza.",
+      "artists": [],
+      "specialTasks": []
+    },
+    {
+      "week": 6,
+      "phase": "Powtórka",
+      "title": "Pierwsza powtórka scalająca + próbne odpytywanie",
+      "material": "Bez nowego materiału. Losowanie 25 pytań z działów I–III (starożytność i średniowiecze), analiza trzech nieznanych dzieł na czas, powtórka 36 kart.",
+      "goals": [],
+      "questionIds": [],
+      "artworkPeriods": [
+        "Prehistoria",
+        "Mezopotamia",
+        "Egipt",
+        "Grecja",
+        "Rzym",
+        "Wczesnochrześcijańska",
+        "Bizancjum",
+        "Romanizm",
+        "Gotyk"
+      ],
+      "artworkCount": 36,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": [
+        "Losowanie 25 pytań z działów I–III",
+        "Analiza trzech nieznanych dzieł na czas",
+        "Mini-egzamin: 15 minut, trzy pytania z losowania, ktoś dorosły w roli egzaminatora"
+      ]
+    },
+    {
+      "week": 7,
+      "phase": "Chronologia",
+      "title": "Renesans i manieryzm",
+      "material": "Kompendium dział III cz. 3. Ars longa t. II, rozdz. I–IV. Karty dzieł: 16 kart.",
+      "goals": [],
+      "questionIds": [
+        "III-14",
+        "III-15",
+        "III-16",
+        "IV-13",
+        "IV-14"
+      ],
+      "artworkPeriods": [
+        "Renesans",
+        "Manieryzm"
+      ],
+      "artworkCount": 16,
+      "polishAccent": "Kaplica Zygmuntowska, Sukiennice, ratusz w Poznaniu, attyka.",
+      "artists": [
+        "Leonardo da Vinci",
+        "Michał Anioł",
+        "Rafael"
+      ],
+      "specialTasks": [
+        "Powtórz test diagnostyczny — półmetek"
+      ]
+    },
+    {
+      "week": 8,
+      "phase": "Chronologia",
+      "title": "Barok i rokoko",
+      "material": "Kompendium dział III cz. 4. Ars longa t. II, rozdz. V–XI. Karty dzieł: 12 kart.",
+      "goals": [],
+      "questionIds": [
+        "III-17",
+        "III-18",
+        "III-19",
+        "IV-15"
+      ],
+      "artworkPeriods": [
+        "Barok",
+        "Rokoko"
+      ],
+      "artworkCount": 12,
+      "polishAccent": "Wilanów, kościół św. Piotra i Pawła, Canaletto i widoki Warszawy.",
+      "artists": [
+        "Caravaggio",
+        "Bernini",
+        "Rembrandt",
+        "Vermeer",
+        "Velázquez"
+      ],
+      "specialTasks": []
+    },
+    {
+      "week": 9,
+      "phase": "Chronologia",
+      "title": "Klasycyzm, romantyzm, realizm, akademizm",
+      "material": "Kompendium dział III cz. 5. Ars longa t. III, rozdz. I–VII. Karty dzieł: 12 kart. Jan Matejko — jeden z czterech artystów wymienionych w zagadnieniach z nazwiska, więc traktowany osobno i szeroko.",
+      "goals": [],
+      "questionIds": [
+        "III-20",
+        "III-21",
+        "III-22",
+        "III-23",
+        "III-24",
+        "III-25",
+        "IV-01",
+        "IV-02",
+        "IV-03"
+      ],
+      "artworkPeriods": [
+        "Klasycyzm",
+        "Romantyzm",
+        "Realizm",
+        "Akademizm"
+      ],
+      "artworkCount": 12,
+      "polishAccent": null,
+      "artists": [
+        "David",
+        "Goya",
+        "Delacroix",
+        "Courbet",
+        "Jan Matejko"
+      ],
+      "specialTasks": []
+    },
+    {
+      "week": 10,
+      "phase": "Chronologia",
+      "title": "Impresjonizm, postimpresjonizm, symbolizm, secesja",
+      "material": "Kompendium dział III cz. 6. Ars longa t. III, rozdz. VIII–XII. Karty dzieł: 18 kart.",
+      "goals": [],
+      "questionIds": [
+        "III-26",
+        "III-27",
+        "III-28",
+        "III-31",
+        "III-32",
+        "IV-04",
+        "IV-05",
+        "IV-06",
+        "IV-16",
+        "IV-17",
+        "IV-18",
+        "IV-19",
+        "IV-20"
+      ],
+      "artworkPeriods": [
+        "Historyzm i nurt inżynieryjny",
+        "Impresjonizm",
+        "Postimpresjonizm",
+        "Symbolizm",
+        "Secesja"
+      ],
+      "artworkCount": 18,
+      "polishAccent": null,
+      "artists": [
+        "Monet",
+        "Van Gogh",
+        "Rodin",
+        "Klimt",
+        "Gaudí",
+        "Stanisław Wyspiański",
+        "Malczewski",
+        "Boznańska",
+        "Chełmoński"
+      ],
+      "specialTasks": []
+    },
+    {
+      "week": 11,
+      "phase": "Chronologia",
+      "title": "XX wiek: ekspresjonizm, kubizm, surrealizm, abstrakcja, druga połowa wieku",
+      "material": "Kompendium dział III cz. 7. Podręcznik Ars longa nie obejmuje tego okresu w tomach I–III, więc opieramy się na kompendium i na oglądaniu dzieł w internecie. Karty dzieł: 16 kart.",
+      "goals": [],
+      "questionIds": [
+        "III-29",
+        "III-30",
+        "III-33",
+        "III-34",
+        "III-35",
+        "III-36",
+        "III-37",
+        "III-38",
+        "III-39",
+        "III-40",
+        "IV-07",
+        "IV-08",
+        "IV-09",
+        "IV-10",
+        "IV-11",
+        "IV-12"
+      ],
+      "artworkPeriods": [
+        "Fowizm",
+        "Kubizm",
+        "Surrealizm",
+        "Abstrakcjonizm",
+        "Sztuka XX w."
+      ],
+      "artworkCount": 16,
+      "polishAccent": null,
+      "artists": [
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Kandinsky",
+        "Mondrian",
+        "Malewicz",
+        "Warhol",
+        "Abakanowicz",
+        "Strzemiński",
+        "Kobro"
+      ],
+      "specialTasks": []
+    },
+    {
+      "week": 12,
+      "phase": "Uzupełnienia",
+      "title": "Architektura przekrojowo, instytucje kultury, wiedza o kulturze (działy V–VII)",
+      "material": "Kompendium działy V, VI, VII + słownik terminów architektonicznych. Pytania: V, VI, VII w całości.",
+      "goals": [],
+      "questionIds": [
+        "V-01",
+        "V-02",
+        "V-03",
+        "V-04",
+        "V-05",
+        "V-06",
+        "V-07",
+        "V-08",
+        "V-09",
+        "V-10",
+        "V-11",
+        "V-12",
+        "V-13",
+        "V-14",
+        "V-15",
+        "V-16",
+        "V-17",
+        "V-18",
+        "VI-01",
+        "VI-02",
+        "VI-03",
+        "VI-04",
+        "VI-05",
+        "VI-06",
+        "VI-07",
+        "VI-08",
+        "VII-01",
+        "VII-02",
+        "VII-03",
+        "VII-04",
+        "VII-05",
+        "VII-06",
+        "VII-07",
+        "VII-08"
+      ],
+      "artworkPeriods": [],
+      "artworkCount": null,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": [
+        "Wizyta w muzeum lub galerii (Muzeum Narodowe w Warszawie, Zachęta, MSN, Zamek Królewski) — do zrobienia koniecznie. Punkt VI.3 zagadnień wymaga opowiedzenia o wydarzeniu artystycznym, w którym kandydatka uczestniczyła.",
+        "Po wizycie: notatka na pół strony o jednym dziele i o sposobie ekspozycji."
+      ]
+    },
+    {
+      "week": 13,
+      "phase": "Trening",
+      "title": "Forma wypowiedzi (dział VIII) + powtórka scalająca",
+      "material": "Codziennie: analiza jednego nieznanego dzieła na głos, 3 minuty, według schematu. Powtórka wszystkich 110 kart w trybie szybkim (rozpoznaj → autor → epoka). Losowanie pytań ze wszystkich działów.",
+      "goals": [],
+      "questionIds": [
+        "VIII-01",
+        "VIII-02",
+        "VIII-03",
+        "VIII-04",
+        "VIII-05",
+        "VIII-06"
+      ],
+      "artworkPeriods": [],
+      "artworkCount": 110,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": [
+        "Codziennie: analiza jednego nieznanego dzieła na głos, 3 minuty",
+        "Powtórka wszystkich 110 kart w trybie szybkim",
+        "Dwa pełne egzaminy próbne: losowanie zestawu trzech pytań, 3 minuty na przygotowanie"
+      ]
+    },
+    {
+      "week": 14,
+      "phase": "Finisz",
+      "title": "Powtórka celowana i wyciszenie",
+      "material": "Tylko te działy, które w egzaminach próbnych wypadły najsłabiej. Ostatnie trzy dni — bez nowego materiału: przegląd kart dzieł, schemat analizy, jeden egzamin próbny. Dzień przed egzaminem: nic. Naprawdę nic.",
+      "goals": [],
+      "questionIds": [],
+      "artworkPeriods": [],
+      "artworkCount": null,
+      "polishAccent": null,
+      "artists": [],
+      "specialTasks": [
+        "Jeden egzamin próbny",
+        "Powtórz test diagnostyczny — na koniec"
+      ]
+    }
+  ]
+}

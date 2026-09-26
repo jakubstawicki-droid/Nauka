@@ -1,1 +1,719 @@
-[]
+[
+  {
+    "term": "punkt",
+    "definition": "Najprostszy element plastyczny — ślad narzędzia. Skupiony w grupy tworzy plamę, a rozłożony w rytmie buduje fakturę.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "pointylizm",
+    "definition": "Świadome zbudowanie całego obrazu z drobnych punktów czystych barw.",
+    "section": "I",
+    "example": "Georges Seurat, Niedzielne popołudnie na wyspie Grande Jatte",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "linia",
+    "definition": "Ślad narzędzia prowadzonego po podłożu. Może być konturowa (zamyka kształt), modelująca (buduje bryłę kreskowaniem) lub swobodna, ekspresyjna. Linia miękka i falista uspokaja, linia ostra i łamana niepokoi.",
+    "section": "I",
+    "example": "Edvard Munch, Krzyk — faliste linie tła budują wrażenie lęku",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "plama",
+    "definition": "Powierzchnia wyodrębniona barwą lub walorem. Plama barwna może być jednowalorowa albo zróżnicowana walorowo.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "syntetyzm",
+    "definition": "Sprowadzenie przedmiotu do kilku prostych plam — świadome uproszczenie po to, by oddać istotę rzeczy.",
+    "section": "I",
+    "example": "Paul Gauguin",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "walor",
+    "definition": "Stopień jasności barwy — od najjaśniejszej do najciemniejszej.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "kontrast walorowy",
+    "definition": "Zestawienie barw o różnym walorze; najsilniejszy z możliwych to zestawienie czerni i bieli.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "światłocień",
+    "definition": "Sposób rozmieszczenia świateł i cieni, dzięki któremu płaski obraz sprawia wrażenie trójwymiarowego. Buduje formę (bryłę pojedynczego przedmiotu) i przestrzeń (głębię całej sceny).",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "modelunek światłocieniowy",
+    "definition": "Stopniowe przechodzenie świateł w cienie.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "luminizm",
+    "definition": "Światło ostre, kontrastowe, wydobywające z ciemności tylko wybrane elementy.",
+    "section": "I",
+    "example": "sygnaturowy chwyt Caravaggia i całego kręgu caravaggionistów",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "sfumato",
+    "definition": "Miękkie, mgliste przejścia między światłem a cieniem, bez ostrych konturów; wynalazek Leonarda da Vinci.",
+    "section": "I",
+    "example": "Leonardo da Vinci, Mona Lisa",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "chiaroscuro",
+    "definition": "Włoska nazwa światłocienia.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "non finito",
+    "definition": "Celowo niedokończona partia dzieła, ślad świadomej decyzji artysty.",
+    "section": "I",
+    "example": "rzeźby Michała Anioła; Auguste Rodin, Mieszczanie z Calais",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "faktura",
+    "definition": "Sposób opracowania powierzchni dzieła — to, co dałoby się wyczuć dotykiem. Może być gładka albo impastowa. W rzeźbie i architekturze to sposób obrobienia kamienia: gładki polerowany marmur kontra chropowaty ślad dłuta.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "fini",
+    "definition": "Efekt starannego wykończenia — faktura gładka, wygładzona, wypolerowana.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "impast",
+    "definition": "Farba nakładana grubo pędzlem lub szpachlą, o wyraźnej wypukłości (faktura impastowa).",
+    "section": "I",
+    "example": "Vincent van Gogh",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "dukt pędzla",
+    "definition": "Widoczny ślad ruchu ręki malarza.",
+    "section": "I",
+    "example": "Vincent van Gogh, Gwiaździsta noc — wirujący dukt pędzla jest głównym środkiem wyrazu",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "proporcje",
+    "definition": "Stosunki wielkości między częściami dzieła. Sztuka klasyczna szukała proporcji idealnych; świadome zaburzenie proporcji jest środkiem wyrazu.",
+    "section": "I",
+    "example": "wydłużone postacie El Greca; ogromne biodra Wenus z Willendorfu",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "kanon Polikleta",
+    "definition": "Proporcje idealne ciała: głowa mieści się w wysokości ciała ok. siedem razy.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "złoty podział",
+    "definition": "Proporcja idealna ok. 1:1,618.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "rytm",
+    "definition": "Powtarzanie tych samych lub podobnych elementów — kolumn w portyku, fałd draperii, plam barwnych. Porządkuje kompozycję i nadaje jej tempo.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "kontrast",
+    "definition": "Zestawienie elementów przeciwstawnych: jasne–ciemne, ciepłe–zimne, duże–małe, gładkie–chropowate. Przyciąga wzrok, dlatego artyści umieszczają go tam, gdzie chcą, żebyśmy patrzyli.",
+    "section": "I",
+    "topic": "środki wyrazu"
+  },
+  {
+    "term": "kompozycja",
+    "definition": "Sposób powiązania elementów dzieła w całość.",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja zewnętrzna",
+    "definition": "Kształt pola obrazowego, czyli format dzieła (prostokąt pionowy, poziomy, tondo).",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "tondo",
+    "definition": "Okrągły format dzieła (koło).",
+    "section": "I",
+    "example": "Botticelli, Madonna del Magnificat",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja wewnętrzna",
+    "definition": "Układ elementów wewnątrz pola obrazowego.",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja zamknięta",
+    "definition": "Wszystkie ważne elementy mieszczą się w ramach; wzrok krąży wewnątrz obrazu i nie ucieka poza niego. Często wpisana w figurę geometryczną — trójkąt, owal, koło.",
+    "section": "I",
+    "example": "Botticelli, Madonna del Magnificat; Leonardo, Ostatnia Wieczerza",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja otwarta",
+    "definition": "Istotne elementy są ucięte krawędzią obrazu; scena zdaje się wykraczać poza ramy, jak kadr fotograficzny.",
+    "section": "I",
+    "example": "Monet, Katedra w Rouen; obrazy Degasa",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja symetryczna",
+    "definition": "Da się poprowadzić oś, po której obu stronach powtarzają się podobne elementy. Daje wrażenie ładu, powagi, dostojeństwa.",
+    "section": "I",
+    "example": "mozaiki w San Vitale w Rawennie; Leonardo, Ostatnia Wieczerza",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja asymetryczna",
+    "definition": "Brak osi symetrii; równowagę buduje się ciężarem plam i barw, nie lustrzanym odbiciem.",
+    "section": "I",
+    "example": "Rembrandt, Straż nocna",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja centralna",
+    "definition": "Najważniejszy element w środku pola obrazowego, reszta podporządkowana; szczególny wypadek symetrii.",
+    "section": "I",
+    "example": "Rafael, Szkoła Ateńska; plany centralne w architekturze renesansu",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja diagonalna",
+    "definition": "Główne kierunki biegną po skosach. Skos oznacza ruch, dlatego to ulubiona kompozycja baroku.",
+    "section": "I",
+    "example": "Rubens, Zdjęcie z krzyża; Delacroix, Wolność wiodąca lud na barykady",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja horyzontalna / wertykalna",
+    "definition": "Dominują kierunki poziome (spokój, rozległość) albo pionowe (wzniosłość, dążenie w górę).",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja rytmiczna",
+    "definition": "Te same lub zbliżone formy powtarzają się regularnie.",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja statyczna / dynamiczna",
+    "definition": "Przewaga pionów i poziomów daje spokój; przewaga skosów i łuków daje ruch.",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja zwarta / ażurowa",
+    "definition": "Używane zwłaszcza wobec rzeźby: bryła zbita w jedną masę albo przenikana przestrzenią (luźna, rozczłonkowana).",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "kompozycja tektoniczna / atektoniczna",
+    "definition": "Dzieło sprawia wrażenie stabilnego i wyważonego albo, przeciwnie, pozornie niestabilnego.",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "dominanta kompozycyjna",
+    "definition": "Element, który najsilniej przyciąga wzrok. Warto powiedzieć, czy pokrywa się ze środkiem geometrycznym obrazu i czy jest zarazem centrum treściowym.",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "plany kompozycyjne",
+    "definition": "Pierwszy, drugi, dalszy. Dzieło może być jednoplanowe (bez iluzji głębi) albo wieloplanowe.",
+    "section": "I",
+    "topic": "kompozycja"
+  },
+  {
+    "term": "perspektywa linearna",
+    "definition": "Zbieżna, geometryczna: linie biegnące w głąb zbiegają się w jednym lub kilku punktach na linii horyzontu; przedmioty maleją proporcjonalnie wraz z oddalaniem. Odkryta w renesansie (Filippo Brunelleschi).",
+    "section": "I",
+    "example": "Leonardo, Ostatnia Wieczerza; Rafael, Szkoła Ateńska",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "perspektywa powietrzna (barwna)",
+    "definition": "Dalsze plany są coraz bardziej zamglone, mniej wyraziste i chłodniejsze — sinobłękitne; bliższe cieplejsze i ostrzejsze. Wynika z obserwacji, że powietrze „zjada” kontrast. To jeden sposób budowania głębi opisany z dwóch stron — nie należy wymieniać perspektywy powietrznej i barwnej jako dwóch osobnych rodzajów.",
+    "section": "I",
+    "example": "tła u Leonarda; pejzaże holenderskie",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "perspektywa kulisowa",
+    "definition": "Głębię buduje się nakładającymi się na siebie „kulisami” — obiekty dalsze są przysłonięte przez bliższe, ustawione równolegle do płaszczyzny obrazu.",
+    "section": "I",
+    "example": "malarstwo starożytne i średniowieczne; dekoracje teatralne",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "perspektywa odwrócona",
+    "definition": "Linie zbiegają się nie w głębi obrazu, lecz przed nim — przedmioty dalsze są większe od bliższych. Widz zostaje niejako wciągnięty w przestrzeń dzieła.",
+    "section": "I",
+    "example": "ikony bizantyjskie i ruskie, np. Ikona Włodzimierska",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "perspektywa żabia",
+    "definition": "Odmiana perspektywy linearnej: patrzymy z dołu.",
+    "section": "I",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "perspektywa z lotu ptaka",
+    "definition": "Odmiana perspektywy linearnej: patrzymy z góry.",
+    "section": "I",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "perspektywa intuicyjna",
+    "definition": "Stosowana w średniowieczu — kilka punktów zbiegu naraz.",
+    "section": "I",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "perspektywa wielokierunkowa",
+    "definition": "Świadomie stosowana w sztuce nowoczesnej — z wielu punktów widzenia jednocześnie.",
+    "section": "I",
+    "example": "kubizm",
+    "topic": "perspektywa"
+  },
+  {
+    "term": "barwy podstawowe",
+    "definition": "Barwy czyste: czerwona, żółta, niebieska — nie da się ich uzyskać z mieszania innych.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "barwy pochodne",
+    "definition": "Powstają z mieszania podstawowych — pomarańczowa (czerwony + żółty), zielona (żółty + niebieski), fioletowa (niebieski + czerwony).",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "barwy dopełniające",
+    "definition": "Komplementarne; leżą naprzeciw siebie na kole barw: czerwony–zielony, żółty–fioletowy, niebieski–pomarańczowy. Zestawione obok siebie wzmacniają się nawzajem, zmieszane dają szarość.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "barwy chromatyczne / achromatyczne",
+    "definition": "Chromatyczne to barwy kolorowe; achromatyczne (obojętne, neutralne) to czerń, biel i szarości.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "barwy ziemi",
+    "definition": "Ochra, siena, umbra.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "gama barwna",
+    "definition": "Zakres barw użytych w dziele. Może być szeroka (barwy ciepłe i chłodne) albo wąska (kilka blisko spokrewnionych barw); ciepła, chłodna lub monochromatyczna (jedna barwa w różnych walorach).",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "koloryt",
+    "definition": "Ogólny efekt barwny całego dzieła — „obraz jest utrzymany w kolorycie zielonkawym”.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "dominanta barwna",
+    "definition": "Barwa najważniejsza, przeważająca.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "akcent barwny",
+    "definition": "Niewielka plama odbijająca od reszty temperaturą lub walorem, często ustawiona tam, gdzie ma paść wzrok.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "kontrast temperaturowy",
+    "definition": "Zestawienie barw ciepłych (czerwienie, żółcienie, pomarańcze) z chłodnymi (błękity, zielenie, fiolety). Barwy ciepłe zdają się przybliżać, chłodne oddalać.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "kontrast dopełnieniowy",
+    "definition": "Zestawienie barw leżących naprzeciw siebie na kole barw; najmocniejszy sposób na to, żeby barwa „zagrała”.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "koloryt lokalny",
+    "definition": "Barwa własna przedmiotu, ta sama w świetle i w cieniu, zmieniająca tylko walor.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "refleks barwny",
+    "definition": "Zabarwienie przedmiotu odbitym kolorem sąsiada.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "laserunek",
+    "definition": "Cienka, półprzezroczysta warstwa farby zmieniająca ton warstwy pod spodem.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "dywizjonizm",
+    "definition": "Rozbicie barwy na drobne plamy barw podstawowych, które mieszają się dopiero w oku widza.",
+    "section": "I",
+    "topic": "barwa"
+  },
+  {
+    "term": "akwarela",
+    "definition": "Pigment rozpuszczalny w wodzie, na chłonnym papierze. Przezroczysta, lekka, świetlista; bieli daje sam papier. Nie da się poprawiać.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "tempera",
+    "definition": "Pigment z wodą i spoiwem naturalnym — żółtkiem jaja lub kazeiną; na desce. Matowa, o czystych barwach; podstawowa technika średniowiecza i wczesnego renesansu.",
+    "section": "I",
+    "example": "Botticelli, Narodziny Wenus",
+    "topic": "techniki"
+  },
+  {
+    "term": "technika olejna",
+    "definition": "Pigment roztarty w oleju (lnianym), na płótnie lub desce. Wolno schnie, można poprawiać, pozwala na laserunki i impasty. Od XV w. technika dominująca.",
+    "section": "I",
+    "example": "Jan van Eyck",
+    "topic": "techniki"
+  },
+  {
+    "term": "akryl",
+    "definition": "Pigment w żywicy syntetycznej, na różnych podłożach. Technika XX-wieczna; szybko schnie, bardzo trwała, daje intensywne barwy.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "fresk",
+    "definition": "Malowanie na świeżym, wilgotnym tynku (wł. fresco = świeży). Barwa wiąże się z tynkiem, więc jest bardzo trwała, ale nie da się poprawiać — trzeba malować partiami w ciągu dnia.",
+    "section": "I",
+    "example": "Michał Anioł, sklepienie Kaplicy Sykstyńskiej",
+    "topic": "techniki"
+  },
+  {
+    "term": "al secco",
+    "definition": "Malowanie na tynku suchym — łatwiejsze, ale mniej trwałe.",
+    "section": "I",
+    "example": "Leonardo, Ostatnia Wieczerza — dlatego zaczęła się niszczyć jeszcze za jego życia",
+    "topic": "techniki"
+  },
+  {
+    "term": "ołówek",
+    "definition": "Technika rysunkowa: precyzyjna, pozwala na delikatne przejścia walorowe i drobiazgowy modelunek.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "węgiel",
+    "definition": "Technika rysunkowa: miękki, sypki, daje szeroką, głęboką czerń i wyraziste kontrasty; łatwo go rozcierać, więc nadaje się do szybkich studiów.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "pastel",
+    "definition": "Sprasowane pigmenty w formie sztyftu; łączy rysunek z malarstwem, daje aksamitną, matową powierzchnię o czystych barwach.",
+    "section": "I",
+    "example": "Edgar Degas, tancerki",
+    "topic": "techniki"
+  },
+  {
+    "term": "druk wypukły",
+    "definition": "Drzeworyt, linoryt. Odbija się to, co zostało na powierzchni; tło zostaje wycięte. Farba pokrywa wypukłości. Efekt: mocne, płaskie plamy, wyrazisty kontur.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "druk wklęsły",
+    "definition": "Miedzioryt, staloryt, sucha igła, akwaforta, akwatinta. Odbija się to, co wyryte w płycie; farba wchodzi w rowki, a powierzchnię się wyciera. Efekt: cienka, precyzyjna, aksamitna kreska.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "druk płaski",
+    "definition": "Litografia, cynkografia, serigrafia (sitodruk). Matryca jest gładka; rysunek i tło różnią się nie poziomem, lecz podatnością na farbę (tłuszcz odpycha wodę). Efekt: swoboda zbliżona do rysunku.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "miedzioryt",
+    "definition": "Technika druku wklęsłego: rysunek żłobi się w płycie rylcem — mechanicznie.",
+    "section": "I",
+    "example": "Albrecht Dürer, Adam i Ewa",
+    "topic": "techniki"
+  },
+  {
+    "term": "akwaforta",
+    "definition": "Technika druku wklęsłego: płytę pokrywa się warstwą ochronną, przez którą rysuje się igłą, a rowki wygryza kwas — chemicznie. Aqua forte to „mocna woda”, czyli kwas azotowy.",
+    "section": "I",
+    "example": "mistrzem akwaforty był Rembrandt",
+    "topic": "techniki"
+  },
+  {
+    "term": "grafika warsztatowa",
+    "definition": "Grafika artystyczna — artysta sam projektuje i odbija, każda odbitka jest oryginałem, odbitki się numeruje i sygnuje.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "grafika użytkowa",
+    "definition": "Grafika stosowana — projekt przeznaczony do druku masowego: plakat, ilustracja, znak graficzny, opakowanie.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "kucie w kamieniu",
+    "definition": "Technika ujmowania materiału (marmur, piaskowiec): rzeźbiarz odejmuje to, co zbędne, i nie ma prawa do pomyłki.",
+    "section": "I",
+    "example": "Michał Anioł",
+    "topic": "techniki"
+  },
+  {
+    "term": "rzeźba w drewnie",
+    "definition": "Technika ujmowania; materiał ciepły, ale podatny na zniszczenie.",
+    "section": "I",
+    "example": "Ołtarz Wita Stwosza w kościele Mariackim, lipa",
+    "topic": "techniki"
+  },
+  {
+    "term": "modelowanie w glinie",
+    "definition": "Technika dodawania materiału; pozwala poprawiać. Gotową formę się wypala albo służy ona jako model do odlewu.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "odlew",
+    "definition": "Najczęściej w brązie — z modelu robi się formę, w którą wlewa się metal. Pozwala uzyskać wiele egzemplarzy tego samego dzieła.",
+    "section": "I",
+    "example": "Myśliciel Rodina istnieje w kilkudziesięciu odlewach",
+    "topic": "techniki"
+  },
+  {
+    "term": "kolaż",
+    "definition": "Fr. collage — klejenie: naklejanie na podłoże elementów z innych materiałów: gazet, tkanin, fotografii. Wprowadzony do sztuki przez kubistów.",
+    "section": "I",
+    "example": "Picasso i Braque",
+    "topic": "techniki"
+  },
+  {
+    "term": "asamblaż",
+    "definition": "Jak kolaż, ale w trzech wymiarach: kompozycja z gotowych przedmiotów.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "instalacja",
+    "definition": "Wieloelementowa kompozycja powstała dla konkretnego wnętrza lub przestrzeni.",
+    "section": "I",
+    "topic": "techniki"
+  },
+  {
+    "term": "absyda",
+    "definition": "Półkoliste zamknięcie prezbiterium.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "arkada",
+    "definition": "Łuk wsparty na dwóch podporach.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "attyka",
+    "definition": "Ozdobna ścianka nad gzymsem, zasłaniająca dach; typowa dla polskiego renesansu.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "bazylika",
+    "definition": "Budowla o nawie głównej wyższej od bocznych, z oknami w górnej części.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "boniowanie",
+    "definition": "Opracowanie muru w wyraźne, oddzielone bruzdami bloki.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "fiala",
+    "definition": "Smukła, ostrosłupowa wieżyczka gotycka.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "gzyms",
+    "definition": "Pozioma listwa wysunięta przed lico muru.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "hala",
+    "definition": "Kościół, w którym wszystkie nawy mają jednakową wysokość.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "kolebka",
+    "definition": "Sklepienie w kształcie przeciętej wzdłuż beczki.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "kontrafort (przypora, skarpa)",
+    "definition": "Filar wzmacniający mur od zewnątrz.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "krużganek",
+    "definition": "Arkadowa galeria wokół dziedzińca.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "łuk oporowy (przyporowy)",
+    "definition": "Łuk przenoszący rozpór sklepienia na przyporę.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "maswerk",
+    "definition": "Ażurowa dekoracja kamienna wypełniająca okno gotyckie.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "nawa",
+    "definition": "Podłużna część wnętrza kościoła.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "pendentyw",
+    "definition": "Trójkątny żagiel umożliwiający oparcie okrągłej kopuły na kwadratowym planie.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "pilaster",
+    "definition": "Płaski filar przyścienny naśladujący kolumnę.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "portal",
+    "definition": "Ozdobne obramienie wejścia.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "portyk",
+    "definition": "Kolumnowy ganek przed wejściem, zwykle z tympanonem.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "prezbiterium",
+    "definition": "Część kościoła przeznaczona dla duchowieństwa, z ołtarzem głównym.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "rozeta",
+    "definition": "Okrągłe okno gotyckie z maswerkiem.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "rustyka",
+    "definition": "Mur z surowych, nieobrobionych kamieni.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "sklepienie krzyżowe",
+    "definition": "Powstałe z przecięcia dwóch kolebek.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "sklepienie krzyżowo-żebrowe",
+    "definition": "Jak sklepienie krzyżowe, ale z żebrami przenoszącymi ciężar na podpory.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "transept",
+    "definition": "Nawa poprzeczna tworząca ramiona krzyża.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "tympanon",
+    "definition": "Trójkątne (antyk) lub półkoliste (średniowiecze) pole nad wejściem, wypełnione rzeźbą.",
+    "section": "V",
+    "topic": "słownik architektoniczny"
+  },
+  {
+    "term": "porządek dorycki",
+    "definition": "Kolumna krępa, bez bazy, żłobkowana; głowica prosta: kwadratowa płyta na okrągłej poduszce. Wrażenie: surowość, siła, „męskość”.",
+    "section": "V",
+    "example": "Partenon",
+    "topic": "porządki architektoniczne"
+  },
+  {
+    "term": "porządek joński",
+    "definition": "Kolumna smuklejsza, na bazie; głowica ze ślimacznicami (wolutami). Wrażenie: lekkość, wdzięk.",
+    "section": "V",
+    "topic": "porządki architektoniczne"
+  },
+  {
+    "term": "porządek koryncki",
+    "definition": "Kolumna najsmuklejsza; głowica w kształcie kosza liści akantu. Wrażenie: bogactwo, dekoracyjność.",
+    "section": "V",
+    "topic": "porządki architektoniczne"
+  },
+  {
+    "term": "porządek toskański i kompozytowy",
+    "definition": "Rzymskie uzupełnienia greckich porządków.",
+    "section": "V",
+    "topic": "porządki architektoniczne"
+  }
+]

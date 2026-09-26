@@ -1,28 +1,37 @@
-# Braki w danych
+# Braki i decyzje przy ekstrakcji danych
 
-Stan: wczytany jest tylko `materialy/Analiza dzieła sztuki.pdf`.
-Brakuje pliku **`Program przygotowawczy - egzamin ustny LSP Gersona.pdf`**, więc poniższe dane są puste
-(celowo — treści merytorycznych nie uzupełniamy z głowy).
+Wszystkie pliki `src/data/*.json` powstają z dwóch PDF-ów w `materialy/` skryptem
+`scripts/extract/run_all.sh` (wymaga `pip install pdfplumber`); liczebność sprawdza `npm run validate-data`.
 
-| Plik | Czego brakuje | Źródło w programie |
-|---|---|---|
-| `questions.json` | 150 pytań z modelowymi odpowiedziami | Aneks B |
-| `artworks.json` | 110 kart dzieł | Aneks A |
-| `glossary.json` | terminy (środki wyrazu, kompozycja, perspektywa, barwy, techniki) + słownik architektoniczny | działy I i V |
-| `periods.json` | oś czasu epok | dział III |
-| `diagnostic.json` | test diagnostyczny A–E (30 pkt) + interpretacja | test diagnostyczny |
-| `schedule.json` | harmonogram tygodni 1–14 | harmonogram |
-| `examRules.json` → `rules` | 10 zasad egzaminu | dział VIII |
+## Pola puste, bo w PDF-ie ich nie ma
 
-## Uzupełnione z „Analizy dzieła sztuki”
+- **`artworks.json` → `genre`**: pusty tam, gdzie karta w Aneksie A ma „gatunek: —” (głównie architektura,
+  ale też np. Krzyk, Pocałunek, Taniec, Trwałość pamięci).
+- **`periods.json` → Prehistoria**: w dziale III jest tylko wiersz osi czasu, bez rozdziału — `features`,
+  `keyWorks`, `polishExamples` puste.
+- **`periods.json` → Sztuka wczesnochrześcijańska, Akademizm / historyzm**: kompendium nie podaje osobnej listy
+  dzieł kluczowych — `keyWorks` puste (dla akademizmu jest tylko przykład polski: Matejko).
+- **Mezopotamia** (2 karty w Aneksie A) nie ma wiersza na osi czasu, więc nie jest przypisana do żadnej epoki
+  z `periods.json`.
 
-- `analysisSteps.json` — 9 kroków (cel, czas, pytania pomocnicze, zwroty, najczęstszy błąd)
-- `modelAnalyses.json` — 5 analiz wzorcowych rozbitych na kroki (Caravaggio, Matejko, Michał Anioł, Notre-Dame, Mondrian)
-- `signals.json` — 18 sygnałów rozpoznawczych epok
-- `examRules.json` — 8 najczęstszych błędów, karta oceny (12 punktów), rada o informacji zwrotnej
-- `analysisGuide.json` — zasada trzech ruchów, czas wypowiedzi, postępowanie z dziełem nieznanym, plan treningu analizy
+## Decyzje podjęte przy strukturyzowaniu (nie są treścią merytoryczną)
 
-## Uwagi
+- **Fowizm** (1 karta: Matisse, Taniec) przypisany w `periods.json` do Ekspresjonizmu (pole `annexPeriods`),
+  bo oś czasu nie ma osobnego wiersza dla fowizmu.
+- **Harmonogram, tygodnie 1–2**: PDF podaje wspólnie „Pytania: I-01 do I-16”; podzielono po połowie
+  (I-01…08 i I-09…16).
+- **Harmonogram, pytania z działów III i IV**: PDF przypisuje je tematycznie („pytania o Egipcie, Grecji
+  i Rzymie”, artyści tygodnia); numery dobrano według treści pytań. V-01…05 są w tygodniu 4 i ponownie w 12
+  (tak jak w PDF-ie). Tydzień 6 nie ma stałej listy — to losowanie 25 pytań z działów I–III.
+- **`questions.json` → `tags`**: generowane automatycznie (`scripts/extract/tags.py`) z nazw epok, artystów
+  i terminów glosariusza występujących w pytaniu i w „Musi paść”. 21 pytań ogólnych (prawo autorskie,
+  muzea, forma wypowiedzi) nie ma tagów.
+- **`examRules.json` → `scorecard.items[].steps`**: przypisanie punktu karty oceny do kroku analizy — dodane
+  na potrzeby statystyk „per krok”. Punkty 11–12 (forma wypowiedzi) nie mają kroku.
+- **`glossary.json`**: definicje przepisane z działów I i V; przy „sklepieniu krzyżowo-żebrowym” rozwinięto
+  skrót „jw.” do „jak sklepienie krzyżowe”.
 
-- Pole `steps` w karcie oceny (`examRules.json`) to przypisanie punktu karty do kroku analizy — dodane na potrzeby
-  statystyk „per krok”, nie pochodzi z PDF-u. Punkty 11–12 (forma wypowiedzi) nie mają kroku.
+## Do zrobienia w kolejnych etapach
+
+- Pełny tekst kompendium (działy I–VIII z tabelami) dla ekranu „Kompendium” — wyciągnięty zostanie przy
+  budowie czytnika; na razie w danych są jego ustrukturyzowane części (glosariusz, oś czasu, zasady).

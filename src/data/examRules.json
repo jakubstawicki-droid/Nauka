@@ -1,6 +1,46 @@
 {
-  "rules": [],
-  "rulesSource": "Dział VIII programu przygotowawczego — brak pliku, patrz docs/braki.md",
+  "rules": [
+    "Mów pełnymi zdaniami, wolniej niż w rozmowie. Pauza jest lepsza niż „yyy”.",
+    "Używaj terminologii fachowej — ale tylko takiej, którą umiesz wyjaśnić, gdy padnie pytanie „a co to znaczy?”.",
+    "Zawsze podaj przykład dzieła z nazwiskiem autora.",
+    "Jeśli nie znasz dzieła — opisz, co widzisz, i wnioskuj o epoce z cech formalnych. To pełnoprawna odpowiedź.",
+    "Nie zmyślaj dat ani tytułów. „Około XVII wieku” jest lepsze niż zmyślony rok.",
+    "Nie mów „ładne”, „fajne”, „takie sobie”. Mów, co sprawia, że dzieło tak działa.",
+    "Własna opinia jest mile widziana, ale musi być uzasadniona formą dzieła.",
+    "Nie przerywaj egzaminatorowi i nie kończ odpowiedzi w połowie zdania — dopowiedz myśl do końca.",
+    "Pytanie dodatkowe to nie kara, tylko szansa na dodanie czegoś od siebie.",
+    "Jeśli się pomylisz, powiedz „przepraszam, chciałam powiedzieć…” i mów dalej. Poprawienie się jest atutem."
+  ],
+  "rulesSource": "Dział VIII · Jak mówić na egzaminie",
+  "answerStructure": [
+    {
+      "n": 1,
+      "name": "Definicja lub teza",
+      "text": "Jedno zdanie, które odpowiada wprost na pytanie. Nie zaczynaj od „no więc…”."
+    },
+    {
+      "n": 2,
+      "name": "Rozwinięcie",
+      "text": "Trzy do pięciu zdań: cechy, podziały, kontekst."
+    },
+    {
+      "n": 3,
+      "name": "Przykład",
+      "text": "Konkretne dzieło z autorem i, jeśli się pamięta, przybliżoną datą. To jest część, którą kandydaci najczęściej pomijają — i to ona najbardziej podnosi ocenę."
+    },
+    {
+      "n": 4,
+      "name": "Zamknięcie",
+      "text": "Jedno zdanie podsumowania albo własnej oceny."
+    }
+  ],
+  "namedArtists": [
+    "Jan Matejko",
+    "Stanisław Wyspiański",
+    "Salvador Dalí",
+    "Pablo Picasso"
+  ],
+  "lastWeek": "W ostatnim tygodniu nie uczy się nowych rzeczy. Ogląda się reprodukcje, powtarza schemat analizy i mówi na głos. Dzień przed egzaminem — spacer i sen. Wiedza, która jest, nie ucieknie; wiedza, której nie ma, nie pojawi się w jedną noc.",
   "analysisMistakes": [
     {
       "title": "Opisywanie zamiast analizowania",

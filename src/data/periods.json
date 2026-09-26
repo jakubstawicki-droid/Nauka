@@ -1,1 +1,640 @@
-[]
+[
+  {
+    "name": "Prehistoria",
+    "dates": "ok. 40 000 – ok. 3500 p.n.e.",
+    "motto": "magia i przetrwanie",
+    "features": [],
+    "keyWorks": [],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Prehistoria"
+    ]
+  },
+  {
+    "name": "Starożytny Egipt",
+    "dates": "ok. 3100 – 30 p.n.e.",
+    "motto": "wieczność i niezmienny kanon",
+    "features": [
+      "Kanon przedstawiania postaci — głowa z profilu, oko i tors na wprost, biodra i nogi z profilu. Nie jest to nieudolność, lecz zasada: każdą część ciała pokazywano od strony najbardziej dla niej charakterystycznej.",
+      "Hierarchia wielkości — im ważniejsza postać, tym większa. Faraon góruje nad żoną, żona nad służbą.",
+      "Frontalizm i statyczność w rzeźbie: postać siedząca lub krocząca, ręce przy ciele, spojrzenie wprost, blok kamienia nienaruszony.",
+      "Płaskość i brak perspektywy w malarstwie; barwy lokalne, kontur, sceny układane pasami (rejestrami).",
+      "Pismo hieroglificzne jako integralna część kompozycji.",
+      "Kolumna egipska ma głowicę wzorowaną na roślinach: lotosową, papirusową lub palmową."
+    ],
+    "keyWorks": [
+      "Piramidy w Gizie",
+      "Wielki Sfinks",
+      "Popiersie Nefertiti (Neues Museum, Berlin)",
+      "Złota maska Tutanchamona",
+      "Pisarz siedzący (Luwr)",
+      "Malowidła z grobowców w Dolinie Królów"
+    ],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Egipt"
+    ]
+  },
+  {
+    "name": "Starożytna Grecja",
+    "dates": "ok. VIII – I w. p.n.e.",
+    "motto": "człowiek miarą wszechrzeczy",
+    "features": [
+      "Piękno jest wymierne i wynika z harmonii, proporcji i umiaru; idealne proporcje ciała opisano matematycznie (kanon Polikleta).",
+      "Porządki architektoniczne: dorycki, joński, koryncki.",
+      "Świątynia na stopniowanej podstawie (krepidoma), otoczona kolumnadą, z belkowaniem i trójkątnym tympanonem wypełnionym rzeźbą.",
+      "Rzeźba archaiczna: kurosi i kory — postacie sztywne, frontalne, z „archaicznym uśmiechem”.",
+      "Rzeźba klasyczna: odkrycie kontrapostu, idealizacja, spokój.",
+      "Hellenizm: ruch, ekspresja, emocja, dramat, skomplikowane skręty ciała.",
+      "Malarstwo wazowe: styl czarnofigurowy i późniejszy czerwonofigurowy."
+    ],
+    "keyWorks": [
+      "Partenon (Iktinos i Kallikrates, rzeźby Fidiasza, 447–432 p.n.e.)",
+      "Doryforos Polikleta",
+      "Dyskobol Myrona",
+      "Nike z Samotraki",
+      "Grupa Laokoona",
+      "Wenus z Milo"
+    ],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Grecja"
+    ]
+  },
+  {
+    "name": "Starożytny Rzym",
+    "dates": "ok. 753 p.n.e. – 476 n.e.",
+    "motto": "państwo, inżynieria, realizm",
+    "features": [
+      "Łuk i sklepienie kolebkowe — pozwoliły przekrywać ogromne przestrzenie; beton rzymski (opus caementicium) uczynił to tanim.",
+      "Kopuła — Panteon ma kopułę o średnicy 43 m z otworem (okulus) w szczycie.",
+      "Porządek toskański i kompozytowy — rzymskie uzupełnienia greckich porządków.",
+      "Portret rzymski — weryzm, czyli wierność aż do zmarszczek i defektów; przeciwieństwo greckiej idealizacji.",
+      "Relief historyczny — narracja o czynach władcy.",
+      "Nowe typy budowli: amfiteatr, termy, bazylika, łuk triumfalny, akwedukt, forum, insula.",
+      "Malarstwo ścienne w Pompejach i Herkulanum — z iluzjonistyczną architekturą i pejzażem."
+    ],
+    "keyWorks": [
+      "Panteon (ok. 125 n.e.)",
+      "Koloseum",
+      "Kolumna Trajana",
+      "Ara Pacis"
+    ],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Rzym"
+    ]
+  },
+  {
+    "name": "Sztuka wczesnochrześcijańska",
+    "dates": "ok. 313 – VI w.",
+    "motto": "znak ważniejszy niż wygląd",
+    "features": [
+      "Po edykcie mediolańskim (313 r.) chrześcijaństwo wyszło z katakumb.",
+      "Sztuka porzuciła wierność naturze na rzecz znaku: ważne było, żeby przedstawienie dało się odczytać, nie żeby było podobne.",
+      "Bogaty język symboli: ryba, baranek, winna latorośl, chryzmon, gołębica."
+    ],
+    "keyWorks": [],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Wczesnochrześcijańska"
+    ]
+  },
+  {
+    "name": "Bizancjum",
+    "dates": "ok. VI – XV w.",
+    "motto": "złoto i hieratyczność",
+    "features": [
+      "Hieratyczność — postacie sztywne, frontalne, dostojne, pozbawione ruchu i indywidualnych rysów.",
+      "Złote tło — nie przestrzeń, lecz znak wieczności i światła Bożego.",
+      "Rezygnacja z perspektywy linearnej, stosowanie perspektywy odwróconej.",
+      "Mozaika jako główna technika dekoracji ścian.",
+      "Ikona — obraz kultowy pisany według ścisłego kanonu, na desce, temperą.",
+      "W architekturze: plan centralny, kopuła na pendentywach."
+    ],
+    "keyWorks": [
+      "Hagia Sophia w Konstantynopolu (532–537)",
+      "San Vitale w Rawennie z mozaikami Justyniana i Teodory",
+      "San Apollinare Nuovo",
+      "Ikona Matki Boskiej Włodzimierskiej"
+    ],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Bizancjum"
+    ]
+  },
+  {
+    "name": "Romanizm",
+    "dates": "ok. XI – XII w. (w Polsce do poł. XIII w.)",
+    "motto": "ciężar, mur, obronność",
+    "features": [
+      "Grube mury z ciosów kamiennych, niewielkie okna, wnętrze mroczne.",
+      "Łuk półkolisty — w oknach, portalach, arkadach.",
+      "Sklepienie kolebkowe i krzyżowe.",
+      "Plan bazylikowy, na rzucie krzyża łacińskiego, z transeptem i absydą.",
+      "System wiązany — na jedno przęsło nawy głównej przypadają dwa przęsła naw bocznych.",
+      "Bryła zwarta, przysadzista, z wieżami; kościoły często pełniły funkcję obronną.",
+      "Portal uskokowy z tympanonem wypełnionym rzeźbą.",
+      "Rzeźba podporządkowana architekturze; deformacja proporcji, płaskość, schematyzm."
+    ],
+    "keyWorks": [
+      "Opactwo w Cluny",
+      "Katedra w Pizie z krzywą wieżą",
+      "Kościół Sainte-Marie-Madeleine w Vézelay",
+      "Katedra w Wormacji"
+    ],
+    "polishExamples": [
+      "Kolegiata w Tumie pod Łęczycą",
+      "Kościół św. Andrzeja w Krakowie",
+      "Rotunda św. Mikołaja w Cieszynie",
+      "Krypta św. Leonarda na Wawelu",
+      "Drzwi Gnieźnieńskie (brąz, ok. 1175)",
+      "Kolumna z Kruszwicy",
+      "Tympanon z Ołbina"
+    ],
+    "annexPeriods": [
+      "Romanizm"
+    ]
+  },
+  {
+    "name": "Gotyk",
+    "dates": "ok. XII – XV w. (w Polsce XIII – pocz. XVI w.)",
+    "motto": "światło i pion",
+    "features": [
+      "Łuk ostry — rozkłada nacisk bardziej pionowo niż półkolisty, więc mury mogą być cieńsze.",
+      "Sklepienie krzyżowo-żebrowe — ciężar spływa po żebrach do punktów podparcia.",
+      "System przyporowy — łuki oporowe przenoszą rozpór sklepienia na zewnętrzne przypory. Konstrukcja wyszła na zewnątrz budynku.",
+      "Strzelistość, dominacja pionu, wieże i sterczyny (fiale), zwieńczenia kwiatonów.",
+      "Rozeta — wielkie okrągłe okno w fasadzie, wypełnione maswerkiem.",
+      "Witraże zamiast malowideł ściennych; wnętrze pełne barwnego światła.",
+      "Portal rozglifiony z rzeźbami w ościeżach.",
+      "Rzeźba stopniowo uwalnia się od ściany; typy: Pietà, Piękna Madonna.",
+      "Malarstwo: ołtarze szafiaste malowane temperą na desce, ze złotym tłem."
+    ],
+    "keyWorks": [
+      "Katedra Notre-Dame w Paryżu",
+      "Katedra w Chartres (witraże)",
+      "Katedra w Reims",
+      "Sainte-Chapelle w Paryżu",
+      "Katedra w Kolonii"
+    ],
+    "polishExamples": [
+      "Katedra na Wawelu",
+      "Kościół Mariacki w Krakowie",
+      "Katedra we Włocławku",
+      "Zamek w Malborku",
+      "Collegium Maius",
+      "Ołtarz Mariacki Wita Stwosza (1477–1489)"
+    ],
+    "annexPeriods": [
+      "Gotyk"
+    ]
+  },
+  {
+    "name": "Renesans",
+    "dates": "XV – XVI w. (w Polsce XVI w.)",
+    "motto": "powrót do antyku, człowiek w centrum",
+    "features": [
+      "Perspektywa linearna — odkryta przez Brunelleschiego, opisana przez Albertiego; obraz staje się „oknem na świat”.",
+      "Równowaga i symetria, kompozycje wpisane w figury geometryczne, zwłaszcza w trójkąt.",
+      "Studium anatomii i realizm ciała ludzkiego, ale poddany idealizacji.",
+      "Światłocień i sfumato (Leonardo).",
+      "Tematyka: obok religijnej wraca mitologiczna, rozwija się portret i pejzaż jako tło.",
+      "Artysta przestaje być rzemieślnikiem — zaczyna być twórcą.",
+      "W architekturze: plan centralny, kopuła, kolumny i pilastry w porządkach antycznych, boniowanie, podział poziomy gzymsami.",
+      "Charakterystyczna dla Polski jest attyka."
+    ],
+    "keyWorks": [
+      "Brunelleschi — kopuła katedry we Florencji, Kaplica Pazzich",
+      "Donatello — Dawid",
+      "Botticelli — Narodziny Wenus, Wiosna",
+      "Leonardo da Vinci — Mona Lisa, Ostatnia Wieczerza, Dama z gronostajem",
+      "Michał Anioł — Dawid, Pietà, sklepienie Kaplicy Sykstyńskiej, Sąd Ostateczny",
+      "Rafael Santi — Szkoła Ateńska",
+      "Andrea Palladio — Villa Rotonda",
+      "Jan van Eyck — Portret małżonków Arnolfinich",
+      "Albrecht Dürer — Adam i Ewa"
+    ],
+    "polishExamples": [
+      "Kaplica Zygmuntowska na Wawelu (1519–1533, Bartolomeo Berrecci)",
+      "Dziedziniec arkadowy Wawelu",
+      "Sukiennice w Krakowie z attyką",
+      "Ratusz w Poznaniu (Jan Baptysta Quadro)",
+      "Zamość — miasto idealne (Bernardo Morando)"
+    ],
+    "annexPeriods": [
+      "Renesans"
+    ]
+  },
+  {
+    "name": "Manieryzm",
+    "dates": "ok. 1520 – 1600",
+    "motto": "wydłużenie, niepokój, wyrafinowanie",
+    "features": [
+      "Wydłużone, powyginane proporcje postaci (figura serpentinata).",
+      "Niepokojące, zatłoczone kompozycje.",
+      "Chłodna, „nienaturalna” kolorystyka, sztuczne oświetlenie.",
+      "Wyrafinowanie i intelektualna zagadka."
+    ],
+    "keyWorks": [
+      "Parmigianino — Madonna z długą szyją",
+      "Pontormo",
+      "El Greco — Pogrzeb hrabiego Orgaza",
+      "Giuseppe Arcimboldo — portrety z owoców i warzyw"
+    ],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Manieryzm"
+    ]
+  },
+  {
+    "name": "Barok",
+    "dates": "koniec XVI – poł. XVIII w.",
+    "motto": "ruch, emocja, teatr",
+    "features": [
+      "Dynamika — kompozycje diagonalne, skosy, spirale, formy w ruchu.",
+      "Silny światłocień, kontrast, luminizm.",
+      "Ekspresja i patos — uchwycony moment kulminacyjny, gwałtowne gesty, ekstaza, cierpienie.",
+      "Iluzjonizm — malarstwo plafonowe otwierające sklepienie na niebo (di sotto in sù).",
+      "Bogactwo i przepych materiałów: złocenia, marmury, stiuki.",
+      "Synteza sztuk — architektura, rzeźba i malarstwo działają razem.",
+      "W architekturze: falujące fasady, kolumny, pilastry, wolutowe spływy, wielkie kopuły.",
+      "Barok holenderski: obrazy dla mieszczan, gatunki „małe” — martwa natura, pejzaż, scena rodzajowa, portret zbiorowy."
+    ],
+    "keyWorks": [
+      "Caravaggio — Powołanie św. Mateusza, Wieczerza w Emaus",
+      "Bernini — Ekstaza św. Teresy, Apollo i Dafne, kolumnada placu św. Piotra",
+      "Rubens — Zdjęcie z krzyża",
+      "Rembrandt — Straż nocna, Lekcja anatomii",
+      "Vermeer — Dziewczyna z perłą, Mleczarka",
+      "Velázquez — Panny dworskie",
+      "Pałac w Wersalu"
+    ],
+    "polishExamples": [
+      "Kościół św. Piotra i Pawła w Krakowie",
+      "Pałac w Wilanowie",
+      "Kolumna Zygmunta III Wazy w Warszawie",
+      "Kościół św. Anny w Krakowie"
+    ],
+    "annexPeriods": [
+      "Barok"
+    ]
+  },
+  {
+    "name": "Rokoko",
+    "dates": "ok. 1720 – 1780",
+    "motto": "lekkość, wdzięk, pastel",
+    "features": [
+      "Lekkość, wdzięk, asymetria.",
+      "Drobna, wyszukana dekoracja oparta na motywie muszli (rocaille).",
+      "Pastelowa, jasna kolorystyka (róż, błękit, biel, złoto).",
+      "Tematyka zabawowa i miłosna, brak powagi."
+    ],
+    "keyWorks": [
+      "Antoine Watteau — Odjazd na Cyterę",
+      "François Boucher",
+      "Jean-Honoré Fragonard — Huśtawka",
+      "Kościół w Vierzehnheiligen (Balthasar Neumann)"
+    ],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Rokoko"
+    ]
+  },
+  {
+    "name": "Klasycyzm",
+    "dates": "ok. 1760 – 1830",
+    "motto": "rozum, ład, powrót do antyku",
+    "features": [
+      "Harmonia, symetria, statyka, jasna i czytelna kompozycja.",
+      "Prymat rysunku i konturu nad barwą; gładka faktura, chłodna, oszczędna kolorystyka.",
+      "Tematyka antyczna i historyczna, o wymowie moralnej i obywatelskiej.",
+      "W architekturze: portyk kolumnowy z tympanonem, kopuła, płaskie ściany, oszczędna dekoracja."
+    ],
+    "keyWorks": [
+      "Jacques-Louis David — Przysięga Horacjuszy, Śmierć Marata",
+      "Ingres",
+      "Antonio Canova — Amor i Psyche",
+      "Panteon w Paryżu",
+      "Brama Brandenburska w Berlinie"
+    ],
+    "polishExamples": [
+      "Pałac na Wyspie w Łazienkach",
+      "Teatr na Wyspie",
+      "Pałac w Natolinie",
+      "Marcello Bacciarelli",
+      "Canaletto (Bernardo Bellotto)"
+    ],
+    "annexPeriods": [
+      "Klasycyzm"
+    ]
+  },
+  {
+    "name": "Romantyzm",
+    "dates": "ok. 1800 – 1850",
+    "motto": "uczucie, wyobraźnia, wolność",
+    "features": [
+      "Dominacja barwy i plamy nad rysunkiem; swobodny, widoczny dukt pędzla.",
+      "Kompozycje dynamiczne, diagonalne, dramatyczne oświetlenie.",
+      "Tematy: wydarzenia współczesne o wymowie wolnościowej, egzotyka i Orient, natura żywiołowa, ruiny, noc, śmierć, szaleństwo, sen.",
+      "Pejzaż jako wyraz stanu duszy, człowiek mały wobec przyrody."
+    ],
+    "keyWorks": [
+      "Goya — Rozstrzelanie powstańców madryckich",
+      "Géricault — Tratwa Meduzy",
+      "Delacroix — Wolność wiodąca lud na barykady",
+      "Caspar David Friedrich — Wędrowiec nad morzem mgły",
+      "William Turner"
+    ],
+    "polishExamples": [
+      "Piotr Michałowski",
+      "Artur Grottger (cykle Polonia, Lithuania)"
+    ],
+    "annexPeriods": [
+      "Romantyzm"
+    ]
+  },
+  {
+    "name": "Realizm",
+    "dates": "ok. 1840 – 1870",
+    "motto": "zwykły człowiek, prawda bez upiększeń",
+    "features": [
+      "Tematy z życia codziennego, bohaterem zwykły człowiek pracy.",
+      "Rezygnacja z idealizacji i patosu.",
+      "Malarstwo w plenerze i studium natury; często wymowa społeczna.",
+      "Ciemna, ziemista kolorystyka.",
+      "Duże formaty użyte do tematów uważanych za „niegodne”."
+    ],
+    "keyWorks": [
+      "Gustave Courbet — Kamieniarze, Pogrzeb w Ornans",
+      "Jean-François Millet — Anioł Pański, Zbieraczki kłosów",
+      "Honoré Daumier"
+    ],
+    "polishExamples": [
+      "Aleksander Gierymski — Żydówka z pomarańczami",
+      "Józef Chełmoński — Babie lato, Czwórka",
+      "Maksymilian Gierymski"
+    ],
+    "annexPeriods": [
+      "Realizm"
+    ]
+  },
+  {
+    "name": "Akademizm / historyzm",
+    "dates": "XIX w.",
+    "motto": "oficjalna sztuka salonów i wielkie tematy",
+    "features": [
+      "Hierarchia gatunków (najwyżej scena historyczna i mitologiczna).",
+      "Doskonały warsztat, gładka faktura, wysoki stopień wykończenia.",
+      "Monumentalne formaty, dydaktyczna wymowa.",
+      "Historyzm w architekturze — powtarzanie stylów minionych (neogotyk, neorenesans, neobarok) oraz eklektyzm."
+    ],
+    "keyWorks": [],
+    "polishExamples": [
+      "Jan Matejko — malarstwo historyczne w czasach zaborów"
+    ],
+    "annexPeriods": [
+      "Akademizm",
+      "Historyzm i nurt inżynieryjny"
+    ]
+  },
+  {
+    "name": "Impresjonizm",
+    "dates": "ok. 1870 – 1890",
+    "motto": "światło i chwila",
+    "features": [
+      "Malarstwo w plenerze, szybko, wprost z natury.",
+      "Rozbicie plamy barwnej na drobne, widoczne pociągnięcia pędzla (dywizjonizm).",
+      "Jasna, czysta paleta, rezygnacja z czerni — cień jest barwny.",
+      "Kompozycje otwarte, kadrowanie jak w fotografii, nietypowe punkty widzenia.",
+      "Tematy zwyczajne: ulica, kawiarnia, rzeka, ogród, dworzec, tancerki.",
+      "Cykle tego samego motywu o różnych porach dnia."
+    ],
+    "keyWorks": [
+      "Claude Monet — Impresja, wschód słońca; Katedra w Rouen; nenufary",
+      "Auguste Renoir — Bal w Moulin de la Galette",
+      "Edgar Degas — tancerki",
+      "Camille Pissarro",
+      "Alfred Sisley",
+      "Berthe Morisot",
+      "Édouard Manet — Śniadanie na trawie, Olimpia"
+    ],
+    "polishExamples": [
+      "Władysław Podkowiński",
+      "Józef Pankiewicz",
+      "Leon Wyczółkowski",
+      "Olga Boznańska"
+    ],
+    "annexPeriods": [
+      "Impresjonizm"
+    ]
+  },
+  {
+    "name": "Postimpresjonizm",
+    "dates": "ok. 1885 – 1905",
+    "motto": "każdy własną drogą",
+    "features": [
+      "Cézanne — formy geometryczne w naturze, wielokierunkowa perspektywa; ojciec sztuki nowoczesnej.",
+      "Van Gogh — ekspresja przez barwę i fakturę; gruby impast, wirujący dukt, kontrasty dopełnieniowe.",
+      "Gauguin — syntetyzm: płaskie plamy czystego koloru zamknięte konturem.",
+      "Seurat — pointylizm.",
+      "Toulouse-Lautrec — syntetyczny rysunek, płaska plama; twórca nowoczesnego plakatu."
+    ],
+    "keyWorks": [
+      "Paul Cézanne — Góra Sainte-Victoire",
+      "Vincent van Gogh — Gwiaździsta noc, Słoneczniki",
+      "Paul Gauguin",
+      "Georges Seurat — Niedzielne popołudnie na wyspie Grande Jatte",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "polishExamples": [],
+    "annexPeriods": [
+      "Postimpresjonizm"
+    ]
+  },
+  {
+    "name": "Symbolizm",
+    "dates": "ok. 1885 – 1910",
+    "motto": "to, czego nie widać",
+    "features": [
+      "Tematyka nastrojowa i wieloznaczna, alegoria i symbol.",
+      "Marzenie senne, świat mitu i baśni, często niepokojący nastrój.",
+      "Symbolizm jest raczej postawą niż stylem."
+    ],
+    "keyWorks": [
+      "Arnold Böcklin — Wyspa umarłych",
+      "Edvard Munch — Krzyk",
+      "Auguste Rodin — Myśliciel, Pocałunek, Brama piekieł",
+      "Gustave Moreau",
+      "Odilon Redon"
+    ],
+    "polishExamples": [
+      "Jacek Malczewski — Melancholia, Błędne koło",
+      "Witold Wojtkiewicz"
+    ],
+    "annexPeriods": [
+      "Symbolizm"
+    ]
+  },
+  {
+    "name": "Secesja",
+    "dates": "ok. 1890 – 1910",
+    "motto": "linia falista i ornament roślinny",
+    "features": [
+      "Linia falista, giętka, „biczowa”.",
+      "Ornament roślinny i zwierzęcy: lilie, irysy, wodorosty, pawie, łabędzie, ważki.",
+      "Asymetria i płynne, organiczne kształty.",
+      "Motyw kobiety z rozpuszczonymi, falującymi włosami.",
+      "Płaskość, dekoracyjność, często złoto.",
+      "Zatarcie granicy między sztuką a rzemiosłem."
+    ],
+    "keyWorks": [
+      "Gustav Klimt — Pocałunek",
+      "Antoni Gaudí — Sagrada Família, Casa Batlló, Park Güell",
+      "Alfons Mucha — plakaty",
+      "Émile Gallé",
+      "Victor Horta",
+      "Louis Comfort Tiffany"
+    ],
+    "polishExamples": [
+      "Stanisław Wyspiański — witraże i polichromia w kościele Franciszkanów w Krakowie",
+      "Józef Mehoffer — witraże we Fryburgu",
+      "Olga Boznańska",
+      "Styl zakopiański — Stanisław Witkiewicz (willa „Koliba”, „Pod Jedlami”)"
+    ],
+    "annexPeriods": [
+      "Secesja"
+    ]
+  },
+  {
+    "name": "Ekspresjonizm",
+    "dates": "ok. 1905 – 1925",
+    "motto": "krzyk zamiast opisu",
+    "features": [
+      "Deformacja kształtu i proporcji dla celów wyrazowych.",
+      "Agresywna, nienaturalna barwa nakładana płaskimi plamami.",
+      "Ostry, łamany kontur; kompozycje niespokojne, skośne, ciasne.",
+      "Chętne sięganie po drzeworyt.",
+      "Tematy: samotność, miasto, wojna, cierpienie."
+    ],
+    "keyWorks": [
+      "Ernst Ludwig Kirchner",
+      "Emil Nolde",
+      "Egon Schiele",
+      "Oskar Kokoschka",
+      "Franz Marc",
+      "Edvard Munch — Krzyk (prekursor)"
+    ],
+    "polishExamples": [
+      "Grupa Bunt w Poznaniu",
+      "Formiści"
+    ],
+    "annexPeriods": [
+      "Fowizm"
+    ]
+  },
+  {
+    "name": "Kubizm",
+    "dates": "ok. 1907 – 1914",
+    "motto": "przedmiot z wielu stron naraz",
+    "features": [
+      "Geometryzacja form; perspektywa wielokierunkowa.",
+      "Faza analityczna (ok. 1909–1912): drobne fasety, kolorystyka niemal monochromatyczna.",
+      "Faza syntetyczna (od 1912): większe, płaskie płaszczyzny, powrót barwy, kolaż.",
+      "Inspiracja sztuką Afryki i Iberii oraz malarstwem Cézanne’a."
+    ],
+    "keyWorks": [
+      "Pablo Picasso — Panny z Awinionu (1907)",
+      "Georges Braque — martwe natury",
+      "Juan Gris",
+      "Fernand Léger",
+      "Alexander Archipenko"
+    ],
+    "polishExamples": [
+      "Formiści (Zbigniew Pronaszko, Tytus Czyżewski)"
+    ],
+    "annexPeriods": [
+      "Kubizm"
+    ]
+  },
+  {
+    "name": "Abstrakcjonizm",
+    "dates": "od ok. 1910",
+    "motto": "obraz nie musi nic przedstawiać",
+    "features": [
+      "Abstrakcja geometryczna — figura geometryczna, linia prosta, kąt prosty, barwy podstawowe.",
+      "Abstrakcja niegeometryczna (liryczna, ekspresyjna) — swobodna plama i gest.",
+      "Po II wojnie: ekspresjonizm abstrakcyjny."
+    ],
+    "keyWorks": [
+      "Piet Mondrian — Broadway Boogie Woogie",
+      "Kazimierz Malewicz — Czarny kwadrat na białym tle (1915)",
+      "Wassily Kandinsky",
+      "Jackson Pollock",
+      "Mark Rothko"
+    ],
+    "polishExamples": [
+      "Władysław Strzemiński — unizm",
+      "Katarzyna Kobro — kompozycje przestrzenne",
+      "Muzeum Sztuki w Łodzi"
+    ],
+    "annexPeriods": [
+      "Abstrakcjonizm"
+    ]
+  },
+  {
+    "name": "Surrealizm",
+    "dates": "od 1924",
+    "motto": "logika snu",
+    "features": [
+      "Zestawianie przedmiotów, które nie mają ze sobą nic wspólnego, w nieprawdopodobnych sytuacjach.",
+      "Deformacja i metamorfoza — przedmioty topnieją, rosną, zmieniają się w inne.",
+      "Przestrzeń bezkresna, pustynna, nierealna, ostre światło, wyraziste cienie.",
+      "Bardzo realistyczna, drobiazgowa technika.",
+      "Automatyzm — frotaż, dekalkomania."
+    ],
+    "keyWorks": [
+      "Salvador Dalí — Trwałość pamięci",
+      "René Magritte — Zdradliwość obrazów, Syn człowieczy",
+      "Max Ernst",
+      "Joan Miró",
+      "Giorgio de Chirico",
+      "Meret Oppenheim"
+    ],
+    "polishExamples": [
+      "Bruno Schulz (grafika)",
+      "Zdzisław Beksiński"
+    ],
+    "annexPeriods": [
+      "Surrealizm"
+    ]
+  },
+  {
+    "name": "Pop-art, minimalizm, konceptualizm",
+    "dates": "2. poł. XX w.",
+    "motto": "kultura masowa, redukcja, idea",
+    "features": [
+      "Pop-art: kultura masowa, powielenie i seryjność, płaska plama, sitodruk, ironiczny dystans.",
+      "Minimalizm: proste bryły geometryczne, przemysłowe materiały, powtarzalne moduły; „mniej znaczy więcej”.",
+      "Konceptualizm: idea jest dziełem; wykonanie jest drugorzędne.",
+      "Op-art, land art, hiperrealizm, sztuka krytyczna."
+    ],
+    "keyWorks": [
+      "Andy Warhol — Puszki zupy Campbell, Marilyn",
+      "Roy Lichtenstein",
+      "Donald Judd",
+      "Marcel Duchamp — Fontanna (1917)",
+      "Joseph Kosuth — Jedno i trzy krzesła",
+      "Joseph Beuys"
+    ],
+    "polishExamples": [
+      "Roman Opałka — Obrazy liczone",
+      "Magdalena Abakanowicz — Abakany",
+      "Katarzyna Kozyra",
+      "Zbigniew Libera"
+    ],
+    "annexPeriods": [
+      "Sztuka XX w."
+    ]
+  }
+]

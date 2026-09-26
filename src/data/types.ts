@@ -35,6 +35,8 @@ export interface GlossaryTerm {
   definition: string;
   example?: string;
   section: SectionCode;
+  /** Podrozdział: środki wyrazu, kompozycja, perspektywa, barwa, techniki, słownik architektoniczny… */
+  topic?: string;
 }
 
 export interface Period {
@@ -44,6 +46,8 @@ export interface Period {
   features: string[];
   keyWorks: string[];
   polishExamples: string[];
+  /** Nagłówki epok z Aneksu A (pole Artwork.period), które należą do tej epoki. */
+  annexPeriods: string[];
 }
 
 export interface Signal {
@@ -84,23 +88,57 @@ export interface ScorecardItem {
 
 export interface ExamRules {
   rules: string[];
-  rulesSource?: string;
+  rulesSource: string;
+  answerStructure: { n: number; name: string; text: string }[];
+  namedArtists: string[];
+  lastWeek: string;
   analysisMistakes: { title: string; text: string }[];
   scorecard: { instructions: string; passThreshold: number; items: ScorecardItem[] };
   feedbackTip: string;
 }
 
+export interface DiagnosticTask {
+  n: number;
+  sub?: string;
+  text: string;
+  points: number;
+}
+
 export interface Diagnostic {
   maxPoints: number;
-  parts: { code: 'A' | 'B' | 'C' | 'D' | 'E'; title: string; points: number; tasks: unknown[] }[];
+  when: string;
+  purpose: string;
+  parts: { code: 'A' | 'B' | 'C' | 'D' | 'E'; title: string; instruction: string; points: number; tasks: DiagnosticTask[] }[];
   interpretation: { min: number; max: number; text: string }[];
+  retakeNote: string;
 }
 
 export interface ScheduleWeek {
   week: number;
+  phase: string;
   title: string;
+  material: string;
   goals: string[];
   questionIds: string[];
+  /** Nagłówki epok z Aneksu A. */
   artworkPeriods: string[];
+  artworkCount: number | null;
+  polishAccent: string | null;
+  artists: string[];
   specialTasks: string[];
+}
+
+export interface Schedule {
+  assumption: string;
+  reminders: string[];
+  weeks: ScheduleWeek[];
+}
+
+export interface AnalysisGuide {
+  intro: string;
+  threeMoves: { summary: string; moves: { name: string; role: string; example: string }[]; conclusion: string };
+  timing: string;
+  mainAdvice: string;
+  unknownArtwork: { intro: string; startSteps: { title: string; text: string }[]; dont: string; signalsTip: string };
+  trainingPlan: { intro: string; stages: { weeks: number[]; form: string; how: string }[] };
 }

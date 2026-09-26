@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type {
   AnalysisStep, Artwork, Diagnostic, ExamRules, GlossaryTerm, ModelAnalysis,
-  Period, Question, ScheduleWeek, Signal,
+  Period, Question, Schedule, Signal,
 } from '../src/data/types';
 
 const dataDir = join(import.meta.dirname, '..', 'src', 'data');
@@ -60,24 +60,44 @@ report('signals.json', load<Signal[]>('signals.json').length, 18);
 
 const rules = load<ExamRules>('examRules.json');
 report('examRules: zasady', rules.rules.length, 10);
+report('examRules: szkielet', rules.answerStructure.length, 4);
 report('examRules: błędy', rules.analysisMistakes.length, 8);
 report('examRules: karta', rules.scorecard.items.length, 12);
 
-// --- pozostałe (z programu przygotowawczego) ---
-report('glossary.json', load<GlossaryTerm[]>('glossary.json').length);
-check(load<GlossaryTerm[]>('glossary.json').length > 0, 'glossary.json: pusty');
+// --- kompendium ---
+const glossary = load<GlossaryTerm[]>('glossary.json');
+report('glossary.json', glossary.length);
+check(glossary.length > 0, 'glossary.json: pusty');
+check(new Set(glossary.map((g) => g.term)).size === glossary.length, 'glossary.json: zduplikowane terminy');
+for (const g of glossary) check(g.definition.trim() !== '', `termin ${g.term}: brak definicji`);
+
 const periods = load<Period[]>('periods.json');
-report('periods.json', periods.length);
-check(periods.length > 0, 'periods.json: pusty');
-const schedule = load<ScheduleWeek[]>('schedule.json');
-report('schedule.json', schedule.length, 14);
+report('periods.json', periods.length, 25);
+const artworkPeriods = new Set(artworks.map((a) => a.period));
+const mappedPeriods = new Set(periods.flatMap((p) => p.annexPeriods));
+for (const p of mappedPeriods) check(artworkPeriods.has(p), `periods.json: nieznana epoka z Aneksu A „${p}”`);
+
+const schedule = load<Schedule>('schedule.json');
+report('schedule.json: tygodnie', schedule.weeks.length, 14);
 const questionIds = new Set(questions.map((q) => q.id));
-for (const w of schedule) {
-  for (const id of w.questionIds) check(questionIds.has(id), `harmonogram tydz. ${w.week}: nieznane pytanie ${id}`);
-}
+const scheduled = new Set<string>();
+schedule.weeks.forEach((w, i) => {
+  check(w.week === i + 1, `harmonogram: tydzień ${w.week} na pozycji ${i + 1}`);
+  for (const id of w.questionIds) {
+    check(questionIds.has(id), `harmonogram tydz. ${w.week}: nieznane pytanie ${id}`);
+    scheduled.add(id);
+  }
+  for (const p of w.artworkPeriods) check(artworkPeriods.has(p), `harmonogram tydz. ${w.week}: nieznana epoka „${p}”`);
+});
+report('  pytania w planie', scheduled.size, 150);
+
 const diagnostic = load<Diagnostic>('diagnostic.json');
 report('diagnostic: części', diagnostic.parts.length, 5);
-check(diagnostic.parts.reduce((s, p) => s + p.points, 0) === 30, 'diagnostic.json: suma punktów ≠ 30');
+const diagSum = diagnostic.parts.reduce((s, p) => s + p.tasks.reduce((t, x) => t + x.points, 0), 0);
+report('diagnostic: punkty', diagSum, 30);
+for (const p of diagnostic.parts) {
+  check(p.tasks.reduce((t, x) => t + x.points, 0) === p.points, `diagnostic ${p.code}: suma zadań ≠ ${p.points}`);
+}
 
 console.log(lines.join('\n'));
 if (errors.length) {
