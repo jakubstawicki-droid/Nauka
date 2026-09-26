@@ -1,6 +1,7 @@
 import analysisGuideJson from './analysisGuide.json';
 import analysisStepsJson from './analysisSteps.json';
 import artworksJson from './artworks.json';
+import compendiumJson from './compendium.json';
 import diagnosticJson from './diagnostic.json';
 import examRulesJson from './examRules.json';
 import glossaryJson from './glossary.json';
@@ -12,7 +13,7 @@ import questionsJson from './questions.json';
 import scheduleJson from './schedule.json';
 import signalsJson from './signals.json';
 import type {
-  AnalysisGuide, AnalysisStep, Artwork, Diagnostic, ExamRules, GlossaryTerm, ModelAnalysis,
+  AnalysisGuide, AnalysisStep, Artwork, CompendiumSection, Diagnostic, ExamRules, GlossaryTerm, ModelAnalysis,
   MatchingSet, Period, Question, Schedule, SectionCode, Signal,
 } from './types';
 
@@ -27,6 +28,7 @@ export const modelAnalyses = modelAnalysesJson as ModelAnalysis[];
 export const diagnostic = diagnosticJson as Diagnostic;
 export const schedule = scheduleJson as Schedule;
 export const examRules = examRulesJson as ExamRules;
+export const compendium = compendiumJson as CompendiumSection[];
 export const imageOverrides = imageOverridesJson as Record<string, string>;
 export const matching = matchingJson as Record<'graphicTechniques' | 'architecturalOrders', MatchingSet>;
 

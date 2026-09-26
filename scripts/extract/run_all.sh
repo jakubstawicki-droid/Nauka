@@ -7,3 +7,4 @@ python3 scripts/extract/artworks.py
 python3 scripts/extract/questions.py
 python3 scripts/extract/compendium_data.py
 python3 scripts/extract/tags.py
+python3 scripts/extract/compendium_text.py

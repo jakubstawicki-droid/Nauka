@@ -31,10 +31,15 @@ Wszystkie pliki `src/data/*.json` powstają z dwóch PDF-ów w `materialy/` skry
 - **`glossary.json`**: definicje przepisane z działów I i V; przy „sklepieniu krzyżowo-żebrowym” rozwinięto
   skrót „jw.” do „jak sklepienie krzyżowe”.
 
-## Do zrobienia w kolejnych etapach
+## Kompendium i test diagnostyczny (etap 6)
 
-- Pełny tekst kompendium (działy I–VIII z tabelami) dla ekranu „Kompendium” — wyciągnięty zostanie przy
-  budowie czytnika; na razie w danych są jego ustrukturyzowane części (glosariusz, oś czasu, zasady).
+- `compendium.json` — pełny tekst działów I–VIII (`scripts/extract/compendium_text.py`). Tabele w PDF-ie są
+  „zebrą” (tło co drugi wiersz), więc wiersze odtwarzane są z krawędzi tła i odstępów — 10 tabel, sprawdzone
+  ręcznie. Oś czasu i słownik architektoniczny renderowane są z `periods.json` / `glossary.json`.
+- Pogrubienia z PDF-u są zachowane; te, które pasują do haseł glosariusza, są w czytniku klikalne.
+- **Test diagnostyczny nie ma w PDF-ie klucza odpowiedzi.** Przycisk „Sprawdź” pokazuje fragment materiałów
+  (glosariusz, oś czasu, karta dzieła, zdanie z kompendium lub z odpowiedzi modelowej) — punkty przyznaje się
+  samodzielnie (0 / ½ / 1).
 
 ## Reprodukcje dzieł (etap 3)
 

@@ -4,7 +4,9 @@ import { Layout } from './components/Layout';
 import { Placeholder } from './components/ui';
 import { AnalysisHome, AnalysisSession, ModelAnalysesList, ModelAnalysisView } from './screens/Analysis';
 import { ArtworkDetail, ArtworksHome } from './screens/Artworks';
+import { CompendiumHome, CompendiumSectionView, GlossaryScreen, TimelineScreen } from './screens/Compendium';
 import { Dashboard } from './screens/Dashboard';
+import { DiagnosticHome, DiagnosticRun } from './screens/Diagnostic';
 import { ExamHome, ExamSession } from './screens/Exam';
 import { HowToLearn } from './screens/HowToLearn';
 import { QuestionDetail, QuestionSection, QuestionsHome } from './screens/Questions';
@@ -12,7 +14,9 @@ import { QuizMenu, QuizRun } from './screens/Quizzes';
 import { Recordings } from './screens/Recordings';
 import { StudySession } from './screens/StudySession';
 import { MoreMenu, TrainingMenu } from './screens/menus';
+import { Schedule } from './screens/Schedule';
 import { Settings } from './screens/Settings';
+import { Stats } from './screens/Stats';
 import { flushProgress, useProgress } from './store/useProgress';
 
 function useTheme() {
@@ -65,10 +69,14 @@ export function App() {
           <Route path="wiecej/nagrania" element={<Recordings />} />
           <Route path="trening/mieszany" element={<Navigate to="/sesja?typ=mieszany" replace />} />
           <Route path="wiecej" element={<MoreMenu />} />
-          <Route path="wiecej/harmonogram" element={<Placeholder title="Harmonogram" stage={6} />} />
-          <Route path="wiecej/kompendium/*" element={<Placeholder title="Kompendium" stage={6} />} />
-          <Route path="wiecej/statystyki" element={<Placeholder title="Statystyki" stage={6} />} />
-          <Route path="wiecej/test" element={<Placeholder title="Test diagnostyczny" stage={6} />} />
+          <Route path="wiecej/harmonogram" element={<Schedule />} />
+          <Route path="wiecej/kompendium" element={<CompendiumHome />} />
+          <Route path="wiecej/kompendium/os-czasu" element={<TimelineScreen />} />
+          <Route path="wiecej/kompendium/slownik" element={<GlossaryScreen />} />
+          <Route path="wiecej/kompendium/:code" element={<CompendiumSectionView />} />
+          <Route path="wiecej/statystyki" element={<Stats />} />
+          <Route path="wiecej/test" element={<DiagnosticHome />} />
+          <Route path="wiecej/test/start" element={<KeyedByLocation><DiagnosticRun /></KeyedByLocation>} />
           <Route path="wiecej/jak-sie-uczyc" element={<HowToLearn />} />
           <Route path="wiecej/ustawienia" element={<Settings />} />
           <Route path="*" element={<Placeholder title="Nie ma takiej strony" />} />

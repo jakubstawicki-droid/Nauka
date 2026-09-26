@@ -92,6 +92,11 @@ schedule.weeks.forEach((w, i) => {
 });
 report('  pytania w planie', scheduled.size, 150);
 
+const compendium = load<{ code: string; blocks: { type: string }[] }[]>('compendium.json');
+report('compendium: działy', compendium.length, 8);
+for (const s of compendium) check(s.blocks.length >= 4, `kompendium ${s.code}: za mało treści`);
+report('compendium: tabele', compendium.flatMap((s) => s.blocks).filter((b) => b.type === 'table').length, 10);
+
 const diagnostic = load<Diagnostic>('diagnostic.json');
 report('diagnostic: części', diagnostic.parts.length, 5);
 const diagSum = diagnostic.parts.reduce((s, p) => s + p.tasks.reduce((t, x) => t + x.points, 0), 0);

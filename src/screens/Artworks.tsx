@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArtworkDetails } from '../components/ArtworkDetails';
 import { ArtworkImage, StatusBadge } from '../components/study';
 import { PageHead } from '../components/ui';
@@ -25,7 +25,11 @@ function loadFilters(): Filters {
 export function ArtworksHome() {
   const states = useCardStates();
   const { reviews, settings } = useProgress();
-  const [f, setF] = useState<Filters>(loadFilters);
+  const [params] = useSearchParams();
+  const [f, setF] = useState<Filters>(() => {
+    const fromUrl = params.get('epoka');
+    return fromUrl ? { period: fromUrl, domain: '', polish: false } : loadFilters();
+  });
   const update = (patch: Partial<Filters>) => {
     const next = { ...f, ...patch };
     setF(next);

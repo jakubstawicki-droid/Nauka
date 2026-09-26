@@ -150,3 +150,19 @@ export interface MatchingSet {
   categories: { name: string; rule: string }[];
   items: { text: string; category: number }[];
 }
+
+export type CompendiumBlock =
+  | { type: 'h2' | 'h3'; text: string }
+  /** tekst z **pogrubieniami** */
+  | { type: 'p'; text: string; small?: boolean }
+  | { type: 'li'; text: string }
+  | { type: 'box'; title: string; text: string; items?: string[] }
+  | { type: 'table'; header?: string[]; rows: string[][] }
+  | { type: 'timeline' }
+  | { type: 'glossary'; topic: string };
+
+export interface CompendiumSection {
+  code: SectionCode;
+  title: string;
+  blocks: CompendiumBlock[];
+}

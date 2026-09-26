@@ -1,0 +1,2120 @@
+[
+ {
+  "code": "I",
+  "title": "Środki wyrazu artystycznego i analiza dzieła",
+  "blocks": [
+   {
+    "type": "p",
+    "text": "To najważniejszy dział całego programu. Wiedza o epokach bez tej terminologii jest bezużyteczna — nie da się jej wypowiedzieć. Terminy podane niżej pochodzą z podręcznika Ars longa i to ich egzaminator będzie oczekiwał.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "1. Podstawowe środki wyrazu plastycznego"
+   },
+   {
+    "type": "h3",
+    "text": "Punkt, linia, plama"
+   },
+   {
+    "type": "p",
+    "text": "**Punkt** to najprostszy element plastyczny — ślad narzędzia. Skupiony w grupy tworzy plamę, a rozłożony w rytmie buduje fakturę. Świadome zbudowanie całego obrazu z drobnych punktów czystych barw to **pointylizm** (Georges Seurat, Niedzielne popołudnie na wyspie Grande Jatte)."
+   },
+   {
+    "type": "p",
+    "text": "**Linia** powstaje ze śladu narzędzia prowadzonego po podłożu. Może być konturowa (zamyka kształt), modelująca (buduje bryłę kreskowaniem) lub swobodna, ekspresyjna. Charakter linii mówi o nastroju dzieła: linia miękka i falista uspokaja, linia ostra i łamana niepokoi. W Krzyku Muncha to właśnie faliste linie tła budują wrażenie lęku."
+   },
+   {
+    "type": "p",
+    "text": "**Plama** to powierzchnia wyodrębniona barwą lub walorem. Plama barwna może być jednowalorowa albo zróżnicowana walorowo. Sprowadzenie przedmiotu do kilku prostych plam nazywamy **syntetyzmem** — świadomym uproszczeniem po to, by oddać istotę rzeczy (Paul Gauguin)."
+   },
+   {
+    "type": "h3",
+    "text": "Walor i światłocień"
+   },
+   {
+    "type": "p",
+    "text": "**Walor** to stopień jasności barwy — od najjaśniejszej do najciemniejszej. Zestawienie barw o różnym walorze daje **kontrast walorowy**; najsilniejszy z możliwych to zestawienie czerni i bieli."
+   },
+   {
+    "type": "p",
+    "text": "**Światłocień** to sposób rozmieszczenia świateł i cieni, dzięki któremu płaski obraz sprawia wrażenie trójwymiarowego. Buduje **formę** (bryłę pojedynczego przedmiotu) i **przestrzeń** (głębię całej sceny). Stopniowe przechodzenie świateł w cienie to **modelunek światłocieniowy**. Gdy światło jest ostre, kontrastowe i wydobywa z ciemności tylko wybrane elementy, mówimy o **luminizmie** — to sygnaturowy chwyt Caravaggia i całego kręgu caravaggionistów."
+   },
+   {
+    "type": "box",
+    "title": "TERMINY, KTÓRE ROBIĄ WRAŻENIE",
+    "text": "Sfumato — miękkie, mgliste przejścia między światłem a cieniem, bez ostrych konturów; wynalazek Leonarda da Vinci (Mona Lisa). Chiaroscuro — włoska nazwa światłocienia. Non finito — celowo niedokończona partia dzieła, ślad świadomej decyzji artysty (rzeźby Michała Anioła, Mieszczanie z Calais Rodina)."
+   },
+   {
+    "type": "h3",
+    "text": "Faktura"
+   },
+   {
+    "type": "p",
+    "text": "**Faktura** to sposób opracowania powierzchni dzieła — to, co dałoby się wyczuć dotykiem. Może być **gładka** (wygładzona, wypolerowana; efekt starannego wykończenia zwany fini) albo **impastowa** — farba nakładana grubo pędzlem lub szpachlą, o wyraźnej wypukłości (Vincent van Gogh). W rzeźbie i architekturze faktura to sposób obrobienia kamienia: gładki polerowany marmur kontra chropowaty ślad dłuta."
+   },
+   {
+    "type": "p",
+    "text": "**Dukt pędzla** to widoczny ślad ruchu ręki malarza. W Gwiaździstej nocy Van Gogha wirujący dukt pędzla jest właściwie głównym środkiem wyrazu."
+   },
+   {
+    "type": "h3",
+    "text": "Proporcje, rytm, kontrast"
+   },
+   {
+    "type": "p",
+    "text": "**Proporcje** to stosunki wielkości między częściami dzieła. Sztuka klasyczna szukała proporcji idealnych — stąd **kanon Polikleta** (głowa mieści się w wysokości ciała ok. siedem razy) i **złoty podział** (ok. 1:1,618). Świadome zaburzenie proporcji jest środkiem wyrazu: wydłużone postacie El Greca budują duchowe napięcie, ogromne biodra Wenus z Willendorfu mówią o płodności."
+   },
+   {
+    "type": "p",
+    "text": "**Rytm** to powtarzanie tych samych lub podobnych elementów — kolumn w portyku, fałd draperii, plam barwnych. Porządkuje kompozycję i nadaje jej tempo."
+   },
+   {
+    "type": "p",
+    "text": "**Kontrast** to zestawienie elementów przeciwstawnych: jasne–ciemne, ciepłe–zimne, duże–małe, gładkie–chropowate. Kontrast przyciąga wzrok, dlatego artyści umieszczają go tam, gdzie chcą, żebyśmy patrzyli."
+   },
+   {
+    "type": "h2",
+    "text": "2. Kompozycja"
+   },
+   {
+    "type": "p",
+    "text": "Kompozycja to sposób powiązania elementów dzieła w całość. Odróżniamy **kompozycję zewnętrzną** — kształt pola obrazowego, czyli **format** dzieła (prostokąt pionowy, poziomy, tondo, czyli koło) — od **kompozycji wewnętrznej**, czyli układu elementów wewnątrz tego pola."
+   },
+   {
+    "type": "table",
+    "header": [
+     "Rodzaj",
+     "Na czym polega",
+     "Przykład"
+    ],
+    "rows": [
+     [
+      "zamknięta",
+      "Wszystkie ważne elementy mieszczą się w ramach; wzrok krąży wewnątrz obrazu i nie ucieka poza niego. Często wpisana w figurę geometryczną — trójkąt, owal, koło.",
+      "Botticelli, Madonna del Magnificat (tondo); Leonardo, Ostatnia Wieczerza"
+     ],
+     [
+      "otwarta",
+      "Istotne elementy są ucięte krawędzią obrazu; scena zdaje się wykraczać poza ramy, jak kadr fotograficzny.",
+      "Monet, Katedra w Rouen; obrazy Degasa"
+     ],
+     [
+      "symetryczna",
+      "Da się poprowadzić oś, po której obu stronach powtarzają się podobne elementy. Daje wrażenie ładu, powagi, dostojeństwa.",
+      "Mozaiki w San Vitale w Rawennie; Leonardo, Ostatnia Wieczerza"
+     ],
+     [
+      "asymetryczna",
+      "Brak takiej osi; równowagę buduje się ciężarem plam i barw, nie lustrzanym odbiciem.",
+      "Rembrandt, Straż nocna"
+     ],
+     [
+      "centralna",
+      "Najważniejszy element w środku pola obrazowego, reszta podporządkowana; szczególny wypadek symetrii.",
+      "Rafael, Szkoła Ateńska; plany centralne w architekturze renesansu"
+     ],
+     [
+      "diagonalna",
+      "Główne kierunki biegną po skosach. Skos oznacza ruch, dlatego to ulubiona kompozycja baroku.",
+      "Rubens, Zdjęcie z krzyża; Delacroix, Wolność wiodąca lud na barykady"
+     ]
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Dodatkowe określenia, którymi warto się posłużyć"
+   },
+   {
+    "type": "li",
+    "text": "**horyzontalna / wertykalna** — gdy dominują kierunki poziome (spokój, rozległość) albo pionowe (wzniosłość, dążenie w górę)."
+   },
+   {
+    "type": "li",
+    "text": "**rytmiczna** — te same lub zbliżone formy powtarzają się regularnie."
+   },
+   {
+    "type": "li",
+    "text": "**statyczna / dynamiczna** — przewaga pionów i poziomów daje spokój; przewaga skosów i łuków daje ruch."
+   },
+   {
+    "type": "li",
+    "text": "**zwarta / ażurowa (luźna, rozczłonkowana)** — używane zwłaszcza wobec rzeźby: bryła zbita w jedną masę albo przenikana przestrzenią."
+   },
+   {
+    "type": "li",
+    "text": "**tektoniczna / atektoniczna** — dzieło sprawia wrażenie stabilnego i wyważonego albo, przeciwnie, pozornie niestabilnego."
+   },
+   {
+    "type": "li",
+    "text": "**jedno-, dwu-, wielopostaciowa** — według liczby przedstawionych osób."
+   },
+   {
+    "type": "li",
+    "text": "**dominanta kompozycyjna** — element, który najsilniej przyciąga wzrok. Warto powiedzieć, czy pokrywa się ze środkiem geometrycznym obrazu i czy jest zarazem centrum treściowym."
+   },
+   {
+    "type": "li",
+    "text": "**plany kompozycyjne** — pierwszy, drugi, dalszy. Dzieło może być jednoplanowe (bez iluzji głębi) albo wieloplanowe."
+   },
+   {
+    "type": "h2",
+    "text": "3. Perspektywa"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Rodzaj",
+     "Na czym polega",
+     "Gdzie występuje"
+    ],
+    "rows": [
+     [
+      "linearna (zbieżna, geometryczna)",
+      "Linie biegnące w głąb zbiegają się w jednym lub kilku punktach na linii horyzontu; przedmioty maleją proporcjonalnie wraz z oddalaniem. Odkryta w renesansie (Filippo Brunelleschi).",
+      "Leonardo, Ostatnia Wieczerza; Rafael, Szkoła Ateńska"
+     ],
+     [
+      "powietrzna (barwna)",
+      "Dalsze plany są coraz bardziej zamglone, mniej wyraziste i chłodniejsze — sinobłękitne; bliższe cieplejsze i ostrzejsze. Wynika z obserwacji, że powietrze „zjada\" kontrast.",
+      "Tła u Leonarda; pejzaże holenderskie"
+     ],
+     [
+      "kulisowa",
+      "Głębię buduje się nakładającymi się na siebie „kulisami\" — obiekty dalsze są przysłonięte przez bliższe, ustawione równolegle do płaszczyzny obrazu.",
+      "Malarstwo starożytne i średniowieczne; dekoracje teatralne"
+     ],
+     [
+      "odwrócona",
+      "Linie zbiegają się nie w głębi obrazu, lecz przed nim — przedmioty dalsze są większe od bliższych. Widz zostaje niejako wciągnięty w przestrzeń dzieła.",
+      "Ikony bizantyjskie i ruskie, np. Ikona Włodzimierska"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Warto znać też: **perspektywa żabia** (patrzymy z dołu), **z lotu ptaka** (z góry), **boczna i ukośna** — to odmiany perspektywy linearnej zależne od położenia oka widza. W średniowieczu stosowano **perspektywę intuicyjną** (kilka punktów zbiegu naraz), a w sztuce nowoczesnej świadomie **wielokierunkową** — z wielu punktów widzenia jednocześnie, jak w kubizmie.",
+    "small": true
+   },
+   {
+    "type": "box",
+    "title": "CZĘSTY BŁĄD",
+    "text": "Perspektywa powietrzna i barwna to **ten sam** sposób budowania głębi opisany z dwóch stron — przez zamglenie i przez ochłodzenie barw. Nie należy ich wymieniać jako dwóch osobnych rodzajów, tylko powiedzieć: „perspektywa powietrzna, nazywana też barwną\"."
+   },
+   {
+    "type": "h2",
+    "text": "4. Teoria barw"
+   },
+   {
+    "type": "h3",
+    "text": "Koło barw"
+   },
+   {
+    "type": "p",
+    "text": "**Barwy podstawowe** (czyste): czerwona, żółta, niebieska — nie da się ich uzyskać z mieszania innych. **Barwy pochodne**: powstają z mieszania podstawowych — pomarańczowa (czerwony + żółty), zielona (żółty + niebieski), fioletowa (niebieski + czerwony). **Barwy dopełniające** (komplementarne) leżą naprzeciw siebie na kole barw: czerwony–zielony, żółty–fioletowy, niebieski–pomarańczowy. Zestawione obok siebie wzmacniają się nawzajem, zmieszane dają szarość."
+   },
+   {
+    "type": "p",
+    "text": "**Barwy chromatyczne** to barwy kolorowe; **achromatyczne** (obojętne, neutralne) to czerń, biel i szarości. Osobną grupą są **barwy ziemi** — ochra, siena, umbra."
+   },
+   {
+    "type": "h3",
+    "text": "Gama barwna i koloryt"
+   },
+   {
+    "type": "p",
+    "text": "**Gama barwna** to zakres barw użytych w dziele. Może być **szeroka** (obejmuje barwy ciepłe i chłodne) albo **wąska** (kilka blisko spokrewnionych barw). Gama bywa ciepła, chłodna lub monochromatyczna (jedna barwa w różnych walorach)."
+   },
+   {
+    "type": "p",
+    "text": "**Koloryt** to ogólny efekt barwny całego dzieła — „obraz jest utrzymany w kolorycie zielonkawym\". **Dominanta barwna** to barwa najważniejsza, przeważająca; **akcent barwny** to niewielka plama odbijająca od reszty temperaturą lub walorem, często ustawiona tam, gdzie ma paść wzrok."
+   },
+   {
+    "type": "h3",
+    "text": "Kontrasty barwne"
+   },
+   {
+    "type": "li",
+    "text": "**temperaturowy** — zestawienie barw ciepłych (czerwienie, żółcienie, pomarańcze) z chłodnymi (błękity, zielenie, fiolety). Barwy ciepłe zdają się przybliżać, chłodne oddalać."
+   },
+   {
+    "type": "li",
+    "text": "**walorowy** — zestawienie barw o różnym stopniu jasności."
+   },
+   {
+    "type": "li",
+    "text": "**dopełnieniowy** — zestawienie barw leżących naprzeciw siebie na kole barw; najmocniejszy sposób na to, żeby barwa „zagrała\"."
+   },
+   {
+    "type": "p",
+    "text": "Pojęcia uzupełniające: **koloryt lokalny** — barwa własna przedmiotu, ta sama w świetle i w cieniu, zmieniająca tylko walor; **refleks barwny** — zabarwienie przedmiotu odbitym kolorem sąsiada; **laserunek** — cienka, półprzezroczysta warstwa farby zmieniająca ton warstwy pod spodem; **dywizjonizm** — rozbicie barwy na drobne plamy barw podstawowych, które mieszają się dopiero w oku widza.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "5. Techniki plastyczne"
+   },
+   {
+    "type": "h3",
+    "text": "Malarskie"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Technika",
+     "Spoiwo i podłoże",
+     "Efekt i przykład"
+    ],
+    "rows": [
+     [
+      "akwarela",
+      "Pigment rozpuszczalny w wodzie, na chłonnym papierze.",
+      "Przezroczysta, lekka, świetlista; bieli daje sam papier. Nie da się poprawiać."
+     ],
+     [
+      "tempera",
+      "Pigment z wodą i spoiwem naturalnym — żółtkiem jaja lub kazeiną; na desce.",
+      "Matowa, o czystych barwach; podstawowa technika średniowiecza i wczesnego renesansu. Botticelli, Narodziny Wenus."
+     ],
+     [
+      "olej",
+      "Pigment roztarty w oleju (lnianym), na płótnie lub desce.",
+      "Wolno schnie, można poprawiać, pozwala na laserunki i impasty. Od XV w. (Jan van Eyck) technika dominująca."
+     ],
+     [
+      "akryl",
+      "Pigment w żywicy syntetycznej, na różnych podłożach.",
+      "Technika XX-wieczna; szybko schnie, bardzo trwała, daje intensywne barwy."
+     ],
+     [
+      "fresk",
+      "Malowanie na świeżym, wilgotnym tynku (wł. fresco = świeży).",
+      "Malarstwo monumentalne, ścienne. Barwa wiąże się z tynkiem, więc jest bardzo trwała, ale nie da się poprawiać — trzeba malować partiami w ciągu dnia. Michał Anioł, sklepienie Kaplicy Sykstyńskiej."
+     ]
+    ]
+   },
+   {
+    "type": "box",
+    "title": "WARTO DOPOWIEDZIEĆ",
+    "text": "Al secco to malowanie na tynku suchym — łatwiejsze, ale mniej trwałe. Leonardo malował Ostatnią Wieczerzę techniką eksperymentalną, właśnie na suchym tynku, i dlatego dzieło zaczęło się niszczyć jeszcze za jego życia. To bardzo dobra odpowiedź na pytanie dodatkowe."
+   },
+   {
+    "type": "h3",
+    "text": "Rysunkowe"
+   },
+   {
+    "type": "p",
+    "text": "**Ołówek** — precyzyjny, pozwala na delikatne przejścia walorowe i drobiazgowy modelunek. **Węgiel** — miękki, sypki, daje szeroką, głęboką czerń i wyraziste kontrasty; łatwo go rozcierać, więc nadaje się do szybkich studiów. **Pastel** — sprasowane pigmenty w formie sztyftu; łączy rysunek z malarstwem, daje aksamitną, matową powierzchnię o czystych barwach (Edgar Degas, tancerki)."
+   },
+   {
+    "type": "h3",
+    "text": "Graficzne — podział najważniejszy na egzaminie"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Rodzaj druku",
+     "Techniki",
+     "Zasada"
+    ],
+    "rows": [
+     [
+      "wypukły",
+      "drzeworyt, linoryt",
+      "Odbija się to, co zostało na powierzchni; tło zostaje wycięte. Farba pokrywa wypukłości. Efekt: mocne, płaskie plamy, wyrazisty kontur."
+     ],
+     [
+      "wklęsły",
+      "miedzioryt, staloryt, sucha igła, akwaforta, akwatinta",
+      "Odbija się to, co wyryte w płycie; farba wchodzi w rowki, a powierzchnię się wyciera. Efekt: cienka, precyzyjna, aksamitna kreska."
+     ],
+     [
+      "płaski",
+      "litografia, cynkografia, serigrafia (sitodruk)",
+      "Matryca jest gładka; rysunek i tło różnią się nie poziomem, lecz podatnością na farbę (tłuszcz odpycha wodę). Efekt: swoboda zbliżona do rysunku."
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "**Rozróżnienie w obrębie technik wklęsłych:** w miedziorycie rysunek żłobi się w płycie rylcem — mechanicznie; w akwaforcie płytę pokrywa się warstwą ochronną, przez którą rysuje się igłą, a rowki wygryza kwas — chemicznie. Stąd nazwa: aqua forte to „mocna woda\", czyli kwas azotowy. Mistrzem akwaforty był Rembrandt.",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Grafika warsztatowa (artystyczna)** — artysta sam projektuje i odbija, każda odbitka jest oryginałem, odbitki się numeruje i sygnuje. **Grafika użytkowa (stosowana)** — projekt przeznaczony do druku masowego: plakat, ilustracja, znak graficzny, opakowanie.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Rzeźbiarskie"
+   },
+   {
+    "type": "li",
+    "text": "**Kucie w kamieniu** (marmur, piaskowiec) — technika ujmowania materiału: rzeźbiarz odejmuje to, co zbędne, i nie ma prawa do pomyłki. Michał Anioł mówił, że w bloku marmuru tkwi już gotowa rzeźba."
+   },
+   {
+    "type": "li",
+    "text": "**Rzeźba w drewnie** — również technika ujmowania; materiał ciepły, ale podatny na zniszczenie. Ołtarz Wita Stwosza w kościele Mariackim, lipa."
+   },
+   {
+    "type": "li",
+    "text": "**Modelowanie w glinie** — technika dodawania materiału; pozwala poprawiać. Gotową formę się wypala albo służy ona jako model do odlewu."
+   },
+   {
+    "type": "li",
+    "text": "**Odlew** (najczęściej w brązie) — z modelu robi się formę, w którą wlewa się metal. Pozwala uzyskać wiele egzemplarzy tego samego dzieła; dlatego Myśliciel Rodina istnieje w kilkudziesięciu odlewach w różnych muzeach."
+   },
+   {
+    "type": "h3",
+    "text": "Mieszane"
+   },
+   {
+    "type": "p",
+    "text": "**Kolaż** (fr. collage — klejenie) — naklejanie na podłoże elementów z innych materiałów: gazet, tkanin, fotografii. Wprowadzony do sztuki przez kubistów, Picassa i Braque'a. **Asamblaż** — to samo, ale w trzech wymiarach: kompozycja z gotowych przedmiotów. Gdy taka wieloelementowa kompozycja powstaje dla konkretnego wnętrza lub przestrzeni, mówimy o **instalacji**."
+   },
+   {
+    "type": "h2",
+    "text": "6. Schemat analizy dzieła sztuki"
+   },
+   {
+    "type": "box",
+    "title": "DO NAUCZENIA NA PAMIĘĆ",
+    "text": "Ten schemat jest kołem ratunkowym. Jeśli egzaminator pokaże reprodukcję dzieła, którego kandydatka nie zna — a to bardzo prawdopodobne — wystarczy iść punkt po punkcie, żeby mówić sensownie przez trzy minuty. Nie trzeba wiedzieć, co to za obraz. Trzeba umieć opisać, co się widzi."
+   },
+   {
+    "type": "h3",
+    "text": "Krok 1 — Co to jest (identyfikacja)"
+   },
+   {
+    "type": "p",
+    "text": "Dziedzina sztuki (malarstwo, rzeźba, grafika, architektura). Technika, na ile da się rozpoznać. Format i kształt pola obrazowego. Jeśli dzieło jest znane — autor, tytuł, przybliżona data.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 2 — Co przedstawia (treść)"
+   },
+   {
+    "type": "p",
+    "text": "Gatunek: portret, pejzaż, martwa natura, scena rodzajowa, historyczna, religijna, mitologiczna, batalistyczna, akt, alegoria. Co konkretnie widać — od rzeczy najważniejszych do szczegółów. Czy występują symbole i atrybuty.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 3 — Jak jest zbudowane (kompozycja)"
+   },
+   {
+    "type": "p",
+    "text": "Zamknięta czy otwarta. Symetryczna czy asymetryczna. Statyczna czy dynamiczna. Jakie kierunki przeważają: pionowe, poziome, skośne. Gdzie jest dominanta kompozycyjna i czy pokrywa się ze środkiem obrazu. Ile jest planów.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 4 — Przestrzeń i światło"
+   },
+   {
+    "type": "p",
+    "text": "Jaki rodzaj perspektywy. Gdzie biegnie linia horyzontu — nisko, wysoko, w połowie. Skąd pada światło, czy jest naturalne czy sztuczne, rozproszone czy skupione. Czy występuje modelunek światłocieniowy.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 5 — Barwa"
+   },
+   {
+    "type": "p",
+    "text": "Gama szeroka czy wąska, ciepła czy chłodna. Koloryt i dominanta barwna. Jakie kontrasty barwne. Czy są akcenty barwne i gdzie.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 6 — Faktura"
+   },
+   {
+    "type": "p",
+    "text": "Gładka czy impastowa. Czy widać dukt pędzla albo ślady narzędzia.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 7 — Funkcja i kontekst"
+   },
+   {
+    "type": "p",
+    "text": "Do czego dzieło służyło: kultowa, dekoracyjna, memoratywna, propagandowa, estetyczna. Dla kogo powstało.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 8 — Styl i czas powstania"
+   },
+   {
+    "type": "p",
+    "text": "Na podstawie wszystkiego powyżej spróbuj określić epokę. Uzasadnij: „sądzę, że to barok, ponieważ kompozycja jest diagonalna i dynamiczna, światło ma charakter luministyczny, a temat jest religijny i ujęty w kulminacyjnym momencie\".",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Krok 9 — Własna opinia"
+   },
+   {
+    "type": "p",
+    "text": "Jedno lub dwa zdania: co robi na mnie największe wrażenie i dlaczego. Zawsze z uzasadnieniem odwołującym się do formy, nie do samego „podoba mi się\".",
+    "small": true
+   },
+   {
+    "type": "box",
+    "title": "ZDANIA-RUSZTOWANIA DO WYĆWICZENIA",
+    "text": "płótnie…\" głównej postaci.\" draperii, który przyciąga wzrok do centrum.\"",
+    "items": [
+     "„Mamy do czynienia z dziełem malarskim, prawdopodobnie wykonanym techniką olejną na",
+     "„Kompozycja jest zamknięta i symetryczna, wpisana w trójkąt, co daje wrażenie ładu i spokoju.\"",
+     "„Artysta zastosował perspektywę linearną — linie posadzki zbiegają się w punkcie za głową",
+     "„Dominanta barwna jest chłodna, ale malarz wprowadził ciepły akcent w postaci czerwonej",
+     "„Zestawienie tych cech pozwala mi przypuszczać, że dzieło powstało w epoce…, ponieważ…\"",
+     "„Nie jestem pewna autorstwa, ale sposób budowania światła wskazuje na krąg…\""
+    ]
+   },
+   {
+    "type": "box",
+    "title": "NIE BÓJ SIĘ PRZYZNAĆ DO NIEWIEDZY",
+    "text": "Zdanie „nie znam tego dzieła, ale spróbuję je opisać i określić epokę na podstawie cech formalnych\" jest odpowiedzią **bardzo dobrą**. Znacznie lepszą niż zmyślony tytuł. Egzaminatorzy w szkołach plastycznych sprawdzają myślenie, nie pamięć."
+   }
+  ]
+ },
+ {
+  "code": "II",
+  "title": "Dziedziny sztuki",
+  "blocks": [
+   {
+    "type": "h2",
+    "text": "1. Malarstwo"
+   },
+   {
+    "type": "p",
+    "text": "Dziedzina dwuwymiarowa, posługująca się przede wszystkim **linią i plamą barwną**. Dzieło malarskie jest z założenia oryginałem istniejącym w jednym egzemplarzu — i to odróżnia je od grafiki."
+   },
+   {
+    "type": "h3",
+    "text": "Podział ze względu na funkcję i sposób wykonania"
+   },
+   {
+    "type": "li",
+    "text": "**monumentalne** — związane na stałe z architekturą: fresk, al secco, mozaika, graffiti;"
+   },
+   {
+    "type": "li",
+    "text": "**sztalugowe** — na przenośnym podłożu, malowane na sztalugach; obraz można przenieść i sprzedać;"
+   },
+   {
+    "type": "li",
+    "text": "**tablicowe** — malowane na deskach, często części ołtarzy;"
+   },
+   {
+    "type": "li",
+    "text": "**miniaturowe** — drobne przedstawienia zdobiące księgi rękopiśmienne;"
+   },
+   {
+    "type": "li",
+    "text": "**witrażowe** — barwne kompozycje ze szkła oprawionego w ołów, tworzone dla okien."
+   },
+   {
+    "type": "h3",
+    "text": "Gatunki malarskie"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Gatunek",
+     "Charakterystyka",
+     "Przykład"
+    ],
+    "rows": [
+     [
+      "portret",
+      "Przedstawienie konkretnej osoby. Ujęcia: popiersie, półpostać, do kolan, całopostaciowe (en pied); głowa przodem (en face), z profilu, trzy czwarte (en trois quarts). Portret reprezentacyjny pokazuje, kim ktoś jest — pozycja, strój, atrybuty; portret psychologiczny pokazuje, jakim jest człowiekiem. Odmiany: indywidualny, zbiorowy, autoportret.",
+      "Leonardo, Mona Lisa; Rembrandt, autoportrety; Boznańska, Dziewczynka z chryzantemami"
+     ],
+     [
+      "pejzaż",
+      "Widok natury. Topograficzny — konkretne miejsce; fantastyczny — miejsce nieistniejące; weduta — pejzaż miejski; marina — morski; ze sztafażem — z drobnymi postaciami; nokturn — nocny. Jako gatunek samodzielny pojawił się w renesansie w Niemczech, rozwinął w baroku (Holandia).",
+      "Canaletto, widoki Warszawy; Chełmoński, Babie lato"
+     ],
+     [
+      "martwa natura",
+      "Świadomie zestawione przedmioty nieożywione: naczynia, owoce, kwiaty, książki. Jako temat samodzielny — XVI w. we Włoszech, XVII w. w Holandii. Często niesie ukryte znaczenie (np. vanitas — przypomnienie o przemijaniu).",
+      "Cézanne, martwe natury z jabłkami"
+     ],
+     [
+      "scena rodzajowa",
+      "Obraz życia codziennego różnych grup społecznych. W rokoku odmiany dworskie: fêtes galantes i fêtes champêtres.",
+      "Vermeer, Mleczarka; Chardin, Modlitwa przed posiłkiem"
+     ],
+     [
+      "scena historyczna",
+      "Wydarzenie z dziejów. Odmianą jest scena batalistyczna — bitwa. W akademizmie uważana za gatunek najwyższy.",
+      "Matejko, Bitwa pod Grunwaldem; Delacroix, Wolność wiodąca lud"
+     ],
+     [
+      "scena religijna",
+      "Tematy ze Starego i Nowego Testamentu, z apokryfów i żywotów świętych.",
+      "Caravaggio, Powołanie św. Mateusza"
+     ],
+     [
+      "scena mitologiczna",
+      "Tematy z mitologii greckiej i rzymskiej.",
+      "Botticelli, Narodziny Wenus"
+     ],
+     [
+      "akt",
+      "Przedstawienie nagiej postaci ludzkiej. Gatunek obecny od paleolitu.",
+      "Manet, Olimpia"
+     ],
+     [
+      "alegoria",
+      "Pojęcie abstrakcyjne przedstawione pod postacią ludzką, zwierzęcą lub grupy figur; odczytuje się je przez atrybuty. Alegoria ma sens umowny i jednoznaczny — tym różni się od symbolu, którego znaczenie zależy od kontekstu.",
+      "Vermeer, Alegoria malarstwa"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Dzieła, których treść jest oderwana od rzeczywistości, zaliczamy do **sztuki abstrakcyjnej** (niefiguratywnej, nieprzedstawiającej) — w odróżnieniu od **sztuki przedstawiającej** (figuratywnej).",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "2. Rzeźba"
+   },
+   {
+    "type": "p",
+    "text": "Dzieło **trójwymiarowe**, oglądane w przestrzeni i zmieniające się wraz z ruchem widza."
+   },
+   {
+    "type": "li",
+    "text": "**rzeźba pełna** (pełnoplastyczna) — do oglądania ze wszystkich stron;"
+   },
+   {
+    "type": "li",
+    "text": "**relief** — skomponowana razem z tłem, oglądana od frontu: płaskorzeźba (kompozycja nieznacznie wystaje przed tło), wypukłorzeźba (wystaje wydatnie), wklęsłorzeźba (kompozycja zagłębiona w tle), stiacciato (relief bardzo płaski, niemal rysunkowy);"
+   },
+   {
+    "type": "li",
+    "text": "**rzeźba przyścienna** — niezależna od tła, ale z płasko potraktowaną częścią tylną."
+   },
+   {
+    "type": "p",
+    "text": "**Funkcje rzeźby:** dekoracyjna, portretowa, architektoniczna, kultowa, memoratywna (upamiętniająca — pomniki), sepulkralna (nagrobna). Materiały: kamień, drewno, metal, gips, glina. **Rzeźba polichromowana** to rzeźba pomalowana farbami. **Kontrapost** — układ ciała, w którym ciężar spoczywa na jednej nodze, przez co biodra i ramiona układają się przeciwstawnie; wynalazek greckiej sztuki klasycznej."
+   },
+   {
+    "type": "h2",
+    "text": "3. Architektura"
+   },
+   {
+    "type": "p",
+    "text": "Dziedzina kształtowania budowli. Budynek staje się **dziełem architektonicznym** wtedy, gdy ma wartość artystyczną. Rzymski architekt Witruwiusz sformułował trzy wymagania, które budowla powinna spełniać: firmitas (trwałość), utilitas (użyteczność), venustas (piękno)."
+   },
+   {
+    "type": "table",
+    "header": [
+     "Podział",
+     "Rodzaje"
+    ],
+    "rows": [
+     [
+      "ze względu na typ osiedla",
+      "wiejska, miejska"
+     ],
+     [
+      "ze względu na funkcję",
+      "kultowa (w chrześcijaństwie: sakralna — kościoły, kaplice, baptysteria, cerkwie, a także synagogi i meczety), sepulkralna (mauzolea, piramidy, mastaby), obronna (mury, zamki, barbakany), mieszkalna (domy, kamienice, pałace, wille, dwory), użyteczności publicznej (muzea, biblioteki, teatry, cyrki, banki, siedziby urzędów), inżynieryjna (mosty, akwedukty, wiadukty, drogi), ogrodowa (altany, pawilony)"
+     ],
+     [
+      "ze względu na materiał",
+      "skalna, murowana (kamienna, ceglana), drewniana, betonowa i żelbetowa"
+     ]
+    ]
+   },
+   {
+    "type": "h2",
+    "text": "4. Grafika warsztatowa i użytkowa"
+   },
+   {
+    "type": "p",
+    "text": "Dzieło graficzne powstaje przez **odbicie z matrycy**. Każda odbitka jest oryginałem — i to najważniejsza różnica między grafiką a malarstwem. Odbitki się numeruje (np. 12/50) i sygnuje ołówkiem; najwyższą wartość mają odbitki pierwsze."
+   },
+   {
+    "type": "p",
+    "text": "**Grafika warsztatowa (artystyczna)** — cel czysto artystyczny, wykonanie w pracowni artysty. **Grafika użytkowa (stosowana, reprodukcyjna)** — projekt przeznaczony do powielania mechanicznego, służący komunikacji: plakat, ilustracja książkowa, logo, opakowanie, typografia."
+   },
+   {
+    "type": "h2",
+    "text": "5. Rzemiosło artystyczne"
+   },
+   {
+    "type": "p",
+    "text": "Wytwory łączące funkcję użytkową z artystyczną, wykonywane ręcznie: **złotnictwo, jubilerstwo, kowalstwo artystyczne, ludwisarstwo, hafciarstwo, tkactwo, koronkarstwo, rzeźba w kości słoniowej i w kamieniach szlachetnych, ceramika, szkło artystyczne, meblarstwo**. Od średniowiecza rzemieślnicy zrzeszali się w **cechach**; od XVIII w. rękodzieło zaczęło ustępować **manufakturom**, a w XIX w. — produkcji przemysłowej."
+   },
+   {
+    "type": "h2",
+    "text": "6. Design (wzornictwo przemysłowe)"
+   },
+   {
+    "type": "p",
+    "text": "Projektowanie przedmiotów przeznaczonych do produkcji masowej, łączące **funkcjonalność, ergonomię, estetykę i technologię**. Powstał jako odpowiedź na problem: wyroby przemysłowe pierwszej połowy XX wieku były tanie i dostępne, ale brzydkie. Kluczową rolę odegrał **Bauhaus** — niemiecka szkoła założona w 1919 r. przez Waltera Gropiusa, która połączyła kształcenie artystyczne z rzemiosłem i przemysłem. Zasada „forma podąża za funkcją\" pochodzi z tego kręgu myślenia."
+   },
+   {
+    "type": "p",
+    "text": "Dobrą odpowiedzią jest podanie przykładu z własnego otoczenia: krzesło, telefon, sztućce, rower. Design różni się od rzemiosła artystycznego tym, że projektant tworzy wzór do powielenia, a rzemieślnik — pojedynczy przedmiot.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "7. Plakat"
+   },
+   {
+    "type": "p",
+    "text": "Dzieło grafiki użytkowej przeznaczone do oglądania w przestrzeni publicznej, zwykle z odległości i przez chwilę. Stąd jego cechy: **skrót, syntetyzm formy, mocny kontrast barwny, czytelna typografia, jeden nośny pomysł**. Plakat łączy obraz ze słowem."
+   },
+   {
+    "type": "p",
+    "text": "Za twórcę nowoczesnego plakatu artystycznego uważa się **Henriego de Toulouse-Lautreca** (litografia barwna, lata 90. XIX w.). Rodzaje: reklamowy, kulturalny (teatralny, filmowy, wystawowy), polityczny, społeczny."
+   },
+   {
+    "type": "box",
+    "title": "POLSKA SZKOŁA PLAKATU",
+    "text": "Zjawisko o światowej renomie, rozwijające się od lat 50. XX wieku. Jej cechy to metaforyczność, malarski charakter, humor i skrót myślowy zamiast dosłownej ilustracji. Twórcy: **Henryk Tomaszewski, Jan Lenica, Waldemar Świerzy, Franciszek Starowieyski, Roman Cieślewicz**. W Warszawie działa **Muzeum Plakatu w Wilanowie** — pierwsze takie muzeum na świecie. To bardzo mocny, „warszawski\" argument w odpowiedzi."
+   },
+   {
+    "type": "h2",
+    "text": "8. Fotografia"
+   },
+   {
+    "type": "p",
+    "text": "Dziedzina sztuk wizualnych powstała w XIX wieku (dagerotyp, 1839). Początkowo odmawiano jej statusu sztuki, bo obraz powstaje mechanicznie; dziś jest pełnoprawną dziedziną. Wpłynęła głęboko na malarstwo — uwolniła je od obowiązku wiernego odwzorowania rzeczywistości, co przyspieszyło narodziny impresjonizmu i sztuki nowoczesnej. Rodzaje: portretowa, reportażowa i dokumentalna, krajobrazowa, artystyczna (inscenizowana), reklamowa."
+   },
+   {
+    "type": "h2",
+    "text": "9. Film"
+   },
+   {
+    "type": "p",
+    "text": "Sztuka ruchomego obrazu, powstała na przełomie XIX i XX wieku (bracia Lumière, 1895). Bywa nazywana „dziesiątą muzą\". Łączy obraz, dźwięk, słowo, ruch i czas. Jej środki wyrazu to **kadr, plan filmowy, ruch kamery, montaż, oświetlenie, scenografia, dźwięk**. Film jest sztuką zespołową i zarazem przemysłem."
+   },
+   {
+    "type": "h2",
+    "text": "10. Sztuka ludowa"
+   },
+   {
+    "type": "p",
+    "text": "Twórczość ludzi niekształconych zawodowo, wyrastająca z tradycji lokalnej i przekazywana z pokolenia na pokolenie. Cechy: **anonimowość, powtarzalność wzorów, silny związek z obrzędem i użytkowością, dekoracyjność, żywa barwa, uproszczenie form**. W Polsce: wycinanki łowickie, pisanki, rzeźba ludowa (świątki), malarstwo na szkle, stroje regionalne, kapele. Sztuka ludowa była ważnym źródłem inspiracji dla Młodej Polski — na niej opiera się **styl zakopiański** Stanisława Witkiewicza."
+   },
+   {
+    "type": "h2",
+    "text": "11. Sztuka ulicy (street art)"
+   },
+   {
+    "type": "p",
+    "text": "Sztuka tworzona w przestrzeni miejskiej, poza obiegiem galeryjnym, często bez zgody właściciela — stąd jej dwuznaczny status prawny. Formy: **graffiti, mural, szablon (stencil), wlepka, instalacja uliczna**. Cechy: adresowana do przypadkowego przechodnia, zwykle zaangażowana społecznie lub politycznie, z założenia nietrwała. Najbardziej znany twórca: **Banksy**. W Polsce street art ma silną tradycję — sięga Pomarańczowej Alternatywy z lat 80."
+   },
+   {
+    "type": "h2",
+    "text": "12. Happening i performance"
+   },
+   {
+    "type": "p",
+    "text": "**Happening** — zdarzenie artystyczne zaplanowane tylko w zarysie, w którym publiczność bierze udział i współtworzy przebieg; wynik jest częściowo nieprzewidywalny. Termin ukuł Allan Kaprow (1959). W Polsce happeningi tworzył **Tadeusz Kantor**."
+   },
+   {
+    "type": "p",
+    "text": "**Performance** — działanie samego artysty, w którym **jego ciało i obecność są tworzywem dzieła**; publiczność zwykle obserwuje. Najbardziej znana przedstawicielka: Marina Abramović."
+   },
+   {
+    "type": "p",
+    "text": "Wspólna cecha obu: dziełem nie jest przedmiot, lecz **zdarzenie rozgrywające się w czasie**. Zostaje po nim tylko dokumentacja — fotografia lub film. To odróżnia je od tradycyjnych dziedzin sztuki.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "13. Sztuka nowych mediów"
+   },
+   {
+    "type": "p",
+    "text": "Sztuka posługująca się technologiami cyfrowymi jako tworzywem: **wideo-art, sztuka interaktywna, sztuka generatywna, net art, rzeczywistość wirtualna i rozszerzona, projekcje i mappingi, sztuka tworzona z użyciem sztucznej inteligencji**. Cechy charakterystyczne: **interaktywność** (odbiorca wpływa na dzieło), **immaterialność** (dzieło nie ma jednego fizycznego egzemplarza), **procesualność** (dzieje się w czasie). Stawia na nowo pytanie o oryginał — plik można skopiować bez straty jakości."
+   }
+  ]
+ },
+ {
+  "code": "III",
+  "title": "Chronologia dziejów sztuki",
+  "blocks": [
+   {
+    "type": "h2",
+    "text": "Oś czasu — do zapamiętania jako całość"
+   },
+   {
+    "type": "timeline"
+   },
+   {
+    "type": "h2",
+    "text": "1. Sztuka starożytnego Egiptu"
+   },
+   {
+    "type": "p",
+    "text": "ok. 3100 – 30 p.n.e. · Egipt nad Nilem",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nią rządzi:** wiara w życie pozagrobowe. Sztuka nie miała cieszyć oka żyjących, lecz zapewnić trwanie zmarłemu. Stąd jej niezwykła **trwałość kanonu** — te same zasady obowiązywały przez trzy tysiące lat."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy charakterystyczne"
+   },
+   {
+    "type": "li",
+    "text": "**Kanon przedstawiania postaci** — głowa z profilu, oko i tors na wprost, biodra i nogi z profilu. Nie jest to nieudolność, lecz zasada: każdą część ciała pokazywano od strony najbardziej dla niej charakterystycznej."
+   },
+   {
+    "type": "li",
+    "text": "**Hierarchia wielkości** — im ważniejsza postać, tym większa. Faraon góruje nad żoną, żona nad służbą."
+   },
+   {
+    "type": "li",
+    "text": "**Frontalizm i statyczność** w rzeźbie: postać siedząca lub krocząca, ręce przy ciele, spojrzenie wprost, blok kamienia nienaruszony."
+   },
+   {
+    "type": "li",
+    "text": "**Płaskość i brak perspektywy** w malarstwie; barwy lokalne, kontur, sceny układane pasami (rejestrami)."
+   },
+   {
+    "type": "li",
+    "text": "**Pismo hieroglificzne** jako integralna część kompozycji."
+   },
+   {
+    "type": "h3",
+    "text": "Architektura"
+   },
+   {
+    "type": "p",
+    "text": "**Grobowa:** mastaba (najstarsza forma, ścięty ostrosłup), piramida schodkowa Dżesera w Sakkarze (arch. Imhotep), piramidy w Gizie (Cheopsa, Chefrena, Mykerinosa), grobowce skalne w Dolinie Królów. **Świątynna:** świątynie w Karnaku i Luksorze — z pylonami, alejami sfinksów, dziedzińcami i **salami hipostylowymi**, czyli wielkimi wnętrzami wypełnionymi gęstym lasem kolumn. Świątynia Hatszepsut w Deir el-Bahari — tarasowa, wkomponowana w skałę."
+   },
+   {
+    "type": "p",
+    "text": "**Kolumna egipska** ma głowicę wzorowaną na roślinach: lotosową, papirusową lub palmową."
+   },
+   {
+    "type": "h3",
+    "text": "Dzieła kluczowe"
+   },
+   {
+    "type": "p",
+    "text": "Piramidy w Gizie · Wielki Sfinks · Popiersie Nefertiti (Neues Museum, Berlin) · Złota maska Tutanchamona · Pisarz siedzący (Luwr) · Malowidła z grobowców w Dolinie Królów",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "2. Sztuka starożytnej Grecji"
+   },
+   {
+    "type": "p",
+    "text": "ok. VIII – I w. p.n.e. · okresy: archaiczny, klasyczny (V–IV w. p.n.e.), hellenistyczny",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nią rządzi:** przekonanie, że piękno jest wymierne i wynika z **harmonii, proporcji i umiaru**. Miarą wszystkiego jest człowiek — dlatego bogów przedstawiano na ludzkie podobieństwo, a idealne proporcje ciała opisano matematycznie (**kanon Polikleta**)."
+   },
+   {
+    "type": "h3",
+    "text": "Architektura — porządki"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Porządek",
+     "Kolumna",
+     "Głowica",
+     "Wrażenie"
+    ],
+    "rows": [
+     [
+      "dorycki",
+      "krępa, bez bazy, żłobkowana",
+      "prosta: kwadratowa płyta na okrągłej poduszce",
+      "surowość, siła, „męskość\""
+     ],
+     [
+      "joński",
+      "smuklejsza, na bazie",
+      "ślimacznice (woluty)",
+      "lekkość, wdzięk"
+     ],
+     [
+      "koryncki",
+      "najsmuklejsza",
+      "kosz liści akantu",
+      "bogactwo, dekoracyjność"
+     ]
+    ]
+   },
+   {
+    "type": "p",
+    "text": "**Świątynia grecka** stoi na stopniowanej podstawie (krepidoma), otoczona kolumnadą; nad kolumnami belkowanie, na węższych bokach trójkątny **tympanon** wypełniony rzeźbą. **Partenon** na Akropolu ateńskim (arch. Iktinos i Kallikrates, rzeźby Fidiasza, 447–432 p.n.e.) to najdoskonalszy przykład porządku doryckiego — z celowymi korektami optycznymi (entaza, czyli lekkie wybrzuszenie trzonu kolumn)."
+   },
+   {
+    "type": "h3",
+    "text": "Rzeźba"
+   },
+   {
+    "type": "p",
+    "text": "**Okres archaiczny:** kurosi i kory — postacie sztywne, frontalne, z zagadkowym „archaicznym uśmiechem\". **Okres klasyczny:** odkrycie **kontrapostu**, idealizacja, spokój (Doryforos Polikleta, Dyskobol Myrona, rzeźby Fidiasza). **Hellenizm:** ruch, ekspresja, emocja, dramat, skomplikowane skręty ciała (Nike z Samotraki, Grupa Laokoona, Wenus z Milo)."
+   },
+   {
+    "type": "h3",
+    "text": "Ceramika"
+   },
+   {
+    "type": "p",
+    "text": "Malarstwo wazowe: styl **czarnofigurowy** (czarne sylwetki na tle glinianym) i późniejszy **czerwonofigurowy** (postacie w kolorze gliny na czarnym tle — pozwala na rysunek wewnętrzny, więc na lepszy modelunek)."
+   },
+   {
+    "type": "h2",
+    "text": "3. Sztuka starożytnego Rzymu"
+   },
+   {
+    "type": "p",
+    "text": "ok. 753 p.n.e. – 476 n.e.",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nią rządzi:** praktyczność i potęga państwa. Rzymianie przejęli grecki język form, ale użyli go do celów użytkowych i propagandowych. Ich własnym wkładem jest **inżynieria**: łuk, sklepienie, kopuła i beton."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy i osiągnięcia"
+   },
+   {
+    "type": "li",
+    "text": "**Łuk i sklepienie kolebkowe** — pozwoliły przekrywać ogromne przestrzenie; **beton rzymski** (opus caementicium) uczynił to tanim."
+   },
+   {
+    "type": "li",
+    "text": "**Kopuła** — Panteon (ok. 125 n.e.) ma kopułę o średnicy 43 m z otworem (okulus) w szczycie; do dziś największa kopuła betonowa bez zbrojenia."
+   },
+   {
+    "type": "li",
+    "text": "**Porządek toskański i kompozytowy** — rzymskie uzupełnienia greckich porządków."
+   },
+   {
+    "type": "li",
+    "text": "**Portret rzymski** — weryzm, czyli wierność aż do zmarszczek i defektów; przeciwieństwo greckiej idealizacji. Wywodzi się z kultu przodków."
+   },
+   {
+    "type": "li",
+    "text": "**Relief historyczny** — narracja o czynach władcy: Kolumna Trajana, Ara Pacis."
+   },
+   {
+    "type": "li",
+    "text": "**Nowe typy budowli:** amfiteatr (Koloseum), termy, bazylika (budowla sądowo-handlowa, potem wzór dla kościołów), łuk triumfalny, akwedukt, forum, insula."
+   },
+   {
+    "type": "li",
+    "text": "**Malarstwo ścienne** zachowane w Pompejach i Herkulanum — z iluzjonistyczną architekturą i pejzażem."
+   },
+   {
+    "type": "h2",
+    "text": "4. Sztuka wczesnochrześcijańska i bizantyjska"
+   },
+   {
+    "type": "p",
+    "text": "wczesnochrześcijańska: ok. 313 – VI w. · bizantyjska: VI – XV w.",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "Po edykcie mediolańskim (313 r.) chrześcijaństwo wyszło z katakumb. Sztuka porzuciła wierność naturze na rzecz **znaku**: ważne było, żeby przedstawienie dało się odczytać, nie żeby było podobne. Stąd bogaty **język symboli**: ryba, baranek, winna latorośl, chryzmon, gołębica."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy sztuki bizantyjskiej"
+   },
+   {
+    "type": "li",
+    "text": "**Hieratyczność** — postacie sztywne, frontalne, dostojne, pozbawione ruchu i indywidualnych rysów;"
+   },
+   {
+    "type": "li",
+    "text": "**złote tło** — nie przestrzeń, lecz znak wieczności i światła Bożego;"
+   },
+   {
+    "type": "li",
+    "text": "**rezygnacja z perspektywy linearnej**, stosowanie **perspektywy odwróconej**;"
+   },
+   {
+    "type": "li",
+    "text": "**mozaika** jako główna technika dekoracji ścian (kostki szklane, kamienne, złocone);"
+   },
+   {
+    "type": "li",
+    "text": "**ikona** — obraz kultowy pisany według ścisłego kanonu, na desce, temperą;"
+   },
+   {
+    "type": "li",
+    "text": "w architekturze: **plan centralny**, kopuła na **pendentywach** (trójkątnych żaglach przechodzących z planu kwadratu w koło)."
+   },
+   {
+    "type": "h3",
+    "text": "Dzieła kluczowe"
+   },
+   {
+    "type": "p",
+    "text": "Hagia Sophia w Konstantynopolu (532–537, arch. Antemiusz z Tralles i Izydor z Miletu) · San Vitale w Rawennie z mozaikami Justyniana i Teodory · San Apollinare Nuovo · Ikona Matki Boskiej Włodzimierskiej",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "5. Romanizm"
+   },
+   {
+    "type": "p",
+    "text": "ok. XI – XII w. · w Polsce od poł. XI do poł. XIII w.",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** ciężar. Kościół romański jest budowlą masywną, obronną, wpisaną w niespokojne czasy. Nazwa pochodzi stąd, że budowniczowie sięgnęli po rzymskie rozwiązania: łuk półkolisty i sklepienie kolebkowe."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy architektury"
+   },
+   {
+    "type": "li",
+    "text": "**grube mury** z ciosów kamiennych, niewielkie okna, wnętrze mroczne;"
+   },
+   {
+    "type": "li",
+    "text": "**łuk półkolisty** — w oknach, portalach, arkadach;"
+   },
+   {
+    "type": "li",
+    "text": "**sklepienie kolebkowe** (jak przecięta wzdłuż beczka) i **krzyżowe** (przecięcie dwóch kolebek);"
+   },
+   {
+    "type": "li",
+    "text": "**plan bazylikowy**, na rzucie krzyża łacińskiego, z transeptem i absydą;"
+   },
+   {
+    "type": "li",
+    "text": "**system wiązany** — na jedno przęsło nawy głównej przypadają dwa przęsła naw bocznych;"
+   },
+   {
+    "type": "li",
+    "text": "bryła **zwarta, przysadzista**, z wieżami; kościoły często pełniły funkcję obronną;"
+   },
+   {
+    "type": "li",
+    "text": "**portal uskokowy** z **tympanonem** wypełnionym rzeźbą (najczęściej Chrystus w majestacie lub Sąd Ostateczny)."
+   },
+   {
+    "type": "h3",
+    "text": "Rzeźba i malarstwo"
+   },
+   {
+    "type": "p",
+    "text": "Rzeźba jest **podporządkowana architekturze** — mieści się w tympanonach, na głowicach kolumn, w archiwoltach. Cechuje ją deformacja proporcji dla celów wyrazowych i hierarchii, płaskość, schematyzm. Malarstwo: freski i miniatury w rękopisach, o czytelnym konturze i płaskiej plamie."
+   },
+   {
+    "type": "h3",
+    "text": "Przykłady"
+   },
+   {
+    "type": "p",
+    "text": "**Świat:** opactwo w Cluny · katedra w Pizie z krzywą wieżą · kościół Sainte-Marie-Madeleine w Vézelay · katedra w Wormacji. **Polska:** kolegiata w Tumie pod Łęczycą · kościół św. Andrzeja w Krakowie · rotunda św. Mikołaja w Cieszynie · krypta św. Leonarda na Wawelu · **Drzwi Gnieźnieńskie** (brąz, ok. 1175, sceny z życia św. Wojciecha) · kolumna z Kruszwicy · tympanon z Ołbina.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "6. Gotyk"
+   },
+   {
+    "type": "p",
+    "text": "ok. poł. XII – XV w. (narodziny we Francji, opactwo Saint-Denis) · w Polsce XIII – pocz. XVI w.",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** światło rozumiane jako obecność Boga. Cały wysiłek konstrukcyjny gotyku służy jednemu: żeby ściana mogła zniknąć i ustąpić miejsca witrażom."
+   },
+   {
+    "type": "h3",
+    "text": "Trzy wynalazki, które to umożliwiły"
+   },
+   {
+    "type": "li",
+    "text": "**łuk ostry** — rozkłada nacisk bardziej pionowo niż półkolisty, więc mury mogą być cieńsze;"
+   },
+   {
+    "type": "li",
+    "text": "**sklepienie krzyżowo-żebrowe** — ciężar spływa po żebrach do punktów podparcia, a nie na całą ścianę;"
+   },
+   {
+    "type": "li",
+    "text": "**system przyporowy** — łuki oporowe (przyporowe) przenoszą rozpór sklepienia na zewnętrzne przypory (skarpy). Konstrukcja wyszła na zewnątrz budynku."
+   },
+   {
+    "type": "h3",
+    "text": "Pozostałe cechy"
+   },
+   {
+    "type": "li",
+    "text": "**strzelistość, dominacja pionu**, wieże i sterczyny (fiale), zwieńczenia kwiatonów;"
+   },
+   {
+    "type": "li",
+    "text": "**rozeta** — wielkie okrągłe okno w fasadzie, wypełnione maswerkiem;"
+   },
+   {
+    "type": "li",
+    "text": "**witraże** zamiast malowideł ściennych; wnętrze pełne barwnego światła;"
+   },
+   {
+    "type": "li",
+    "text": "**portal rozglifiony** z rzeźbami w ościeżach;"
+   },
+   {
+    "type": "li",
+    "text": "rzeźba stopniowo **uwalnia się od ściany**, postacie nabierają ruchu, miękkich fałd, indywidualnych rysów i emocji — pojawiają się typy: Pietà, Piękna Madonna;"
+   },
+   {
+    "type": "li",
+    "text": "malarstwo: **ołtarze szafiaste** (tryptyki, poliptyki) malowane temperą na desce, ze złotym tłem."
+   },
+   {
+    "type": "box",
+    "title": "ROMANIZM KONTRA GOTYK — W TRZY SEKUNDY",
+    "text": "**Łuk półkolisty i mrok = romanizm. Łuk ostry i witraż = gotyk.** Romanizm jest szeroki i ciężki, gotyk wysoki i lekki. W romanizmie konstrukcja jest w murze, w gotyku wychodzi na zewnątrz w postaci przypór."
+   },
+   {
+    "type": "h3",
+    "text": "Przykłady"
+   },
+   {
+    "type": "p",
+    "text": "**Świat:** katedra Notre-Dame w Paryżu · katedra w Chartres (witraże) · katedra w Reims (miejsce koronacji królów Francji) · Sainte-Chapelle w Paryżu · katedra w Kolonii. **Polska:** katedra na Wawelu · kościół Mariacki w Krakowie · katedra we Włocławku · zamek w Malborku · Collegium Maius · **Ołtarz Mariacki Wita Stwosza** (1477–1489, drewno lipowe, największy gotycki ołtarz szafiasty w Europie).",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "7. Renesans"
+   },
+   {
+    "type": "p",
+    "text": "XV–XVI w. we Włoszech (quattrocento i cinquecento) · w Polsce XVI w. · nazwa fr. renaissance — odrodzenie",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi: humanizm** — przekonanie, że człowiek i jego rozum są wartością najwyższą. Odrodzenie zainteresowania antykiem, ale nie jako kopiowanie, tylko jako sięgnięcie po jego zasady: harmonię, proporcję, umiar."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy"
+   },
+   {
+    "type": "li",
+    "text": "**perspektywa linearna** — odkryta przez Brunelleschiego, opisana przez Albertiego; obraz staje się „oknem na świat\";"
+   },
+   {
+    "type": "li",
+    "text": "**równowaga i symetria**, kompozycje wpisane w figury geometryczne, zwłaszcza w trójkąt;"
+   },
+   {
+    "type": "li",
+    "text": "**studium anatomii** i realizm ciała ludzkiego, ale poddany idealizacji;"
+   },
+   {
+    "type": "li",
+    "text": "**światłocień** i sfumato (Leonardo);"
+   },
+   {
+    "type": "li",
+    "text": "tematyka: obok religijnej wraca **mitologiczna**, rozwija się **portret** i pejzaż jako tło;"
+   },
+   {
+    "type": "li",
+    "text": "**artysta przestaje być rzemieślnikiem** — zaczyna być twórcą, sygnuje dzieła, bywa nadwornym intelektualistą;"
+   },
+   {
+    "type": "li",
+    "text": "w architekturze: **plan centralny**, kopuła, kolumny i pilastry w porządkach antycznych, boniowanie, wyraźny podział poziomy gzymsami, proporcje oparte na module."
+   },
+   {
+    "type": "h3",
+    "text": "Twórcy i dzieła"
+   },
+   {
+    "type": "p",
+    "text": "**Filippo Brunelleschi** — kopuła katedry we Florencji, Kaplica Pazzich. **Donatello** — Dawid (pierwszy wolno stojący akt od czasów antyku). **Sandro Botticelli** — Narodziny Wenus, Wiosna. **Leonardo da Vinci** — Mona Lisa, Ostatnia Wieczerza, Dama z gronostajem (Muzeum Narodowe w Krakowie!). **Michał Anioł** — Dawid, Pietà, sklepienie Kaplicy Sykstyńskiej, Sąd Ostateczny, kopuła bazyliki św. Piotra. **Rafael Santi** — Szkoła Ateńska, madonny. **Andrea Palladio** — Villa Rotonda. **Renesans północny:** Jan van Eyck (Portret małżonków Arnolfinich, mistrzostwo techniki olejnej), Albrecht Dürer (Adam i Ewa, miedzioryt), Hieronim Bosch, Pieter Bruegel Starszy.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Renesans w Polsce"
+   },
+   {
+    "type": "p",
+    "text": "Przyszedł wcześnie, przez dwór królewski i włoskich artystów: **Kaplica Zygmuntowska** na Wawelu (1519– 1533, Bartolomeo Berrecci) — nazywana perłą renesansu na północ od Alp; dziedziniec arkadowy Wawelu; **Sukiennice** w Krakowie z attyką; **ratusz w Poznaniu** (Jan Baptysta Quadro); Zamość — miasto idealne (Bernardo Morando). Charakterystyczna dla Polski jest **attyka** — ozdobna ścianka zasłaniająca dach, często z grzebieniem.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "8. Manieryzm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1520–1600 · pomost między renesansem a barokiem",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "Reakcja na doskonałość dojrzałego renesansu — skoro wszystko już osiągnięto, artyści zaczęli świadomie łamać reguły. Cechy: **wydłużone, powyginane proporcje postaci** (figura serpentinata), niepokojące, zatłoczone kompozycje, chłodna, „nienaturalna\" kolorystyka, sztuczne oświetlenie, wyrafinowanie i intelektualna zagadka. Twórcy: Parmigianino (Madonna z długą szyją), Pontormo, **El Greco** (Pogrzeb hrabiego Orgaza), Giuseppe Arcimboldo (portrety z owoców i warzyw)."
+   },
+   {
+    "type": "h2",
+    "text": "9. Barok"
+   },
+   {
+    "type": "p",
+    "text": "koniec XVI – poł. XVIII w. · narodziny w Rzymie",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** chęć poruszenia widza. Barok wyrasta z kontrreformacji — Kościół katolicki potrzebował sztuki, która działa na emocje i przekonuje. Dzieło barokowe ma być teatrem."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy"
+   },
+   {
+    "type": "li",
+    "text": "**dynamika** — kompozycje diagonalne, skosy, spirale, formy w ruchu;"
+   },
+   {
+    "type": "li",
+    "text": "**silny światłocień**, kontrast, **luminizm** — światło wydobywa z ciemności to, co najważniejsze;"
+   },
+   {
+    "type": "li",
+    "text": "**ekspresja i patos** — uchwycony moment kulminacyjny, gwałtowne gesty, ekstaza, cierpienie;"
+   },
+   {
+    "type": "li",
+    "text": "**iluzjonizm** — malarstwo plafonowe otwierające sklepienie na niebo (di sotto in sù);"
+   },
+   {
+    "type": "li",
+    "text": "**bogactwo i przepych** materiałów: złocenia, marmury, stiuki;"
+   },
+   {
+    "type": "li",
+    "text": "**synteza sztuk** — architektura, rzeźba i malarstwo działają razem jako jedna całość;"
+   },
+   {
+    "type": "li",
+    "text": "w architekturze: falujące fasady, kolumny, pilastry, wolutowe spływy, wielkie kopuły, monumentalne założenia urbanistyczne i ogrodowe."
+   },
+   {
+    "type": "h3",
+    "text": "Twórcy i dzieła"
+   },
+   {
+    "type": "p",
+    "text": "**Włochy:** Caravaggio (Powołanie św. Mateusza, Wieczerza w Emaus — luminizm i realizm postaci), Gian Lorenzo Bernini (Ekstaza św. Teresy, Apollo i Dafne, kolumnada placu św. Piotra), Francesco Borromini. **Flandria:** Peter Paul Rubens — bujność form, dynamika, ciepła kolorystyka (Zdjęcie z krzyża). **Holandia:** Rembrandt van Rijn (Straż nocna, Lekcja anatomii, autoportrety, akwaforty), Jan Vermeer (Dziewczyna z perłą, Mleczarka — ciche wnętrza, światło z okna po lewej), Frans Hals. **Hiszpania:** Diego Velázquez (Panny dworskie). **Francja:** pałac w Wersalu. **Polska:** kościół św. Piotra i Pawła w Krakowie (pierwszy barokowy w Polsce), pałac w Wilanowie, kolumna Zygmunta III Wazy w Warszawie, kościół św. Anny w Krakowie.",
+    "small": true
+   },
+   {
+    "type": "box",
+    "title": "BAROK HOLENDERSKI — INNY NIŻ RESZTA",
+    "text": "W protestanckiej Holandii nie było zamówień kościelnych ani dworskich. Obrazy kupowali mieszczanie do swoich domów, dlatego rozwinęły się tam gatunki „małe\": **martwa natura, pejzaż, scena rodzajowa, portret zbiorowy**, a obrazy są niewielkie i kameralne. To świetna odpowiedź na pytanie dodatkowe o różnice wewnątrz baroku."
+   },
+   {
+    "type": "h2",
+    "text": "10. Rokoko"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1720–1780 · Francja, potem cała Europa",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "Ostatnia faza baroku, przeniesiona z kościoła do prywatnego salonu arystokracji. Cechy: **lekkość, wdzięk, asymetria, drobna, wyszukana dekoracja** oparta na motywie muszli (rocaille — stąd nazwa), **pastelowa, jasna kolorystyka** (róż, błękit, biel, złoto), tematyka zabawowa i miłosna, brak powagi. Twórcy: Antoine Watteau (Odjazd na Cyterę, fêtes galantes), François Boucher, Jean-Honoré Fragonard (Huśtawka). W architekturze: kościół pielgrzymkowy w Vierzehnheiligen (Balthasar Neumann) — przykład Gesamtkunstwerk, dzieła jednolitego stylowo."
+   },
+   {
+    "type": "h2",
+    "text": "11. Klasycyzm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1760–1830 · impuls: odkrycie Pompejów i Herkulanum",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** rozum i ład — to sztuka epoki oświecenia. Reakcja na „rozwiązłość\" rokoka; powrót do antyku, tym razem badanego naukowo. Johann Joachim Winckelmann ujął ideał greckiej sztuki w słowach o „szlachetnej prostocie i cichej wielkości\"."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy"
+   },
+   {
+    "type": "li",
+    "text": "**harmonia, symetria, statyka**, jasna i czytelna kompozycja;"
+   },
+   {
+    "type": "li",
+    "text": "prymat **rysunku i konturu** nad barwą; gładka faktura, chłodna, oszczędna kolorystyka;"
+   },
+   {
+    "type": "li",
+    "text": "tematyka **antyczna i historyczna**, o wymowie moralnej i obywatelskiej;"
+   },
+   {
+    "type": "li",
+    "text": "w architekturze: **portyk kolumnowy z tympanonem**, kopuła, płaskie ściany, oszczędna dekoracja, wzory greckie i rzymskie."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy:** Jacques-Louis David (Przysięga Horacjuszy, Śmierć Marata), Jean-Auguste-Dominique Ingres, Antonio Canova (Amor i Psyche), Bertel Thorvaldsen. **Architektura:** Panteon w Paryżu, Brama Brandenburska w Berlinie. **Polska — styl stanisławowski:** Pałac na Wyspie w Łazienkach, Teatr na Wyspie, pałac w Natolinie; malarze: Marcello Bacciarelli, Canaletto (Bernardo Bellotto).",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "12. Romantyzm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1800–1850",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** uczucie przeciw rozumowi. Romantyzm jest buntem wobec klasycyzmu: liczy się indywidualność artysty, wyobraźnia, namiętność, tajemnica i wolność — także narodowa."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy"
+   },
+   {
+    "type": "li",
+    "text": "dominacja **barwy i plamy** nad rysunkiem; swobodny, widoczny dukt pędzla;"
+   },
+   {
+    "type": "li",
+    "text": "kompozycje **dynamiczne, diagonalne**, dramatyczne oświetlenie;"
+   },
+   {
+    "type": "li",
+    "text": "tematy: wydarzenia współczesne o wymowie wolnościowej, egzotyka i Orient, natura żywiołowa i groźna, ruiny, noc, śmierć, szaleństwo, sen;"
+   },
+   {
+    "type": "li",
+    "text": "**pejzaż jako wyraz stanu duszy**, człowiek mały wobec przyrody."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy:** Francisco Goya (Rozstrzelanie powstańców madryckich, cykl Kaprysy), Théodore Géricault (Tratwa Meduzy), Eugène Delacroix (Wolność wiodąca lud na barykady), Caspar David Friedrich (Wędrowiec nad morzem mgły), William Turner. **Polska:** Piotr Michałowski, Artur Grottger (cykle rysunkowe Polonia, Lithuania).",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "13. Realizm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1840–1870 · Francja",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** przekonanie, że sztuka ma pokazywać świat taki, jaki jest. Gustave Courbet mówił, że nie umie namalować anioła, bo nigdy żadnego nie widział."
+   },
+   {
+    "type": "p",
+    "text": "**Cechy:** tematy z życia codziennego, **bohaterem staje się zwykły człowiek pracy** — chłop, robotnik, kamieniarz; rezygnacja z idealizacji i patosu; malarstwo w plenerze i studium natury; często wymowa społeczna. Ciemna, ziemista kolorystyka. Duże formaty użyte do tematów uważanych za „niegodne\" — to był świadomy skandal."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy:** Gustave Courbet (Kamieniarze, Pogrzeb w Ornans), Jean-François Millet (Anioł Pański, Zbieraczki kłosów), Honoré Daumier. **Polska:** Aleksander Gierymski (Żydówka z pomarańczami), Józef Chełmoński (Babie lato, Czwórka), Maksymilian Gierymski.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "14. Akademizm i historyzm"
+   },
+   {
+    "type": "p",
+    "text": "XIX w. · sztuka oficjalna",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "Nurt związany z akademiami sztuk pięknych i salonami. Cechy: **hierarchia gatunków** (najwyżej scena historyczna i mitologiczna), doskonały warsztat, gładka faktura, wysoki stopień wykończenia, monumentalne formaty, dydaktyczna wymowa. To wobec akademizmu buntowali się impresjoniści."
+   },
+   {
+    "type": "p",
+    "text": "**W Polsce akademizm ma szczególne znaczenie**, bo posłużył sprawie narodowej: malarstwo historyczne **Jana Matejki** podtrzymywało pamięć o Rzeczypospolitej w czasach zaborów. W architekturze odpowiednikiem jest **historyzm** — swobodne powtarzanie stylów minionych (neogotyk, neorenesans, neobarok) oraz **eklektyzm**, czyli ich mieszanie."
+   },
+   {
+    "type": "h2",
+    "text": "15. Impresjonizm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1870–1890 · Francja · nazwa od obrazu Moneta Impresja — wschód słońca (1872), użyta początkowo szyderczo przez krytyka",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** światło. Impresjoniści zauważyli, że nie malujemy przedmiotów, tylko światło od nich odbite — a ono zmienia się co godzinę. Dlatego malowali **wrażenie chwili**."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy"
+   },
+   {
+    "type": "li",
+    "text": "**malarstwo w plenerze**, szybko, wprost z natury (umożliwiły to farby w tubkach);"
+   },
+   {
+    "type": "li",
+    "text": "**rozbicie plamy barwnej** na drobne, widoczne pociągnięcia pędzla; barwy kładzione obok siebie, nie mieszane na palecie (dywizjonizm);"
+   },
+   {
+    "type": "li",
+    "text": "**jasna, czysta paleta**, rezygnacja z czerni — cień jest barwny, najczęściej niebieskofioletowy;"
+   },
+   {
+    "type": "li",
+    "text": "**kompozycje otwarte**, kadrowanie jak w fotografii, nietypowe punkty widzenia (wpływ fotografii i drzeworytu japońskiego);"
+   },
+   {
+    "type": "li",
+    "text": "tematy zwyczajne: ulica, kawiarnia, rzeka, ogród, dworzec, tancerki — nie „wielkie tematy\";"
+   },
+   {
+    "type": "li",
+    "text": "**cykle** tego samego motywu o różnych porach dnia (Monet: Katedra w Rouen, stogi siana, nenufary)."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy:** Claude Monet, Auguste Renoir (Bal w Moulin de la Galette), Edgar Degas (tancerki; pastel), Camille Pissarro, Alfred Sisley, Berthe Morisot. **Prekursor:** Édouard Manet (Śniadanie na trawie, Olimpia). **Polska:** Władysław Podkowiński, Józef Pankiewicz, Leon Wyczółkowski, Olga Boznańska (bliska impresjonizmowi w technice).",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "16. Postimpresjonizm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1885–1905",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "Nie jeden styl, lecz kilka odrębnych dróg wychodzących od impresjonizmu i wykraczających poza niego. Wspólne im jest przekonanie, że samo wrażenie zmysłowe to za mało."
+   },
+   {
+    "type": "li",
+    "text": "**Paul Cézanne** — szukał w naturze form geometrycznych („walec, kula, stożek\"); budował obraz plamami barwnymi i wielokierunkową perspektywą. Uważany za ojca sztuki nowoczesnej i bezpośredniego poprzednika kubizmu. Góra Sainte-Victoire, martwe natury."
+   },
+   {
+    "type": "li",
+    "text": "**Vincent van Gogh** — ekspresja uczuć przez barwę i fakturę; gruby impast, wirujący dukt pędzla, kontrasty dopełnieniowe. Gwiaździsta noc, Słoneczniki, autoportrety."
+   },
+   {
+    "type": "li",
+    "text": "**Paul Gauguin** — syntetyzm: płaskie plamy czystego koloru zamknięte konturem, rezygnacja ze światłocienia, inspiracja sztuką pozaeuropejską; ucieczka na Tahiti."
+   },
+   {
+    "type": "li",
+    "text": "**Georges Seurat** — pointylizm (neoimpresjonizm): obraz zbudowany z drobnych punktów czystych barw mieszających się dopiero w oku widza. Niedzielne popołudnie na wyspie Grande Jatte."
+   },
+   {
+    "type": "li",
+    "text": "**Henri de Toulouse-Lautrec** — syntetyczny rysunek, płaska plama, świat kabaretów; twórca nowoczesnego plakatu."
+   },
+   {
+    "type": "h2",
+    "text": "17. Symbolizm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1885–1910",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** to, czego nie widać. Symboliści odwrócili się od świata zewnętrznego ku wnętrzu człowieka: ku snom, lękom, miłości, śmierci, tajemnicy. Dzieło nie opisuje — sugeruje."
+   },
+   {
+    "type": "p",
+    "text": "**Cechy:** tematyka nastrojowa i wieloznaczna, alegoria i symbol, marzenie senne, świat mitu i baśni, często niepokojący nastrój; forma bywa różna, bo symbolizm jest raczej postawą niż stylem."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy:** Gustave Moreau, Odilon Redon, Arnold Böcklin (Wyspa umarłych), Edvard Munch (Krzyk — uznawany też za protoekspresjonizm), Auguste Rodin (Myśliciel, Pocałunek, Brama piekieł). **Polska: Jacek Malczewski** (Melancholia, Błędne koło — symbolizm o wymowie narodowej), Witold Wojtkiewicz.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "18. Secesja"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1890–1910 · nazwy lokalne: art nouveau (Francja), Jugendstil (Niemcy), modernizm kataloński (Hiszpania)",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nią rządzi:** chęć stworzenia stylu całkowicie nowego, oderwanego od historyzmu — i objęcia nim **wszystkiego**: architektury, wnętrza, mebla, klamki, plakatu, biżuterii. Sztuka miała wejść w codzienne życie."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy"
+   },
+   {
+    "type": "li",
+    "text": "**linia falista, giętka, „biczowa\"** — najbardziej rozpoznawalny znak secesji;"
+   },
+   {
+    "type": "li",
+    "text": "**ornament roślinny i zwierzęcy**: lilie, irysy, wodorosty, pawie, łabędzie, ważki;"
+   },
+   {
+    "type": "li",
+    "text": "**asymetria** i płynne, organiczne kształty;"
+   },
+   {
+    "type": "li",
+    "text": "motyw **kobiety z rozpuszczonymi, falującymi włosami**;"
+   },
+   {
+    "type": "li",
+    "text": "**płaskość, dekoracyjność, walor dwuwymiarowy**, często złoto;"
+   },
+   {
+    "type": "li",
+    "text": "**zatarcie granicy między sztuką a rzemiosłem** — szkło, ceramika, meble, witraż, plakat."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy:** Gustav Klimt (Pocałunek), Antoni Gaudí (Sagrada Família, Casa Batlló, Park Güell), Alfons Mucha (plakaty), Émile Gallé (szkło artystyczne), Victor Horta, Louis Comfort Tiffany. **Polska — Młoda Polska:Stanisław Wyspiański** (witraże i polichromia w kościele Franciszkanów w Krakowie, Bóg Ojciec — Stań się, pastelowe portrety dzieci, projekty mebli), Józef Mehoffer (witraże we Fryburgu), Olga Boznańska. **Styl zakopiański** — Stanisław Witkiewicz, próba stworzenia stylu narodowego na podstawie budownictwa i zdobnictwa Podhala (willa „Koliba\", „Pod Jedlami\").",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "19. Ekspresjonizm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1905–1925 · przede wszystkim Niemcy; grupy Die Brücke (Most) i Der Blaue Reiter (Błękitny Jeździec)",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** wyrażenie wewnętrznego napięcia, nie odwzorowanie świata. Ekspresjonizm to sztuka krzyku, lęku i sprzeciwu — zrodzona w przeczuciu i doświadczeniu I wojny światowej."
+   },
+   {
+    "type": "p",
+    "text": "**Cechy: deformacja** kształtu i proporcji dla celów wyrazowych; **agresywna, nienaturalna barwa** nakładana płaskimi plamami; ostry, łamany kontur; kompozycje niespokojne, skośne, ciasne; chętne sięganie po **drzeworyt** ze względu na jego surowość; tematy: samotność, miasto, wojna, cierpienie."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy:** Ernst Ludwig Kirchner, Emil Nolde, Egon Schiele, Oskar Kokoschka, Wassily Kandinsky (okres wczesny), Franz Marc. **Prekursor:** Edvard Munch, Krzyk (1893). **Polska:** grupa Bunt w Poznaniu, formiści.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "20. Kubizm"
+   },
+   {
+    "type": "p",
+    "text": "ok. 1907–1914 · Paryż · Pablo Picasso i Georges Braque",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** odrzucenie jednego punktu widzenia. Kubiści pokazali przedmiot **równocześnie z kilku stron**, rozbijając go na formy geometryczne i składając na nowo na płaszczyźnie obrazu. To najgłębsze zerwanie z perspektywą renesansową od pięciuset lat."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy i fazy"
+   },
+   {
+    "type": "li",
+    "text": "**geometryzacja** form — sprowadzenie ich do brył i płaszczyzn; **perspektywa wielokierunkowa**;"
+   },
+   {
+    "type": "li",
+    "text": "faza **analityczna** (ok. 1909–1912): przedmiot rozłożony na drobne fasety, kolorystyka niemal monochromatyczna — szarości, brązy, ochry; obraz bywa trudny do odczytania;"
+   },
+   {
+    "type": "li",
+    "text": "faza **syntetyczna** (od 1912): większe, płaskie płaszczyzny, powrót barwy, wprowadzenie **kolażu** i naklejanych fragmentów gazet;"
+   },
+   {
+    "type": "li",
+    "text": "inspiracja sztuką Afryki i Iberii oraz malarstwem Cézanne'a."
+   },
+   {
+    "type": "p",
+    "text": "**Dzieła:** Picasso, Panny z Awinionu (1907) — obraz otwierający kubizm; Braque, martwe natury; Juan Gris; Fernand Léger. **Rzeźba:** Alexander Archipenko. **Polska:** formiści (Zbigniew Pronaszko, Tytus Czyżewski).",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "21. Abstrakcjonizm"
+   },
+   {
+    "type": "p",
+    "text": "od ok. 1910",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** przekonanie, że obraz nie musi niczego przedstawiać — barwa, linia i kształt są wystarczającą treścią, tak jak w muzyce wystarczają same dźwięki."
+   },
+   {
+    "type": "h3",
+    "text": "Dwa główne nurty"
+   },
+   {
+    "type": "li",
+    "text": "**Abstrakcja geometryczna** — oparta na figurze geometrycznej, linii prostej, kącie prostym i barwach podstawowych. **Piet Mondrian** (neoplastycyzm: Kompozycje z czarną siatką i prostokątami czerwieni, żółci i błękitu; Broadway Boogie Woogie), **Kazimierz Malewicz** (suprematyzm: Czarny kwadrat na białym tle, 1915), Bauhaus."
+   },
+   {
+    "type": "li",
+    "text": "**Abstrakcja niegeometryczna (liryczna, ekspresyjna)** — swobodna plama i gest. **Wassily Kandinsky** — uważany za twórcę pierwszej kompozycji całkowicie abstrakcyjnej (ok. 1910); pisał, że barwa działa na duszę jak dźwięk. Po II wojnie: **ekspresjonizm abstrakcyjny** — Jackson Pollock (action painting, rozlewanie farby na płótnie rozłożonym na podłodze), Mark Rothko (wielkie, drgające pola barwne)."
+   },
+   {
+    "type": "p",
+    "text": "**Polska: Władysław Strzemiński** (teoria unizmu — obraz jako jednolita, pozbawiona napięć całość) i **Katarzyna Kobro** (kompozycje przestrzenne, rzeźba otwarta na przestrzeń). Ich prace znajdują się w Muzeum Sztuki w Łodzi — jednej z najstarszych na świecie kolekcji sztuki nowoczesnej.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "22. Surrealizm"
+   },
+   {
+    "type": "p",
+    "text": "od 1924 (manifest André Bretona) · fr. surréalisme — nadrealizm",
+    "small": true
+   },
+   {
+    "type": "p",
+    "text": "**Co nim rządzi:** podświadomość. Surrealiści, zainspirowani psychoanalizą Freuda, chcieli wyzwolić obraz spod kontroli rozumu i pokazać **logikę snu**."
+   },
+   {
+    "type": "h3",
+    "text": "Cechy"
+   },
+   {
+    "type": "li",
+    "text": "**zestawianie przedmiotów, które nie mają ze sobą nic wspólnego**, w nieprawdopodobnych sytuacjach;"
+   },
+   {
+    "type": "li",
+    "text": "**deformacja i metamorfoza** — przedmioty topnieją, rosną, zmieniają się w inne;"
+   },
+   {
+    "type": "li",
+    "text": "przestrzeń **bezkresna, pustynna, nierealna**, ostre światło, wyraziste cienie;"
+   },
+   {
+    "type": "li",
+    "text": "paradoksalnie **bardzo realistyczna, wręcz drobiazgowa technika** — to właśnie precyzja wykonania czyni sen niepokojącym;"
+   },
+   {
+    "type": "li",
+    "text": "**automatyzm** — tworzenie bez udziału świadomej kontroli; frotaż, dekalkomania."
+   },
+   {
+    "type": "p",
+    "text": "**Twórcy: Salvador Dalí** (Trwałość pamięci — miękkie zegary; „metoda paranoiczno-krytyczna\"), René Magritte (Zdradliwość obrazów — „To nie jest fajka\"; Syn człowieczy), Max Ernst, Joan Miró, Giorgio de Chirico (prekursor). **Rzeźba/obiekt:** Meret Oppenheim. **Polska:** Bruno Schulz (grafika), Zdzisław Beksiński (późniejszy, pokrewny nastrojem).",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "23. Kierunki drugiej połowy XX wieku"
+   },
+   {
+    "type": "h3",
+    "text": "Pop-art"
+   },
+   {
+    "type": "p",
+    "text": "Lata 50.–60., Wielka Brytania i USA. Sztuka czerpiąca z **kultury masowej**: reklamy, komiksu, opakowania, gwiazd filmu. Cechy: powielenie i seryjność, płaska plama, mocne, „drukarskie\" barwy, technika **sitodruku**, ironiczny dystans wobec konsumpcji. **Andy Warhol** (Puszki zupy Campbell, Marilyn), **Roy Lichtenstein** (kadry komiksowe z rastrem), Claes Oldenburg.",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Minimalizm"
+   },
+   {
+    "type": "p",
+    "text": "Lata 60., USA. Radykalna **redukcja**: proste bryły geometryczne, przemysłowe materiały, powtarzalne moduły, brak ekspresji i śladu ręki artysty, brak treści poza samym obiektem. Zasada: „mniej znaczy więcej\". Donald Judd, Carl Andre, Sol LeWitt, Dan Flavin (świetlówki).",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Konceptualizm (sztuka pojęciowa)"
+   },
+   {
+    "type": "p",
+    "text": "Od lat 60. **Idea jest dziełem**; wykonanie jest drugorzędne albo w ogóle zbędne. Dzieło może mieć postać zdania, instrukcji, dokumentacji, fotografii. Prekursorem był **Marcel Duchamp** ze swoimi ready-made — gotowymi przedmiotami uznanymi za dzieła sztuki (Fontanna, 1917, pisuar). Joseph Kosuth (Jedno i trzy krzesła), Joseph Beuys. W Polsce: Roman Opałka (Obrazy liczone).",
+    "small": true
+   },
+   {
+    "type": "h3",
+    "text": "Inne zjawiska warte znajomości"
+   },
+   {
+    "type": "p",
+    "text": "**Op-art** — sztuka złudzeń optycznych (Victor Vasarely). **Land art** — dzieło w krajobrazie (Robert Smithson, Spiralne molo; Christo i Jeanne-Claude — opakowywanie budowli). **Hiperrealizm** — malarstwo naśladujące fotografię. **Sztuka krytyczna** — w Polsce lata 90.: Katarzyna Kozyra, Zbigniew Libera. **Magdalena Abakanowicz** — Abakany, monumentalne formy tkackie, potem cykle bezgłowych postaci; jedna z najbardziej znanych na świecie polskich artystek.",
+    "small": true
+   }
+  ]
+ },
+ {
+  "code": "IV",
+  "title": "Wybrani artyści",
+  "blocks": [
+   {
+    "type": "box",
+    "title": "DLACZEGO AKURAT CI CZTEREJ",
+    "text": "Zagadnienia wymieniają z nazwiska Matejkę, Wyspiańskiego, Dalego i Picassa. To najmocniejsza wskazówka, jaką dała szkoła — pytania o nich są niemal pewne. Każdą z tych sylwetek trzeba umieć opowiedzieć przez dwie minuty bez zastanowienia."
+   },
+   {
+    "type": "h2",
+    "text": "Jan Matejko (1838–1893)"
+   },
+   {
+    "type": "p",
+    "text": "**Kim był:** najwybitniejszy polski malarz historyczny, dyrektor Szkoły Sztuk Pięknych w Krakowie, nauczyciel Wyspiańskiego, Mehoffera i Malczewskiego. Tworzył w czasach zaborów, gdy Polski nie było na mapie."
+   },
+   {
+    "type": "p",
+    "text": "**Cechy twórczości:** monumentalne formaty; kompozycje wielopostaciowe, gęste, wypełnione po brzegi; nagromadzenie szczegółów historycznych — strojów, zbroi, insygniów, opracowanych z ogromną skrupulatnością; silny światłocień i nasycona, ciepła kolorystyka; postacie historyczne portretowane z zachowanych wizerunków; częste łączenie w jednym obrazie osób, które nie mogły się spotkać — bo obraz ma mówić o sensie wydarzenia, nie o jego przebiegu."
+   },
+   {
+    "type": "p",
+    "text": "**Funkcja:** „ku pokrzepieniu serc\" — sztuka jako sposób podtrzymania tożsamości narodowej pod zaborami."
+   },
+   {
+    "type": "p",
+    "text": "**Dzieła:** Bitwa pod Grunwaldem (1878, Muzeum Narodowe w Warszawie), Stańczyk (1862, MNW), Hołd pruski (1882, Sukiennice, Kraków), Kazanie Skargi, Rejtan, Konstytucja 3 Maja, poczet królów polskich, polichromia kościoła Mariackiego."
+   },
+   {
+    "type": "p",
+    "text": "**Na pytanie dodatkowe:** Stańczyk jest właściwie autoportretem — Matejko nadał błaznowi własne rysy. Postać siedzi samotnie w ciemnym pokoju, gdy w głębi trwa bal; jako jedyny rozumie wagę wiadomości o utracie Smoleńska. To obraz o odpowiedzialności i samotności myślącego człowieka.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "Stanisław Wyspiański (1869–1907)"
+   },
+   {
+    "type": "p",
+    "text": "**Kim był:** artysta totalny epoki Młodej Polski — malarz, rysownik, dramatopisarz (Wesele), projektant witraży, polichromii, mebli i scenografii, reformator teatru. Uczeń Matejki."
+   },
+   {
+    "type": "p",
+    "text": "**Cechy twórczości:** secesyjna, giętka, dekoracyjna linia; upodobanie do **pasteli**, dających matową, aksamitną powierzchnię; płaskość i dekoracyjność plamy barwnej; motywy roślinne — kwiaty, chabry, nasturcje; szczerość i bezpośredniość w portretach, zwłaszcza dziecięcych; łączenie inspiracji sztuką ludową Podhala, gotykiem i secesją; dążenie do **dzieła totalnego**, w którym witraż, polichromia i mebel tworzą jedną całość."
+   },
+   {
+    "type": "p",
+    "text": "**Dzieła:** witraże i polichromia w kościele Franciszkanów w Krakowie (m.in. Bóg Ojciec — Stań się), projekty witraży dla katedry wawelskiej (Polonia, Kazimierz Wielki), Macierzyństwo, portrety dzieci (Śpiący Staś, Helenka), Chochoły, autoportrety."
+   },
+   {
+    "type": "h2",
+    "text": "Pablo Picasso (1881–1973)"
+   },
+   {
+    "type": "p",
+    "text": "**Kim był:** Hiszpan tworzący we Francji; najbardziej wpływowy artysta XX wieku, współtwórca kubizmu. Malarz, rzeźbiarz, grafik, ceramik."
+   },
+   {
+    "type": "p",
+    "text": "**Okresy twórczości — to jest szkielet dobrej odpowiedzi:**"
+   },
+   {
+    "type": "li",
+    "text": "**okres błękitny** (1901–1904) — chłodna, monochromatyczna paleta, tematy nędzy, samotności, starości; wydłużone postacie;"
+   },
+   {
+    "type": "li",
+    "text": "**okres różowy** (1904–1906) — cieplejsze barwy, świat cyrku, akrobaci, arlekiny;"
+   },
+   {
+    "type": "li",
+    "text": "**kubizm** (od 1907) — Panny z Awinionu; potem kubizm analityczny i syntetyczny wspólnie z Braque'em;"
+   },
+   {
+    "type": "li",
+    "text": "**okres klasycyzujący i późniejszy** — powroty do figury, deformacja ekspresyjna, ceramika, grafika."
+   },
+   {
+    "type": "p",
+    "text": "**Dzieła:** Panny z Awinionu (1907, MoMA), **Guernica** (1937, Museo Reina Sofía, Madryt), Stary gitarzysta, Płacząca kobieta, Gołąbek pokoju."
+   },
+   {
+    "type": "p",
+    "text": "**Guernica — warto umieć omówić osobno:** ogromne płótno (ok. 3,5 × 7,8 m) namalowane w reakcji na zbombardowanie baskijskiego miasteczka podczas hiszpańskiej wojny domowej. Kolorystyka wyłącznie **achromatyczna** — czerń, biel, szarości — co przywodzi na myśl fotografię prasową. Kompozycja gęsta, chaotyczna, zbudowana z ostrych, kanciastych form; postacie zdeformowane, rozdarte krzykiem. Symbole: byk, koń, matka z martwym dzieckiem, żarówka jak oko. Obraz jest jednym z najsilniejszych protestów przeciw wojnie w dziejach sztuki.",
+    "small": true
+   },
+   {
+    "type": "h2",
+    "text": "Salvador Dalí (1904–1989)"
+   },
+   {
+    "type": "p",
+    "text": "**Kim był:** hiszpański malarz, najbardziej rozpoznawalny przedstawiciel surrealizmu; także rzeźbiarz, projektant, twórca filmowy (współpraca z Luisem Buñuelem przy Psie andaluzyjskim) i autor własnego, ekscentrycznego wizerunku publicznego."
+   },
+   {
+    "type": "p",
+    "text": "**Cechy twórczości: metoda paranoiczno-krytyczna** — świadome wywoływanie w sobie stanu bliskiego halucynacji i zapisywanie go z fotograficzną precyzją; bardzo realistyczna, wręcz akademicka technika użyta do przedstawienia rzeczy niemożliwych; motywy topniejących, miękkich form; puste, rozświetlone przestrzenie o dalekim horyzoncie (pejzaże rodzinnej Katalonii); długie, ostre cienie; obrazy o podwójnym odczytaniu; motywy mrówek, szuflad, kul, słoni na cienkich nogach."
+   },
+   {
+    "type": "p",
+    "text": "**Dzieła:** Trwałość pamięci (1931, MoMA — miękkie zegary), Płonąca żyrafa, Sen wywołany lotem pszczoły…, Ukrzyżowanie (Corpus Hypercubus), Kuszenie św. Antoniego."
+   },
+   {
+    "type": "h2",
+    "text": "Pozostali artyści warci znajomości"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Artysta",
+     "Za co go znamy"
+    ],
+    "rows": [
+     [
+      "Leonardo da Vinci",
+      "Człowiek renesansu; sfumato, studia anatomiczne, Mona Lisa, Ostatnia Wieczerza, Dama z gronostajem (Kraków)."
+     ],
+     [
+      "Michał Anioł Buonarroti",
+      "Rzeźbiarz przede wszystkim; Dawid, Pietà, sklepienie Kaplicy Sykstyńskiej, non finito, kopuła bazyliki św. Piotra."
+     ],
+     [
+      "Rembrandt van Rijn",
+      "Mistrz światłocienia i portretu psychologicznego; ok. 100 autoportretów; wybitny akwaforcista. Straż nocna."
+     ],
+     [
+      "Vincent van Gogh",
+      "Postimpresjonizm, ekspresja przez barwę i fakturę impastową; Gwiaździsta noc, Słoneczniki."
+     ],
+     [
+      "Claude Monet",
+      "Twórca impresjonizmu; cykle tego samego motywu w różnym świetle; Impresja — wschód słońca."
+     ],
+     [
+      "Auguste Rodin",
+      "Odnowiciel rzeźby; non finito, chropowata faktura, ruch i emocja; Myśliciel, Pocałunek, Mieszczanie z Calais."
+     ],
+     [
+      "Józef Chełmoński",
+      "Polski realizm, pejzaż i wieś; Babie lato, Czwórka."
+     ],
+     [
+      "Jacek Malczewski",
+      "Symbolizm polski; postacie mityczne w polskim pejzażu; Melancholia, Błędne koło."
+     ],
+     [
+      "Olga Boznańska",
+      "Portrety o zgaszonej, perłowej kolorystyce, malowane cienką, drżącą plamą; Dziewczynka z chryzantemami."
+     ],
+     [
+      "Magdalena Abakanowicz",
+      "Rzeźba XX/XXI w.; Abakany z tkaniny, cykle bezgłowych postaci z tkaniny i brązu; Nierozpoznani w Poznaniu."
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "code": "V",
+  "title": "Architektura — zagadnienia szczegółowe",
+  "blocks": [
+   {
+    "type": "h2",
+    "text": "Cechy stylów — tabela porównawcza"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Styl",
+     "Rozpoznasz po",
+     "Konstrukcja",
+     "Przykłady"
+    ],
+    "rows": [
+     [
+      "Egipt",
+      "ogrom, masywność, pochyłe ściany, sale hipostylowe, głowice roślinne",
+      "słupowo-belkowa, kamień",
+      "piramidy w Gizie, Karnak, Deir el-Bahari"
+     ],
+     [
+      "Grecja",
+      "kolumnada, trójkątny tympanon, harmonijne proporcje, porządki",
+      "słupowo-belkowa",
+      "Partenon, Erechtejon"
+     ],
+     [
+      "Rzym",
+      "łuk, kopuła, wielkie wnętrza, dekoracyjne użycie porządków",
+      "łuk, sklepienie, beton",
+      "Panteon, Koloseum, akwedukty"
+     ],
+     [
+      "Romanizm",
+      "łuk półkolisty, grube mury, małe okna, mrok, bryła zwarta",
+      "sklepienie kolebkowe i krzyżowe",
+      "Tum pod Łęczycą, Vézelay, katedra w Pizie"
+     ],
+     [
+      "Gotyk",
+      "łuk ostry, witraże, rozeta, wysokość, przypory na zewnątrz",
+      "sklepienie krzyżowo- żebrowe, łuki oporowe",
+      "Notre-Dame, Chartres, kościół Mariacki, Malbork"
+     ],
+     [
+      "Renesans",
+      "spokój, symetria, poziome podziały gzymsami, plan centralny, kopuła, arkady, boniowanie",
+      "powrót do rozwiązań antycznych",
+      "Kaplica Pazzich, Villa Rotonda, Kaplica Zygmuntowska, Sukiennice"
+     ],
+     [
+      "Barok",
+      "ruch, falująca fasada, przepych, wielkie kopuły, kolumny, iluzjonistyczne malowidła sklepienne",
+      "rozbudowane sklepienia i kopuły",
+      "bazylika św. Piotra z kolumnadą, Wersal, Wilanów"
+     ],
+     [
+      "Klasycyzm",
+      "portyk z kolumnami i tympanonem, płaskie ściany, oszczędna dekoracja, symetria",
+      "proste, czytelne",
+      "Panteon w Paryżu, Brama Brandenburska, Łazienki"
+     ]
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Słownik terminów architektonicznych"
+   },
+   {
+    "type": "glossary",
+    "topic": "słownik architektoniczny"
+   }
+  ]
+ },
+ {
+  "code": "VI",
+  "title": "Instytucje kultury",
+  "blocks": [
+   {
+    "type": "h2",
+    "text": "Funkcje muzeum i galerii"
+   },
+   {
+    "type": "p",
+    "text": "Podręcznik Ars longa wymienia trzy podstawowe zadania muzeum: **zbieranie okazów, ich porządkowanie i systematyzowanie; edukowanie i wychowywanie; kształtowanie wrażliwości na piękno**. Do tego dochodzi **ochrona i konserwacja** zbiorów oraz działalność naukowa. Nazwa pochodzi od greckiego museion — miejsca poświęconego muzom."
+   },
+   {
+    "type": "p",
+    "text": "**Podziały muzeów:** ze względu na zasięg zbiorów (narodowe, okręgowe), funkcję (sanktuaria, składnice, rezydencje), typ eksponatów (sztuki, archeologiczne, techniki, architektury), instytucję prowadzącą (państwowe, samorządowe, diecezjalne)."
+   },
+   {
+    "type": "p",
+    "text": "**Różnica muzeum – galeria:** muzeum gromadzi i przechowuje stałą kolekcję, prowadzi badania i konserwację. Galeria zwykle nie ma własnych zbiorów albo są one niewielkie — organizuje wystawy czasowe, prezentuje sztukę współczesną, często prowadzi sprzedaż. Bywa też, że „galeria\" oznacza wyodrębniony dział muzeum (np. galeria malarstwa polskiego)."
+   },
+   {
+    "type": "h2",
+    "text": "Najważniejsze muzea"
+   },
+   {
+    "type": "table",
+    "header": [
+     "Polska",
+     "Świat"
+    ],
+    "rows": [
+     [
+      "Muzeum Narodowe w Warszawie — Bitwa pod Grunwaldem, Stańczyk, Galeria Faras (unikatowa w skali świata kolekcja malarstwa nubijskiego)",
+      "Luwr, Paryż — Mona Lisa, Nike z Samotraki, Wenus z Milo, stela Hammurabiego; szklana piramida I.M. Pei"
+     ],
+     [
+      "Muzeum Narodowe w Krakowie — Dama z gronostajem Leonarda, kolekcja Czartoryskich",
+      "Prado, Madryt — Velázquez, Goya, El Greco"
+     ],
+     [
+      "Zamek Królewski w Warszawie — widoki Canaletta, wnętrza",
+      "Uffizi, Florencja — Botticelli, renesans włoski"
+     ],
+     [
+      "Zamek Królewski na Wawelu — arrasy Zygmunta Augusta",
+      "National Gallery, Londyn"
+     ],
+     [
+      "Zachęta — Narodowa Galeria Sztuki, wystawy czasowe sztuki współczesnej",
+      "MoMA, Nowy Jork — Gwiaździsta noc, Panny z Awinionu, Trwałość pamięci"
+     ],
+     [
+      "Muzeum Sztuki Nowoczesnej w Warszawie",
+      "Metropolitan Museum of Art, Nowy Jork"
+     ],
+     [
+      "Muzeum Sztuki w Łodzi — Strzemiński, Kobro, jedna z pierwszych kolekcji sztuki nowoczesnej na świecie",
+      "Ermitaż, Sankt Petersburg"
+     ],
+     [
+      "Muzeum Plakatu w Wilanowie — pierwsze muzeum plakatu na świecie",
+      "Rijksmuseum, Amsterdam — Straż nocna; Muzea Watykańskie — Kaplica Sykstyńska"
+     ]
+    ]
+   },
+   {
+    "type": "box",
+    "title": "PUNKT VI.3 — PYTANIE, KTÓREGO NIE DA SIĘ „NAUCZYĆ\"",
+    "text": "„Opowiedz o wydarzeniu artystycznym, w którym uczestniczyłaś.\" Trzeba mieć własne, prawdziwe przeżycie. Dobra odpowiedź zawiera: co to było i kiedy, gdzie się odbyło, jedno konkretne dzieło omówione bliżej, uwagę o sposobie ekspozycji (oświetlenie, układ sal, opisy) oraz własne wrażenie z uzasadnieniem. Warto przygotować sobie jedno takie wydarzenie i opowiedzieć je na głos kilka razy."
+   }
+  ]
+ },
+ {
+  "code": "VII",
+  "title": "Wiedza o kulturze",
+  "blocks": [
+   {
+    "type": "h2",
+    "text": "Prawo autorskie i plagiat"
+   },
+   {
+    "type": "p",
+    "text": "**Prawo autorskie** chroni twórcę i jego dzieło. Dzieli się na:"
+   },
+   {
+    "type": "li",
+    "text": "**autorskie prawa osobiste** — prawo do autorstwa, do podpisania dzieła nazwiskiem, do nienaruszalności treści i formy. Są niezbywalne i wieczne — nie da się ich sprzedać ani się ich zrzec."
+   },
+   {
+    "type": "li",
+    "text": "**autorskie prawa majątkowe** — prawo do korzystania z dzieła i czerpania z niego zysku. Można je sprzedać lub odziedziczyć; wygasają po upływie określonego czasu od śmierci twórcy (w Polsce po 70 latach), po czym dzieło przechodzi do **domeny publicznej**."
+   },
+   {
+    "type": "p",
+    "text": "**Plagiat** to przywłaszczenie cudzego dzieła lub jego fragmentu i podanie go za własne. Jest naruszeniem praw osobistych twórcy i przestępstwem. Nie jest plagiatem inspiracja, cytat z podaniem źródła ani parafraza świadomie odwołująca się do oryginału."
+   },
+   {
+    "type": "p",
+    "text": "**Pojęcia pokrewne — warto rozróżniać:** oryginał — dzieło wykonane przez samego twórcę; replika — powtórzenie własnego dzieła przez tego samego autora; kopia — powtórzenie dzieła przez kogoś innego, wykonane jawnie i legalnie; falsyfikat — kopia opatrzona podrobionym podpisem twórcy i sprzedawana jako oryginał, czyli oszustwo."
+   },
+   {
+    "type": "h2",
+    "text": "Rola sztuki w życiu społecznym"
+   },
+   {
+    "type": "p",
+    "text": "Sztuka pełni wiele funkcji jednocześnie: **estetyczną** (dostarcza przeżyć i kształtuje wrażliwość), **poznawczą** (mówi o świecie i o człowieku), **kultową i religijną**, **propagandową i polityczną**, **memoratywną** (upamiętnia), **dekoracyjną**, **użytkową**, **terapeutyczną**, a także **tożsamościową** — buduje wspólnotę i pamięć zbiorową. W polskiej historii ta ostatnia funkcja miała wagę szczególną: malarstwo Matejki w czasach zaborów podtrzymywało poczucie narodowej ciągłości, a sztuka Młodej Polski szukała stylu własnego, niezależnego.",
+    "small": true
+   }
+  ]
+ },
+ {
+  "code": "VIII",
+  "title": "Jak mówić na egzaminie",
+  "blocks": [
+   {
+    "type": "h2",
+    "text": "Budowa dobrej wypowiedzi"
+   },
+   {
+    "type": "p",
+    "text": "Każda odpowiedź, niezależnie od pytania, mieści się w tym samym szkielecie:"
+   },
+   {
+    "type": "p",
+    "text": "1. **Definicja lub teza** — jedno zdanie, które odpowiada wprost na pytanie. Nie zaczynaj od „no więc…\"."
+   },
+   {
+    "type": "p",
+    "text": "2. **Rozwinięcie** — trzy do pięciu zdań: cechy, podziały, kontekst."
+   },
+   {
+    "type": "p",
+    "text": "3. **Przykład** — konkretne dzieło z autorem i, jeśli się pamięta, przybliżoną datą. To jest część, którą kandydaci najczęściej pomijają — i to ona najbardziej podnosi ocenę."
+   },
+   {
+    "type": "p",
+    "text": "4. **Zamknięcie** — jedno zdanie podsumowania albo własnej oceny."
+   },
+   {
+    "type": "h2",
+    "text": "Dziesięć zasad, które robią różnicę"
+   },
+   {
+    "type": "li",
+    "text": "Mów pełnymi zdaniami, wolniej niż w rozmowie. Pauza jest lepsza niż „yyy\"."
+   },
+   {
+    "type": "li",
+    "text": "Używaj terminologii fachowej — ale tylko takiej, którą umiesz wyjaśnić, gdy padnie pytanie „a co to znaczy?\"."
+   },
+   {
+    "type": "li",
+    "text": "Zawsze podaj przykład dzieła z nazwiskiem autora."
+   },
+   {
+    "type": "li",
+    "text": "Jeśli nie znasz dzieła — opisz, co widzisz, i wnioskuj o epoce z cech formalnych. To pełnoprawna odpowiedź."
+   },
+   {
+    "type": "li",
+    "text": "Nie zmyślaj dat ani tytułów. „Około XVII wieku\" jest lepsze niż zmyślony rok."
+   },
+   {
+    "type": "li",
+    "text": "Nie mów „ładne\", „fajne\", „takie sobie\". Mów, co sprawia, że dzieło tak działa."
+   },
+   {
+    "type": "li",
+    "text": "Własna opinia jest mile widziana, ale musi być uzasadniona formą dzieła."
+   },
+   {
+    "type": "li",
+    "text": "Nie przerywaj egzaminatorowi i nie kończ odpowiedzi w połowie zdania — dopowiedz myśl do końca."
+   },
+   {
+    "type": "li",
+    "text": "Pytanie dodatkowe to nie kara, tylko szansa na dodanie czegoś od siebie."
+   },
+   {
+    "type": "li",
+    "text": "Jeśli się pomylisz, powiedz „przepraszam, chciałam powiedzieć…\" i mów dalej. Poprawienie się jest atutem."
+   },
+   {
+    "type": "box",
+    "title": "OSTATNI TYDZIEŃ",
+    "text": "W ostatnim tygodniu nie uczy się nowych rzeczy. Ogląda się reprodukcje, powtarza schemat analizy i mówi na głos. Dzień przed egzaminem — spacer i sen. Wiedza, która jest, nie ucieknie; wiedza, której nie ma, nie pojawi się w jedną noc."
+   }
+  ]
+ }
+]

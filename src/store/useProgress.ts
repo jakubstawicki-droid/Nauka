@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { normalizeProgress } from '../lib/backup';
 import { createStorage } from '../storage/adapters';
 import type { StorageAdapter, StorageKind } from '../storage/StorageAdapter';
-import { emptyProgress, type AnalysisResult, type ExamResult, type ProgressData, type ReviewLog, type Settings } from './model';
+import { emptyProgress, type AnalysisResult, type DiagnosticResult, type ExamResult, type ProgressData, type ReviewLog, type Settings } from './model';
 
 const KEY = 'progress';
 
@@ -17,6 +17,7 @@ interface ProgressStore extends ProgressData {
   toggleScheduleTask: (key: string) => void;
   addAnalysis: (a: AnalysisResult) => void;
   addExam: (e: ExamResult) => void;
+  addDiagnostic: (d: DiagnosticResult) => void;
   /** Podmienia cały postęp i od razu zapisuje (bez opóźnienia). */
   replaceAll: (data: ProgressData) => Promise<boolean>;
   reset: () => Promise<boolean>;
@@ -71,6 +72,10 @@ export const useProgress = create<ProgressStore>((setState, getState) => {
 
     addExam(e) {
       change({ exams: [...getState().exams, e] });
+    },
+
+    addDiagnostic(d) {
+      change({ diagnostics: [...getState().diagnostics, d] });
     },
 
     replaceAll(data) {
