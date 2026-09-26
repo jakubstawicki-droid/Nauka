@@ -402,3 +402,39 @@ r['lastWeek'] = 'W ostatnim tygodniu nie uczy się nowych rzeczy. Ogląda się r
 r['namedArtists'] = ['Jan Matejko', 'Stanisław Wyspiański', 'Salvador Dalí', 'Pablo Picasso']
 dump('examRules.json', {k: r[k] for k in ['rules', 'rulesSource', 'answerStructure', 'namedArtists', 'lastWeek', 'analysisMistakes', 'scorecard', 'feedbackTip']})
 print(len(G), 'terminów;', len(P), 'epok;', len(S), 'tygodni')
+
+# --- quizy przyporządkowania (tabele z działu I „Graficzne” i działu III „Architektura — porządki”) ---
+dump('matching.json', dict(
+    graphicTechniques=dict(
+        prompt='Do jakiego rodzaju druku należy ta technika?',
+        categories=[
+            dict(name='druk wypukły', rule='Odbija się to, co zostało na powierzchni; tło zostaje wycięte. Farba pokrywa wypukłości. Efekt: mocne, płaskie plamy, wyrazisty kontur.'),
+            dict(name='druk wklęsły', rule='Odbija się to, co wyryte w płycie; farba wchodzi w rowki, a powierzchnię się wyciera. Efekt: cienka, precyzyjna, aksamitna kreska.'),
+            dict(name='druk płaski', rule='Matryca jest gładka; rysunek i tło różnią się nie poziomem, lecz podatnością na farbę (tłuszcz odpycha wodę). Efekt: swoboda zbliżona do rysunku.'),
+        ],
+        items=[
+            dict(text='drzeworyt', category=0), dict(text='linoryt', category=0),
+            dict(text='miedzioryt', category=1), dict(text='staloryt', category=1), dict(text='sucha igła', category=1),
+            dict(text='akwaforta', category=1), dict(text='akwatinta', category=1),
+            dict(text='litografia', category=2), dict(text='cynkografia', category=2), dict(text='serigrafia (sitodruk)', category=2),
+        ]),
+    architecturalOrders=dict(
+        prompt='Który porządek architektoniczny opisuje ta cecha?',
+        categories=[
+            dict(name='dorycki', rule='Kolumna krępa, bez bazy, żłobkowana; głowica prosta: kwadratowa płyta na okrągłej poduszce. Wrażenie: surowość, siła, „męskość”.'),
+            dict(name='joński', rule='Kolumna smuklejsza, na bazie; głowica ze ślimacznicami (wolutami). Wrażenie: lekkość, wdzięk.'),
+            dict(name='koryncki', rule='Kolumna najsmuklejsza; głowica: kosz liści akantu. Wrażenie: bogactwo, dekoracyjność.'),
+        ],
+        items=[
+            dict(text='kolumna krępa, bez bazy, żłobkowana', category=0),
+            dict(text='głowica prosta: kwadratowa płyta na okrągłej poduszce', category=0),
+            dict(text='wrażenie: surowość, siła, „męskość”', category=0),
+            dict(text='najdoskonalszy przykład: Partenon', category=0),
+            dict(text='kolumna smuklejsza, na bazie', category=1),
+            dict(text='głowica ze ślimacznicami (wolutami)', category=1),
+            dict(text='wrażenie: lekkość, wdzięk', category=1),
+            dict(text='kolumna najsmuklejsza', category=2),
+            dict(text='głowica w kształcie kosza liści akantu', category=2),
+            dict(text='wrażenie: bogactwo, dekoracyjność', category=2),
+        ]),
+))

@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
-import { HashRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { Placeholder } from './components/ui';
 import { ArtworkDetail, ArtworksHome } from './screens/Artworks';
 import { Dashboard } from './screens/Dashboard';
 import { HowToLearn } from './screens/HowToLearn';
 import { QuestionDetail, QuestionSection, QuestionsHome } from './screens/Questions';
+import { QuizMenu, QuizRun } from './screens/Quizzes';
 import { StudySession } from './screens/StudySession';
 import { MoreMenu, TrainingMenu } from './screens/menus';
 import { Settings } from './screens/Settings';
@@ -50,7 +51,8 @@ export function App() {
           <Route path="dziela/:id" element={<ArtworkDetail />} />
           <Route path="sesja" element={<StudySessionRoute />} />
           <Route path="trening" element={<TrainingMenu />} />
-          <Route path="trening/quizy/*" element={<Placeholder title="Quizy" stage={4} />} />
+          <Route path="trening/quizy" element={<QuizMenu />} />
+          <Route path="trening/quizy/:kind" element={<QuizRunRoute />} />
           <Route path="trening/analiza/*" element={<Placeholder title="Trener analizy" stage={5} />} />
           <Route path="trening/egzamin/*" element={<Placeholder title="Egzamin próbny" stage={5} />} />
           <Route path="trening/mieszany" element={<Navigate to="/sesja?typ=mieszany" replace />} />
@@ -72,4 +74,10 @@ export function App() {
 function StudySessionRoute() {
   const { search } = useLocation();
   return <StudySession key={search} />;
+}
+
+/** Świeży quiz przy przejściu z jednego quizu do innego. */
+function QuizRunRoute() {
+  const { kind } = useParams();
+  return <QuizRun key={kind} />;
 }

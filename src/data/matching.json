@@ -1,0 +1,120 @@
+{
+  "graphicTechniques": {
+    "prompt": "Do jakiego rodzaju druku należy ta technika?",
+    "categories": [
+      {
+        "name": "druk wypukły",
+        "rule": "Odbija się to, co zostało na powierzchni; tło zostaje wycięte. Farba pokrywa wypukłości. Efekt: mocne, płaskie plamy, wyrazisty kontur."
+      },
+      {
+        "name": "druk wklęsły",
+        "rule": "Odbija się to, co wyryte w płycie; farba wchodzi w rowki, a powierzchnię się wyciera. Efekt: cienka, precyzyjna, aksamitna kreska."
+      },
+      {
+        "name": "druk płaski",
+        "rule": "Matryca jest gładka; rysunek i tło różnią się nie poziomem, lecz podatnością na farbę (tłuszcz odpycha wodę). Efekt: swoboda zbliżona do rysunku."
+      }
+    ],
+    "items": [
+      {
+        "text": "drzeworyt",
+        "category": 0
+      },
+      {
+        "text": "linoryt",
+        "category": 0
+      },
+      {
+        "text": "miedzioryt",
+        "category": 1
+      },
+      {
+        "text": "staloryt",
+        "category": 1
+      },
+      {
+        "text": "sucha igła",
+        "category": 1
+      },
+      {
+        "text": "akwaforta",
+        "category": 1
+      },
+      {
+        "text": "akwatinta",
+        "category": 1
+      },
+      {
+        "text": "litografia",
+        "category": 2
+      },
+      {
+        "text": "cynkografia",
+        "category": 2
+      },
+      {
+        "text": "serigrafia (sitodruk)",
+        "category": 2
+      }
+    ]
+  },
+  "architecturalOrders": {
+    "prompt": "Który porządek architektoniczny opisuje ta cecha?",
+    "categories": [
+      {
+        "name": "dorycki",
+        "rule": "Kolumna krępa, bez bazy, żłobkowana; głowica prosta: kwadratowa płyta na okrągłej poduszce. Wrażenie: surowość, siła, „męskość”."
+      },
+      {
+        "name": "joński",
+        "rule": "Kolumna smuklejsza, na bazie; głowica ze ślimacznicami (wolutami). Wrażenie: lekkość, wdzięk."
+      },
+      {
+        "name": "koryncki",
+        "rule": "Kolumna najsmuklejsza; głowica: kosz liści akantu. Wrażenie: bogactwo, dekoracyjność."
+      }
+    ],
+    "items": [
+      {
+        "text": "kolumna krępa, bez bazy, żłobkowana",
+        "category": 0
+      },
+      {
+        "text": "głowica prosta: kwadratowa płyta na okrągłej poduszce",
+        "category": 0
+      },
+      {
+        "text": "wrażenie: surowość, siła, „męskość”",
+        "category": 0
+      },
+      {
+        "text": "najdoskonalszy przykład: Partenon",
+        "category": 0
+      },
+      {
+        "text": "kolumna smuklejsza, na bazie",
+        "category": 1
+      },
+      {
+        "text": "głowica ze ślimacznicami (wolutami)",
+        "category": 1
+      },
+      {
+        "text": "wrażenie: lekkość, wdzięk",
+        "category": 1
+      },
+      {
+        "text": "kolumna najsmuklejsza",
+        "category": 2
+      },
+      {
+        "text": "głowica w kształcie kosza liści akantu",
+        "category": 2
+      },
+      {
+        "text": "wrażenie: bogactwo, dekoracyjność",
+        "category": 2
+      }
+    ]
+  }
+}

@@ -267,3 +267,35 @@ p { margin: 0 0 0.75em; }
 .bar-row .bar .m { background: var(--ok); }
 .bar-row .bar .l { background: var(--warn); }
 .countdown { font-size: 3rem; font-weight: 700; text-align: center; font-variant-numeric: tabular-nums; color: var(--accent); }
+
+/* --- quizy --- */
+.quiz-stem { font-family: var(--font-text); font-size: 1.15rem; line-height: 1.5; margin-bottom: 16px; }
+.options { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.option {
+  text-align: left; min-height: 52px; padding: 12px 16px; border-radius: 12px; border: 2px solid var(--line);
+  background: var(--surface); font-weight: 550; cursor: pointer; line-height: 1.35;
+}
+.option:disabled { cursor: default; color: var(--text); }
+.option.right { border-color: var(--ok); background: var(--ok-soft); }
+.option.wrong { border-color: #b3261e; background: var(--warn-soft); }
+.option.dim { opacity: 0.55; }
+
+.sortable { list-style: none; margin: 0 0 16px; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.sortable li {
+  display: flex; align-items: center; gap: 10px; min-height: 60px; padding: 8px 8px 8px 0;
+  border: 2px solid var(--line); border-radius: 12px; background: var(--surface); user-select: none;
+}
+.sortable li.dragging { border-color: var(--accent); box-shadow: 0 6px 20px rgb(0 0 0 / 0.15); }
+.sortable li.right { border-color: var(--ok); background: var(--ok-soft); }
+.sortable li.wrong { border-color: #b3261e; background: var(--warn-soft); }
+.sortable .handle {
+  display: grid; place-items: center; width: 44px; align-self: stretch; font-size: 1.4rem; color: var(--muted);
+  cursor: grab; touch-action: none;
+}
+.sortable .s-main { flex: 1; min-width: 0; }
+.sortable .s-label { font-weight: 600; }
+.sortable .s-sub, .sortable .s-hint { font-size: 0.85rem; color: var(--muted); }
+.sortable .s-hint { color: var(--text); font-weight: 600; margin-top: 2px; }
+.s-arrows { display: flex; flex-direction: column; gap: 4px; }
+.s-arrows button { width: 40px; height: 32px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface-2); cursor: pointer; }
+.s-arrows button:disabled { opacity: 0.35; }

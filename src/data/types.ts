@@ -142,3 +142,9 @@ export interface AnalysisGuide {
   unknownArtwork: { intro: string; startSteps: { title: string; text: string }[]; dont: string; signalsTip: string };
   trainingPlan: { intro: string; stages: { weeks: number[]; form: string; how: string }[] };
 }
+
+export interface MatchingSet {
+  prompt: string;
+  categories: { name: string; rule: string }[];
+  items: { text: string; category: number }[];
+}

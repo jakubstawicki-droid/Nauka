@@ -5,6 +5,7 @@ import diagnosticJson from './diagnostic.json';
 import examRulesJson from './examRules.json';
 import glossaryJson from './glossary.json';
 import imageOverridesJson from './imageOverrides.json';
+import matchingJson from './matching.json';
 import modelAnalysesJson from './modelAnalyses.json';
 import periodsJson from './periods.json';
 import questionsJson from './questions.json';
@@ -12,7 +13,7 @@ import scheduleJson from './schedule.json';
 import signalsJson from './signals.json';
 import type {
   AnalysisGuide, AnalysisStep, Artwork, Diagnostic, ExamRules, GlossaryTerm, ModelAnalysis,
-  Period, Question, Schedule, SectionCode, Signal,
+  MatchingSet, Period, Question, Schedule, SectionCode, Signal,
 } from './types';
 
 export const questions = questionsJson as Question[];
@@ -27,6 +28,7 @@ export const diagnostic = diagnosticJson as Diagnostic;
 export const schedule = scheduleJson as Schedule;
 export const examRules = examRulesJson as ExamRules;
 export const imageOverrides = imageOverridesJson as Record<string, string>;
+export const matching = matchingJson as Record<'graphicTechniques' | 'architecturalOrders', MatchingSet>;
 
 export const SECTIONS: { code: SectionCode; title: string }[] = [
   ...new Map(questions.map((q) => [q.section, { code: q.section, title: q.sectionTitle }])).values(),
