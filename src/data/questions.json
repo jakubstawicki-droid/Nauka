@@ -839,7 +839,6 @@
     "followUp": "Dlaczego mówi się, że obrazy Matejki 'krzepiły serca'? Jaki był kontekst historyczny ich powstania?",
     "commonMistake": "Traktowanie obrazów historycznych jako wiernego zapisu wydarzeń — to interpretacja artystyczna, często z celowymi anachronizmami.",
     "tags": [
-      "Akademizm / historyzm",
       "Jan Matejko"
     ]
   },
@@ -1209,8 +1208,7 @@
     "commonMistake": "Przypisywanie rzeźbie rzymskiej greckiego ideału piękna — portret rzymski cechuje realizm.",
     "tags": [
       "Starożytny Rzym",
-      "Klasycyzm",
-      "Realizm"
+      "Klasycyzm"
     ]
   },
   {
@@ -1599,6 +1597,7 @@
     "followUp": "Dlaczego tylu polskich malarzy studiowało w Monachium, a nie w Warszawie?",
     "commonMistake": "Traktowanie akademizmu jako stylu — to raczej sposób kształcenia i zbiór reguł, obecny w różnych kierunkach.",
     "tags": [
+      "Realizm",
       "Akademizm / historyzm",
       "Secesja",
       "Jan Matejko",
@@ -1828,7 +1827,6 @@
     "followUp": "Na czym polega automatyzm psychiczny i jak można go zastosować w rysunku?",
     "commonMistake": "Nazywanie surrealizmem każdego dziwnego czy fantastycznego obrazu — surrealizm to konkretny ruch z lat 20. XX wieku i określony program.",
     "tags": [
-      "Realizm",
       "Abstrakcjonizm",
       "Surrealizm",
       "Salvador Dalí",
@@ -1851,7 +1849,6 @@
     "followUp": "Dlaczego surrealistyczny obraz musi być namalowany realistycznie, żeby działał?",
     "commonMistake": "Mówienie o surrealizmie tylko przez treść, bez omówienia środków formalnych — na egzaminie liczy się właśnie analiza formy.",
     "tags": [
-      "Realizm",
       "Surrealizm",
       "Salvador Dalí",
       "René Magritte"
@@ -2093,7 +2090,6 @@
     "followUp": "Dlaczego Dalí malował swoje sny w sposób tak realistyczny?",
     "commonMistake": "Nazywanie Dalego twórcą surrealizmu — surrealizm powstał w 1924 roku wokół André Bretona, Dalí dołączył później.",
     "tags": [
-      "Realizm",
       "Surrealizm",
       "Salvador Dalí"
     ]
@@ -2114,7 +2110,7 @@
     "followUp": "Jakimi środkami formalnymi Dalí buduje w tym obrazie wrażenie snu?",
     "commonMistake": "Podawanie zmyślonych, szczegółowych interpretacji symboli jako pewnych — lepiej powiedzieć 'najczęściej odczytuje się to jako…'.",
     "tags": [
-      "Realizm",
+      "Salvador Dalí",
       "kompozycja"
     ]
   },

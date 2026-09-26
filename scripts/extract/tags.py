@@ -19,8 +19,8 @@ PERIODS = {
     'Rokoko': [r'rokok'],
     'Klasycyzm': [r'klasycyzm', r'klasycys'],
     'Romantyzm': [r'romantyzm', r'romantycz'],
-    'Realizm': [r'realizm', r'realist'],
-    'Akademizm / historyzm': [r'akademizm', r'akademick', r'historyzm'],
+    'Realizm': [r'(?<!sur)realizm', r'\brealiści', r'\brealistów'],
+    'Akademizm / historyzm': [r'akademizm', r'historyzm'],
     'Impresjonizm': [r'impresjoni'],
     'Postimpresjonizm': [r'postimpresjoni', r'pointyli'],
     'Symbolizm': [r'symbolizm', r'symbolist'],
@@ -32,7 +32,7 @@ PERIODS = {
     'Pop-art, minimalizm, konceptualizm': [r'pop-art', r'minimali', r'konceptual'],
 }
 ARTISTS = {
-    'Jan Matejko': r'matejk', 'Stanisław Wyspiański': r'wyspiańsk', 'Salvador Dalí': r'dal(í|i)(ego|m)?\b',
+    'Jan Matejko': r'matejk', 'Stanisław Wyspiański': r'wyspiańsk', 'Salvador Dalí': r'\bdal(í|i|ego|emu|im)\b',
     'Pablo Picasso': r'picass', 'Leonardo da Vinci': r'leonard', 'Michał Anioł': r'michał\w* anio',
     'Rembrandt': r'rembrandt', 'Vincent van Gogh': r'gogh', 'Claude Monet': r'monet', 'Auguste Rodin': r'rodin',
     'Józef Chełmoński': r'chełmońsk', 'Jacek Malczewski': r'malczewsk', 'Olga Boznańska': r'boznańsk',
