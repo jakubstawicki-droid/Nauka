@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { Dialog, PageHead } from '../components/ui';
 import { backupFileName, createBackup, mergeProgress, parseBackup, type BackupFile } from '../lib/backup';
 import { daysBetween, formatDay, startFromExam, toDay } from '../lib/dates';
+import { isIos, useInstallPrompt } from '../hooks/usePwa';
 import { STORAGE_LABELS } from '../storage/StorageAdapter';
 import type { Theme } from '../store/model';
 import { flushProgress, useProgress } from '../store/useProgress';
@@ -15,6 +16,7 @@ export function Settings() {
   const [pending, setPending] = useState<{ backup: BackupFile; skipped: number } | null>(null);
   const [confirmReset, setConfirmReset] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
+  const install = useInstallPrompt();
 
   const today = toDay(new Date());
   const suggestedStart = settings.examDate ? startFromExam(settings.examDate) : null;
@@ -118,6 +120,22 @@ export function Settings() {
             </button>
           ))}
         </div>
+      </section>
+
+      <section className="card">
+        <h2>Aplikacja na telefonie</h2>
+        {install.installed ? (
+          <p className="small">Aplikacja jest zainstalowana i działa offline.</p>
+        ) : install.canPrompt ? (
+          <>
+            <p className="small muted">Dodaj aplikację do ekranu głównego — otworzy się jak zwykła aplikacja i zadziała bez internetu.</p>
+            <button className="btn primary" onClick={() => void install.prompt()}>Dodaj do ekranu głównego</button>
+          </>
+        ) : isIos() ? (
+          <p className="small">W Safari stuknij <strong>Udostępnij</strong> (kwadrat ze strzałką), potem <strong>Do ekranu początkowego</strong>.</p>
+        ) : (
+          <p className="small muted">W menu przeglądarki wybierz „Zainstaluj aplikację” albo „Dodaj do ekranu głównego”. Po pierwszym otwarciu aplikacja działa także offline.</p>
+        )}
       </section>
 
       <section className="card">

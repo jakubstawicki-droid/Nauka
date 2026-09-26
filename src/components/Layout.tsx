@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import { IconArtworks, IconMore, IconQuestions, IconToday, IconTraining } from './Icons';
+import { PwaStatus } from './PwaStatus';
 
 const TABS = [
   { to: '/', label: 'Dziś', Icon: IconToday, end: true },
@@ -21,6 +22,7 @@ export function Layout() {
         ))}
       </nav>
       <main className="main">
+        <PwaStatus />
         <Outlet />
       </main>
     </div>

@@ -416,3 +416,11 @@ details.card > summary { cursor: pointer; min-height: 32px; }
 .dt-points { margin-top: 6px; max-width: 220px; }
 .weak { margin: 0 0 8px; padding-left: 20px; }
 .weak li { margin-bottom: 6px; }
+
+/* --- PWA --- */
+.offline-bar { position: sticky; top: 0; z-index: 20; background: var(--warn-soft); color: var(--warn); font-size: 0.85rem; padding: 8px 16px; text-align: center; }
+.toast {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(var(--nav-h) + env(safe-area-inset-bottom) + 12px); z-index: 40;
+  background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 12px; font-size: 0.9rem; box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+}
+@media (min-width: 900px) { .toast { bottom: 24px; } }

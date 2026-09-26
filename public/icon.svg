@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#9c3d25"/>
+  <!-- gotyckie okno ostrołukowe: rama, laskowanie i rozeta -->
+  <path d="M146 380 L146 250 A220 220 0 0 1 256 59.5 A220 220 0 0 1 366 250 L366 380 Z" fill="#f6f1e9"/>
+  <path d="M168 358 L168 250 A176 176 0 0 1 256 97.6 A176 176 0 0 1 344 250 L344 358 Z" fill="#9c3d25"/>
+  <rect x="249" y="196" width="14" height="162" fill="#f6f1e9"/>
+  <circle cx="256" cy="168" r="30" fill="#f6f1e9"/>
+  <circle cx="256" cy="168" r="13" fill="#9c3d25"/>
+  <rect x="120" y="394" width="272" height="18" rx="4" fill="#f6f1e9"/>
+</svg>
