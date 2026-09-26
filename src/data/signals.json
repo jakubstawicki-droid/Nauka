@@ -1,0 +1,92 @@
+[
+  {
+    "clue": "Łuk półkolisty, gruby mur, małe okna, mroczne wnętrze",
+    "period": "romanizm",
+    "dates": "XI–XII w."
+  },
+  {
+    "clue": "Łuk ostry, witraże, rozeta, przypory na zewnątrz, dominacja pionu",
+    "period": "gotyk",
+    "dates": "XII–XV w."
+  },
+  {
+    "clue": "Złote tło, frontalizm, brak cienia, perspektywa odwrócona",
+    "period": "sztuka bizantyjska / ikona",
+    "dates": "VI–XV w."
+  },
+  {
+    "clue": "Perspektywa linearna, symetria, kompozycja w trójkącie, idealizacja",
+    "period": "renesans",
+    "dates": "XV–XVI w."
+  },
+  {
+    "clue": "Wydłużone, powyginane postacie, chłodna barwa, zatłoczona kompozycja",
+    "period": "manieryzm",
+    "dates": "ok. 1520–1600"
+  },
+  {
+    "clue": "Diagonala, ostry światłocień, patos, moment kulminacyjny",
+    "period": "barok",
+    "dates": "XVII w."
+  },
+  {
+    "clue": "Pastelowa gama, asymetria, muszla i wić, tematy zabawowe",
+    "period": "rokoko",
+    "dates": "ok. 1720–1780"
+  },
+  {
+    "clue": "Portyk z tympanonem, prymat rysunku nad barwą, statyka, temat antyczny",
+    "period": "klasycyzm",
+    "dates": "ok. 1760–1830"
+  },
+  {
+    "clue": "Diagonala i barwa, żywioł, ruiny, egzotyka, jednostka wobec natury",
+    "period": "romantyzm",
+    "dates": "ok. 1800–1850"
+  },
+  {
+    "clue": "Zwykły człowiek pracy, ziemista gama, brak idealizacji",
+    "period": "realizm",
+    "dates": "ok. 1840–1870"
+  },
+  {
+    "clue": "Widoczne pociągnięcia pędzla, jasna paleta, barwny cień, kadr jak z fotografii",
+    "period": "impresjonizm",
+    "dates": "ok. 1870–1890"
+  },
+  {
+    "clue": "Gruby impast, wirujący dukt, kontrast barw dopełniających",
+    "period": "postimpresjonizm (van Gogh)",
+    "dates": "ok. 1885–1905"
+  },
+  {
+    "clue": "Falista linia, ornament roślinny, płaskość, złoto, kobieta z długimi włosami",
+    "period": "secesja",
+    "dates": "ok. 1890–1910"
+  },
+  {
+    "clue": "Deformacja, agresywna barwa, ostry kontur, niepokój",
+    "period": "ekspresjonizm",
+    "dates": "ok. 1905–1925"
+  },
+  {
+    "clue": "Przedmiot z wielu stron naraz, fasety, gama szaro-brązowa",
+    "period": "kubizm",
+    "dates": "ok. 1907–1914"
+  },
+  {
+    "clue": "Realistyczna technika, nierealna scena, długie cienie, pusta przestrzeń",
+    "period": "surrealizm",
+    "dates": "od 1924"
+  },
+  {
+    "clue": "Brak przedstawienia, figura geometryczna, barwy podstawowe",
+    "period": "abstrakcjonizm geometryczny",
+    "dates": "od ok. 1910"
+  },
+  {
+    "clue": "Motyw z reklamy lub komiksu, sitodruk, płaska plama, seryjność",
+    "period": "pop-art",
+    "dates": "lata 50.–60. XX w."
+  }
+]

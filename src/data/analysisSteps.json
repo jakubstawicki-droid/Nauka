@@ -1,0 +1,175 @@
+[
+  {
+    "n": 1,
+    "name": "Identyfikacja",
+    "goal": "Powiedz, na co patrzysz, zanim powiesz cokolwiek innego.",
+    "duration": "2–3 zdania · ok. 15 sekund",
+    "durationSeconds": 15,
+    "selfQuestions": [
+      "Jaka to dziedzina sztuki: malarstwo, rzeźba, grafika, architektura?",
+      "Jaka technika — na ile da się ją rozpoznać z reprodukcji?",
+      "Jaki jest format i kształt pola obrazowego?",
+      "Czy znam autora i tytuł? Jeśli tak — podaj od razu i idź dalej."
+    ],
+    "phrases": [
+      "Mamy do czynienia z dziełem malarskim, prawdopodobnie wykonanym techniką olejną na płótnie.",
+      "To rzeźba pełna, kuta w marmurze, przeznaczona do oglądania ze wszystkich stron.",
+      "Widzimy fotografię budowli sakralnej — fasady zachodniej kościoła.",
+      "Format jest pionowy, prostokątny, co już podpowiada, że kompozycja będzie budowana na osi pionowej."
+    ],
+    "commonMistake": "Zaczynanie od „na tym obrazie widzimy…”. Najpierw nazwij dziedzinę i technikę — to pokazuje, że myślisz jak plastyk, nie jak widz."
+  },
+  {
+    "n": 2,
+    "name": "Treść",
+    "goal": "Powiedz, co dzieło przedstawia — od rzeczy najważniejszych do szczegółów.",
+    "duration": "3–5 zdań · ok. 25 sekund",
+    "durationSeconds": 25,
+    "selfQuestions": [
+      "Jaki to gatunek: portret, pejzaż, martwa natura, scena rodzajowa, historyczna, religijna, mitologiczna, batalistyczna, akt, alegoria?",
+      "Co konkretnie widać? Ile jest postaci, co robią, gdzie się znajdują?",
+      "Czy są symbole lub atrybuty, po których rozpoznaję postacie?",
+      "Czy scena jest przedstawiająca, czy abstrakcyjna?"
+    ],
+    "phrases": [
+      "Pod względem gatunku jest to scena religijna, ukazana w momencie kulminacyjnym.",
+      "Kompozycja jest wielopostaciowa — widzę siedem postaci skupionych wokół stołu.",
+      "Postać w czerwonym płaszczu rozpoznaję po atrybucie — trzyma…",
+      "Dzieło należy do sztuki abstrakcyjnej, więc nie ma tu tematu w tradycyjnym sensie."
+    ],
+    "commonMistake": "Opisywanie wszystkiego po kolei, jak inwentaryzacja. Powiedz najpierw, o co w scenie chodzi, a potem dwa–trzy istotne szczegóły."
+  },
+  {
+    "n": 3,
+    "name": "Kompozycja",
+    "goal": "Pokaż, jak dzieło jest zbudowane — to część, w której najłatwiej zdobyć punkty.",
+    "duration": "4–6 zdań · ok. 35 sekund",
+    "durationSeconds": 35,
+    "selfQuestions": [
+      "Zamknięta czy otwarta? Czy coś jest ucięte krawędzią?",
+      "Symetryczna czy asymetryczna? Statyczna czy dynamiczna?",
+      "Jakie kierunki przeważają: pionowe, poziome, skośne?",
+      "Gdzie jest dominanta kompozycyjna i czy pokrywa się ze środkiem geometrycznym?",
+      "Ile jest planów? Czy kompozycja wpisuje się w figurę geometryczną?"
+    ],
+    "phrases": [
+      "Kompozycja jest zamknięta i wpisana w trójkąt, co daje wrażenie ładu i stabilności.",
+      "To kompozycja diagonalna — główne kierunki biegną po skosie od prawego górnego rogu, przez co scena wydaje się być w ruchu.",
+      "Dominantą kompozycyjną jest postać w centrum, ale nie pokrywa się ona ze środkiem geometrycznym obrazu — jest przesunięta w prawo.",
+      "Kompozycja jest wieloplanowa: na pierwszym planie…, na drugim…, w głębi…"
+    ],
+    "commonMistake": "Powiedzenie samego terminu bez wskazania, z czego on wynika. Zawsze dodaj „ponieważ” — „kompozycja jest dynamiczna, ponieważ przeważają skosy i łuki”."
+  },
+  {
+    "n": 4,
+    "name": "Przestrzeń i światło",
+    "goal": "Wyjaśnij, jak zbudowana jest głębia i skąd pada światło.",
+    "duration": "3–5 zdań · ok. 30 sekund",
+    "durationSeconds": 30,
+    "selfQuestions": [
+      "Jaki rodzaj perspektywy: linearna, powietrzna, kulisowa, odwrócona, wielokierunkowa? A może dzieło jest jednoplanowe?",
+      "Gdzie biegnie linia horyzontu — nisko, wysoko, w połowie?",
+      "Skąd pada światło? Naturalne czy sztuczne, rozproszone czy skupione?",
+      "Czy występuje modelunek światłocieniowy? Czy światło ma charakter luministyczny?"
+    ],
+    "phrases": [
+      "Artysta zastosował perspektywę linearną — linie posadzki zbiegają się w punkcie tuż za głową głównej postaci.",
+      "Głębię buduje przede wszystkim perspektywa powietrzna: dalsze plany są zamglone i chłodniejsze.",
+      "Światło pada z prawej strony, spoza kadru, ostrym, wąskim snopem — to typowy luminizm.",
+      "Modelunek światłocieniowy jest miękki, przejścia od światła do cienia niemal niezauważalne — to sfumato."
+    ],
+    "commonMistake": "Pominięcie tego kroku. Światło jest tym, o co egzaminatorzy pytają najczęściej w pytaniu dodatkowym."
+  },
+  {
+    "n": 5,
+    "name": "Barwa",
+    "goal": "Opisz kolorystykę jako system, nie jako listę kolorów.",
+    "duration": "3–5 zdań · ok. 30 sekund",
+    "durationSeconds": 30,
+    "selfQuestions": [
+      "Gama szeroka czy wąska? Ciepła, chłodna czy monochromatyczna?",
+      "Jaki jest koloryt całości i co stanowi dominantę barwną?",
+      "Czy są akcenty barwne i gdzie zostały umieszczone?",
+      "Jakie kontrasty barwne występują: temperaturowy, walorowy, dopełnieniowy?"
+    ],
+    "phrases": [
+      "Gama barwna jest wąska i ciepła — przeważają brązy, ochry i czerwienie.",
+      "Dominanta barwna jest chłodna, ale malarz wprowadził ciepły akcent w postaci czerwonej draperii, który przyciąga wzrok do centrum.",
+      "Najsilniejszy jest kontrast walorowy — jasna postać wydobyta z niemal czarnego tła.",
+      "Barwy są czyste i nasycone, kładzione płaskimi plamami, bez modelunku."
+    ],
+    "commonMistake": "„Obraz jest kolorowy” albo wyliczanie: „jest tu czerwony, niebieski, żółty”. Mów o gamie, dominancie, akcentach i kontrastach."
+  },
+  {
+    "n": 6,
+    "name": "Faktura",
+    "goal": "Powiedz, jak opracowana jest powierzchnia — nawet jedno zdanie robi różnicę.",
+    "duration": "1–2 zdania · ok. 10 sekund",
+    "durationSeconds": 10,
+    "selfQuestions": [
+      "Gładka czy impastowa? Czy widać dukt pędzla?",
+      "W rzeźbie: powierzchnia wypolerowana czy ze śladami dłuta? Czy jest kontrast faktur?",
+      "Czy dzieło jest starannie wykończone (fini), czy celowo niedokończone (non finito)?"
+    ],
+    "phrases": [
+      "Faktura jest gładka, wykończona, ślad pędzla niewidoczny — malarz dążył do efektu fini.",
+      "Widoczny jest wyrazisty, wirujący dukt pędzla i gruby impast.",
+      "Rzeźbiarz zestawił wypolerowane ciało z chropowatą, surową powierzchnią cokołu — to kontrast faktur."
+    ],
+    "commonMistake": "Całkowite pominięcie faktury. To najczęściej opuszczany element analizy, więc wspomnienie o niej od razu wyróżnia odpowiedź."
+  },
+  {
+    "n": 7,
+    "name": "Funkcja i kontekst",
+    "goal": "Powiedz, po co dzieło powstało i dla kogo.",
+    "duration": "2–3 zdania · ok. 20 sekund",
+    "durationSeconds": 20,
+    "selfQuestions": [
+      "Funkcja: kultowa, dekoracyjna, memoratywna, propagandowa, estetyczna, użytkowa, sepulkralna?",
+      "Gdzie dzieło pierwotnie się znajdowało — w kościele, w pałacu, na rynku, w domu mieszczanina?",
+      "Kto był zleceniodawcą i do kogo dzieło było adresowane?"
+    ],
+    "phrases": [
+      "Dzieło powstało jako obraz ołtarzowy, więc pełniło funkcję kultową i dydaktyczną.",
+      "Ogromny format i temat historyczny wskazują na funkcję propagandową — obraz miał budować dumę narodową.",
+      "Niewielki format i temat z życia codziennego mówią, że obraz powstał dla mieszczańskiego odbiorcy, do prywatnego domu."
+    ],
+    "commonMistake": "Mylenie funkcji z tematem. Temat to „co przedstawia”, funkcja to „po co powstało i gdzie wisiało”."
+  },
+  {
+    "n": 8,
+    "name": "Styl i czas powstania",
+    "goal": "Postaw tezę o epoce — i uzasadnij ją tym, co już powiedziałaś.",
+    "duration": "3–4 zdania · ok. 25 sekund",
+    "durationSeconds": 25,
+    "selfQuestions": [
+      "Które z omówionych cech są charakterystyczne dla konkretnej epoki?",
+      "Czy potrafię wskazać przynajmniej trzy argumenty za tym datowaniem?",
+      "Czy znam artystę lub krąg artystyczny, do którego to dzieło można przypisać?"
+    ],
+    "phrases": [
+      "Zestawienie tych cech pozwala mi sądzić, że dzieło powstało w epoce baroku — na przełomie XVI i XVII wieku.",
+      "Przemawiają za tym trzy rzeczy: kompozycja diagonalna, luministyczne światło i uchwycenie momentu kulminacyjnego.",
+      "Nie jestem pewna autorstwa, ale sposób budowania światła wskazuje na krąg caravaggionistów.",
+      "Gdyby to był renesans, kompozycja byłaby statyczna i symetryczna — a tutaj wszystko jest w ruchu."
+    ],
+    "commonMistake": "Zgadywanie bez uzasadnienia. Zła epoka z trzema dobrymi argumentami jest oceniana lepiej niż trafiona epoka bez uzasadnienia."
+  },
+  {
+    "n": 9,
+    "name": "Własna opinia",
+    "goal": "Zamknij wypowiedź jednym zdaniem od siebie — z uzasadnieniem odwołującym się do formy.",
+    "duration": "1–2 zdania · ok. 15 sekund",
+    "durationSeconds": 15,
+    "selfQuestions": [
+      "Co robi na mnie największe wrażenie i który środek plastyczny za to odpowiada?",
+      "Czy mogę powiedzieć, dlaczego to dzieło jest ważne albo nowatorskie?"
+    ],
+    "phrases": [
+      "Najsilniej działa na mnie światło — to ono, a nie gest postaci, decyduje o dramatyzmie tej sceny.",
+      "Robi na mnie wrażenie kontrast między spokojem twarzy a napięciem całego ciała.",
+      "Uważam to dzieło za przełomowe, ponieważ po raz pierwszy…"
+    ],
+    "commonMistake": "„Podoba mi się” bez ciągu dalszego. Opinia musi się opierać na czymś, co wcześniej nazwałaś."
+  }
+]

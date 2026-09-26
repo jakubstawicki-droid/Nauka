@@ -1,0 +1,125 @@
+{
+  "rules": [],
+  "rulesSource": "Dział VIII programu przygotowawczego — brak pliku, patrz docs/braki.md",
+  "analysisMistakes": [
+    {
+      "title": "Opisywanie zamiast analizowania",
+      "text": "„Widzimy pana w kapeluszu, obok stoi stół.” To relacja, nie analiza. Po każdym „widzę” musi paść „nazywam to tak” i „wynika z tego”."
+    },
+    {
+      "title": "Terminy bez pokrycia",
+      "text": "Użycie słowa „sfumato” przy obrazie, w którym go nie ma, kosztuje więcej niż jego nieużycie. Mów tylko o tym, co faktycznie widzisz."
+    },
+    {
+      "title": "Brak uzasadnienia epoki",
+      "text": "Sama nazwa epoki to zgadywanie. Trzy argumenty formalne są warte więcej niż trafiona nazwa."
+    },
+    {
+      "title": "Pomijanie faktury i funkcji",
+      "text": "To dwa najczęściej opuszczane kroki. Jedno zdanie o każdym z nich wyraźnie podnosi ocenę."
+    },
+    {
+      "title": "Zmyślanie danych",
+      "text": "Wymyślony tytuł lub rok to błąd rzeczowy. „Około XVII wieku” jest zawsze bezpieczniejsze niż fałszywa precyzja."
+    },
+    {
+      "title": "Ocena zamiast opisu",
+      "text": "„Ładny obraz”, „dziwne to jest”. Opinia jest mile widziana, ale dopiero na końcu i zawsze z uzasadnieniem formalnym."
+    },
+    {
+      "title": "Mówienie za szybko",
+      "text": "Wypowiedź trzyminutowa powiedziana w minutę brzmi jak wyrecytowana. Pauza jest lepsza niż „yyy”."
+    },
+    {
+      "title": "Urwanie w połowie",
+      "text": "Jeśli zabraknie pomysłu, przejdź do kolejnego kroku schematu zamiast milknąć. Schemat zawsze podpowie, co dalej."
+    }
+  ],
+  "scorecard": {
+    "instructions": "Odhaczaj w trakcie wypowiedzi, nie po niej. Dziesięć i więcej ptaszków to wynik egzaminacyjny.",
+    "passThreshold": 10,
+    "items": [
+      {
+        "n": 1,
+        "text": "Nazwała dziedzinę sztuki i technikę",
+        "steps": [
+          1
+        ]
+      },
+      {
+        "n": 2,
+        "text": "Określiła gatunek i opisała treść",
+        "steps": [
+          2
+        ]
+      },
+      {
+        "n": 3,
+        "text": "Omówiła kompozycję, używając co najmniej dwóch określeń fachowych",
+        "steps": [
+          3
+        ]
+      },
+      {
+        "n": 4,
+        "text": "Omówiła sposób budowania przestrzeni (rodzaj perspektywy)",
+        "steps": [
+          4
+        ]
+      },
+      {
+        "n": 5,
+        "text": "Omówiła światło i światłocień",
+        "steps": [
+          4
+        ]
+      },
+      {
+        "n": 6,
+        "text": "Omówiła kolorystykę: gamę, dominantę, kontrast",
+        "steps": [
+          5
+        ]
+      },
+      {
+        "n": 7,
+        "text": "Wspomniała o fakturze",
+        "steps": [
+          6
+        ]
+      },
+      {
+        "n": 8,
+        "text": "Określiła funkcję dzieła",
+        "steps": [
+          7
+        ]
+      },
+      {
+        "n": 9,
+        "text": "Postawiła tezę o epoce i uzasadniła ją co najmniej dwoma argumentami",
+        "steps": [
+          8
+        ]
+      },
+      {
+        "n": 10,
+        "text": "Wypowiedziała własną opinię z uzasadnieniem",
+        "steps": [
+          9
+        ]
+      },
+      {
+        "n": 11,
+        "text": "Mówiła pełnymi zdaniami, bez urywania myśli",
+        "steps": []
+      },
+      {
+        "n": 12,
+        "text": "Zmieściła się w czasie 2–4 minut",
+        "steps": []
+      }
+    ]
+  },
+  "feedbackTip": "Najpierw powiedz, co zabrzmiało dobrze — konkretnie, z cytatem. Potem wskaż jeden brakujący krok, nie wszystkie. Analiza, po której pada lista dziesięciu uwag, zniechęca; analiza, po której pada jedna, poprawia się w kolejnym podejściu."
+}

@@ -1,0 +1,98 @@
+{
+  "intro": "Analiza dzieła to jedyne zadanie na egzaminie, które można wykonać bez wiedzy o konkretnym dziele. Jeśli egzaminator położy przed tobą nieznaną reprodukcję, nie sprawdza, czy ją rozpoznasz — sprawdza, czy potrafisz uporządkować to, co widzisz, i wyciągnąć z tego wnioski. Dlatego schemat z tej instrukcji jest ważniejszy niż jakakolwiek pojedyncza data.",
+  "threeMoves": {
+    "summary": "Każde zdanie dobrej analizy wykonuje jeden z trzech ruchów — i najlepsze zdania wykonują wszystkie trzy naraz:",
+    "moves": [
+      {
+        "name": "Widzę",
+        "role": "obserwacja",
+        "example": "światło pada z prawej strony, spoza kadru"
+      },
+      {
+        "name": "Nazywam",
+        "role": "termin fachowy",
+        "example": "to luminizm"
+      },
+      {
+        "name": "Wnioskuję",
+        "role": "konsekwencja",
+        "example": "dzięki temu z ciemności wydobyte są tylko twarze, co kieruje uwagę na gest"
+      }
+    ],
+    "conclusion": "Wypowiedź złożona z samych obserwacji brzmi jak opis. Wypowiedź złożona z samych terminów brzmi jak wykuta. Dopiero ich połączenie brzmi jak analiza."
+  },
+  "timing": "Pełna analiza to od dwóch do czterech minut mówienia, czyli mniej więcej 250–400 słów. Dziewięć kroków rozkłada ten czas tak, żeby żaden element nie został pominięty ani rozdmuchany. Nie trzeba realizować ich w tej kolejności co do joty — ale trzeba przez wszystkie przejść.",
+  "mainAdvice": "Analizy nie da się nauczyć czytaniem. Trzeba ją wypowiedzieć na głos co najmniej dwadzieścia razy, za każdym razem o innym dziele. Dopiero wtedy schemat przestaje być listą, a staje się sposobem patrzenia.",
+  "unknownArtwork": {
+    "intro": "To sytuacja, której warto sobie życzyć — pokazuje, że egzaminator chce sprawdzić myślenie, a nie pamięć. Postępowanie jest proste i zawsze takie samo.",
+    "startSteps": [
+      {
+        "title": "Przyznaj się od razu, ale nie przepraszaj.",
+        "text": "„Nie rozpoznaję tego dzieła, ale spróbuję je opisać i na tej podstawie określić epokę.” To zdanie kupuje ci życzliwość i czas."
+      },
+      {
+        "title": "Zacznij od kroku 1 i idź po kolei.",
+        "text": "Dziedzina, technika, format — to da się powiedzieć zawsze, nawet o dziele całkowicie nieznanym."
+      },
+      {
+        "title": "Zostaw datowanie na koniec.",
+        "text": "Krok 8 ma być wnioskiem z tego, co powiedziałaś wcześniej, a nie zgadywanką na starcie."
+      },
+      {
+        "title": "Formułuj ostrożnie.",
+        "text": "„Sądzę”, „przypuszczam”, „wskazywałoby to na” — to nie jest oznaka niepewności, tylko poprawna postawa badawcza."
+      }
+    ],
+    "dont": "Nie zmyślaj tytułu ani nazwiska. Nie mów „chyba Rembrandt” tylko dlatego, że obraz jest ciemny. Powiedz raczej: „ciemna, wąska gama i ostry światłocień wskazują na krąg malarstwa barokowego, być może holenderskiego” — to jest merytoryczne i bezpieczne.",
+    "signalsTip": "Tabela działa najlepiej, gdy zbierzesz trzy sygnały wskazujące na tę samą epokę."
+  },
+  "trainingPlan": {
+    "intro": "Trudność rośnie stopniowo. Każdy etap zakłada trzy analizy w tygodniu — nie więcej, ale i nie mniej.",
+    "stages": [
+      {
+        "weeks": [
+          1,
+          2
+        ],
+        "form": "Analiza pisemna, bez ograniczenia czasu",
+        "how": "Wybierz dzieło z kart, rozpisz wszystkie dziewięć kroków na kartce. Sprawdź, czy w każdym kroku pada przynajmniej jeden termin fachowy."
+      },
+      {
+        "weeks": [
+          3,
+          4,
+          5
+        ],
+        "form": "Analiza na głos z notatką",
+        "how": "Rozpisz hasłowo dziewięć kroków, potem mów na głos, zerkając tylko na hasła. Nagraj się i odsłuchaj."
+      },
+      {
+        "weeks": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "form": "Analiza na głos bez notatki, dzieło znane",
+        "how": "Trzy minuty, dzieło z kart. Osoba pytająca odhacza kroki na karcie oceny."
+      },
+      {
+        "weeks": [
+          10,
+          11,
+          12
+        ],
+        "form": "Analiza dzieła nieznanego",
+        "how": "Ktoś wyszukuje losową reprodukcję, której nie znasz. Masz minutę na przyjrzenie się i trzy minuty na wypowiedź. To ćwiczenie najbliższe egzaminowi."
+      },
+      {
+        "weeks": [
+          13,
+          14
+        ],
+        "form": "Analiza z pytaniami dodatkowymi",
+        "how": "Po wypowiedzi osoba pytająca zadaje dwa pytania pogłębiające, np. „a co to znaczy luminizm?”, „dlaczego sądzisz, że to barok?”."
+      }
+    ]
+  }
+}
