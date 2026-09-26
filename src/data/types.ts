@@ -69,6 +69,8 @@ export interface AnalysisStep {
 
 export interface ModelAnalysis {
   id: string;
+  /** karta dzieła z Aneksu A */
+  artworkId: string;
   title: string;
   artist: string;
   date: string;

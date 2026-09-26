@@ -76,7 +76,11 @@ names={s['n']:s['name'] for s in steps}
 for m in models:
   for st in m['steps']: st['stepName']=names[st['n']]
   m['steps']=[{'n':s['n'],'stepName':s['stepName'],'text':s['text']} for s in m['steps']]
-dump('modelAnalyses.json',[{k:m[k] for k in ['id','title','artist','date','domain','style','techniqueLocation','note','steps']} for m in models])
+# powiązanie z kartami dzieł z Aneksu A programu przygotowawczego
+ARTWORK_IDS={'caravaggio-powolanie-sw-mateusza':'powolanie-sw-mateusza','matejko-stanczyk':'stanczyk','michal-aniol-dawid':'dawid',
+  'notre-dame-fasada-zachodnia':'katedra-notre-dame-w-paryzu','mondrian-broadway-boogie-woogie':'broadway-boogie-woogie'}
+for m in models: m['artworkId']=ARTWORK_IDS[m['id']]
+dump('modelAnalyses.json',[{k:m[k] for k in ['id','artworkId','title','artist','date','domain','style','techniqueLocation','note','steps']} for m in models])
 sig=[("Łuk półkolisty, gruby mur, małe okna, mroczne wnętrze","romanizm","XI–XII w."),
 ("Łuk ostry, witraże, rozeta, przypory na zewnątrz, dominacja pionu","gotyk","XII–XV w."),
 ("Złote tło, frontalizm, brak cienia, perspektywa odwrócona","sztuka bizantyjska / ikona","VI–XV w."),

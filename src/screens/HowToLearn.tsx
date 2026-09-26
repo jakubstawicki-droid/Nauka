@@ -19,7 +19,7 @@ const TECHNIQUES: { title: string; text: string; where?: { to: string; label: st
   },
   {
     title: 'Mów na głos',
-    text: 'Egzamin jest ustny, a odpowiedź przemyślana „w głowie” zawsze wydaje się gładsza niż wypowiedziana. Mów pełnymi zdaniami, jakby słuchał egzaminator. (Nagrywanie się w aplikacji pojawi się razem z egzaminem próbnym.)',
+    text: 'Egzamin jest ustny, a odpowiedź przemyślana „w głowie” zawsze wydaje się gładsza niż wypowiedziana. Mów pełnymi zdaniami, jakby słuchał egzaminator. Nagraj się i odsłuchaj obok modelowej odpowiedzi — słychać wtedy, czego brakuje.',
   },
   {
     title: 'Przeplatanie tematów',

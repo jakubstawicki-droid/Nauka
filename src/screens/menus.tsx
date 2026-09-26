@@ -27,6 +27,7 @@ export function MoreMenu() {
         ]} />
         <Menu items={[
           { to: '/wiecej/jak-sie-uczyc', label: 'Jak się uczyć' },
+          { to: '/wiecej/nagrania', label: 'Nagrania', desc: 'Odsłuchaj i usuń swoje nagrania' },
           { to: '/wiecej/ustawienia', label: 'Ustawienia', desc: 'Daty, limity, kopia zapasowa' },
         ]} />
       </div>

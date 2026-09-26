@@ -3,6 +3,8 @@ import type { Question } from '../data/types';
 import { formatClock, useElapsed } from '../hooks/useStudy';
 import { gradeFromChecklist } from '../lib/srs';
 import type { Grade } from '../store/model';
+import { useRecordings } from '../lib/recordings';
+import { RecorderPanel, RecordingPlayer } from './Recorder';
 import { Checklist, GradeButtons } from './study';
 
 /**
@@ -11,9 +13,11 @@ import { Checklist, GradeButtons } from './study';
  */
 export function QuestionCard({ question, onDone }: { question: Question; onDone: (grade: Grade, timeSpent: number) => void }) {
   const [revealed, setRevealed] = useState(false);
+  const [recording, setRecording] = useState(false);
   const [checked, setChecked] = useState(() => question.keyPoints.map(() => false));
   const clock = useElapsed(!revealed);
   const hits = checked.filter(Boolean).length;
+  const [startedAt] = useState(() => new Date().toISOString());
   const suggested = gradeFromChecklist(hits, question.keyPoints.length);
 
   return (
@@ -27,12 +31,16 @@ export function QuestionCard({ question, onDone }: { question: Question; onDone:
             <p>Odpowiedz na głos, tak jak na egzaminie: teza → rozwinięcie → przykład dzieła z autorem → zamknięcie.</p>
             <p className="clock">Czas: {formatClock(clock.seconds)}</p>
           </div>
+          <RecorderPanel kind="question" refId={question.id} label={question.id} history={0} onRecordingChange={setRecording} />
           <div className="sticky-actions">
-            <button className="btn primary block" onClick={() => setRevealed(true)}>Pokaż modelową odpowiedź</button>
+            <button className="btn primary block" onClick={() => setRevealed(true)} disabled={recording}>
+              {recording ? 'Zatrzymaj nagrywanie, żeby odsłonić wzorzec' : 'Pokaż modelową odpowiedź'}
+            </button>
           </div>
         </>
       ) : (
         <>
+          <RecordedAnswer questionId={question.id} since={startedAt} />
           <div className="card">
             <div className="prompt-label">Modelowa odpowiedź</div>
             <p className="reading">{question.modelAnswer}</p>
@@ -64,5 +72,18 @@ export function QuestionCard({ question, onDone }: { question: Question; onDone:
         </>
       )}
     </article>
+  );
+}
+
+/** Odsłuch nagrania zrobionego przy tym podejściu (obok modelowej odpowiedzi). */
+function RecordedAnswer({ questionId, since }: { questionId: string; since: string }) {
+  const list = useRecordings((s) => s.list);
+  const mine = list.find((r) => r.kind === 'question' && r.refId === questionId && r.createdAt >= since);
+  if (!mine) return null;
+  return (
+    <div className="card">
+      <div className="prompt-label">Twoja odpowiedź</div>
+      <RecordingPlayer meta={mine} />
+    </div>
   );
 }

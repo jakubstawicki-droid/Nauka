@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { normalizeProgress } from '../lib/backup';
 import { createStorage } from '../storage/adapters';
 import type { StorageAdapter, StorageKind } from '../storage/StorageAdapter';
-import { emptyProgress, type ProgressData, type ReviewLog, type Settings } from './model';
+import { emptyProgress, type AnalysisResult, type ExamResult, type ProgressData, type ReviewLog, type Settings } from './model';
 
 const KEY = 'progress';
 
@@ -15,6 +15,8 @@ interface ProgressStore extends ProgressData {
   addReview: (r: Omit<ReviewLog, 'date'> & { date?: string }) => void;
   updateSettings: (patch: Partial<Settings>) => void;
   toggleScheduleTask: (key: string) => void;
+  addAnalysis: (a: AnalysisResult) => void;
+  addExam: (e: ExamResult) => void;
   /** Podmienia cały postęp i od razu zapisuje (bez opóźnienia). */
   replaceAll: (data: ProgressData) => Promise<boolean>;
   reset: () => Promise<boolean>;
@@ -63,6 +65,14 @@ export const useProgress = create<ProgressStore>((setState, getState) => {
       change({ scheduleDone: done });
     },
 
+    addAnalysis(a) {
+      change({ analyses: [...getState().analyses, a] });
+    },
+
+    addExam(e) {
+      change({ exams: [...getState().exams, e] });
+    },
+
     replaceAll(data) {
       setState({ ...data });
       return flushProgress();
@@ -75,7 +85,7 @@ export const useProgress = create<ProgressStore>((setState, getState) => {
 
     snapshot() {
       const s = getState();
-      return { version: 1, reviews: s.reviews, settings: s.settings, scheduleDone: s.scheduleDone, diagnostics: s.diagnostics };
+      return { version: 1, reviews: s.reviews, settings: s.settings, scheduleDone: s.scheduleDone, diagnostics: s.diagnostics, analyses: s.analyses, exams: s.exams };
     },
   };
 });

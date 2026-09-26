@@ -12,6 +12,8 @@ function sample(): ProgressData {
   p.settings = { ...p.settings, startDate: '2026-10-01', examDate: '2027-01-07', theme: 'dark' };
   p.scheduleDone = { 'w1:t0': true };
   p.diagnostics = [{ date: '2026-09-30', total: 14, points: { '1': 1, '26a': 1 } }];
+  p.analyses = [{ date: '2026-10-02T18:00:00.000Z', artworkId: 'stanczyk', unknown: false, checked: [1, 2, 3, 7], seconds: 185 }];
+  p.exams = [{ date: '2026-10-03T18:00:00.000Z', prepSeconds: 180, questions: [{ id: 'IV-01', keyPointsHit: 4, keyPointsTotal: 5, structure: [1, 2, 3], seconds: 140 }] }];
   return p;
 }
 
@@ -45,8 +47,10 @@ describe('kopia zapasowa', () => {
   it('pomija uszkodzone wpisy, zamiast odrzucać cały plik', () => {
     const data = sample() as unknown as { reviews: unknown[] };
     data.reviews.push({ itemId: 'X', grade: 7 }, 'śmieć', null);
+    (data as unknown as { exams: unknown[] }).exams.push({ date: 'x', questions: 'zle' });
     const res = parseBackup(JSON.stringify({ app: BACKUP_APP_ID, version: 1, progress: data }));
-    expect(res.ok && res.skipped).toBe(3);
+    expect(res.ok && res.skipped).toBe(4);
+    expect(res.ok && res.backup.progress.exams).toHaveLength(1);
     expect(res.ok && res.backup.progress.reviews).toHaveLength(2);
   });
 });
@@ -73,6 +77,15 @@ describe('mergeProgress', () => {
     expect(merged.reviews.map((r) => r.itemId)).toEqual(['II-03', 'I-01', 'III-12']);
     expect(merged.scheduleDone).toEqual({ 'w1:t0': true, 'w2:t1': true });
     expect(merged.diagnostics).toHaveLength(1);
+  });
+
+  it('łączy analizy i egzaminy bez duplikatów', () => {
+    const a = sample();
+    const b = sample();
+    b.analyses.push({ date: '2026-10-05T18:00:00.000Z', artworkId: 'dawid', unknown: true, checked: [], seconds: 60 });
+    const merged = mergeProgress(a, b);
+    expect(merged.analyses.map((x) => x.artworkId)).toEqual(['stanczyk', 'dawid']);
+    expect(merged.exams).toHaveLength(1);
   });
 
   it('ustawienia bierze z importowanego pliku', () => {

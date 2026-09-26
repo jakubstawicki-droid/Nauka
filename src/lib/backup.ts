@@ -1,5 +1,6 @@
 import {
-  DEFAULT_SETTINGS, emptyProgress, type DiagnosticResult, type ProgressData, type ReviewLog, type Settings,
+  DEFAULT_SETTINGS, emptyProgress, type AnalysisResult, type DiagnosticResult, type ExamResult, type ProgressData,
+  type ReviewLog, type Settings,
 } from '../store/model';
 
 export const BACKUP_APP_ID = 'gerson-historia-sztuki';
@@ -53,6 +54,26 @@ function parseDiagnostic(d: unknown): DiagnosticResult | null {
   return { date: d.date, total: d.total, points };
 }
 
+const isNum = (v: unknown): v is number => typeof v === 'number' && Number.isFinite(v);
+const numList = (v: unknown) => (Array.isArray(v) ? v.filter(isNum) : null);
+
+function parseAnalysis(a: unknown): AnalysisResult | null {
+  if (!isObj(a) || typeof a.date !== 'string' || typeof a.artworkId !== 'string') return null;
+  const checked = numList(a.checked);
+  if (!checked || !isNum(a.seconds)) return null;
+  return { date: a.date, artworkId: a.artworkId, unknown: a.unknown === true, checked, seconds: a.seconds };
+}
+
+function parseExam(e: unknown): ExamResult | null {
+  if (!isObj(e) || typeof e.date !== 'string' || !Array.isArray(e.questions) || !isNum(e.prepSeconds)) return null;
+  const questions: ExamResult['questions'] = [];
+  for (const q of e.questions) {
+    if (!isObj(q) || typeof q.id !== 'string' || !isNum(q.keyPointsHit) || !isNum(q.keyPointsTotal) || !isNum(q.seconds)) return null;
+    questions.push({ id: q.id, keyPointsHit: q.keyPointsHit, keyPointsTotal: q.keyPointsTotal, structure: numList(q.structure) ?? [], seconds: q.seconds });
+  }
+  return { date: e.date, questions, prepSeconds: e.prepSeconds };
+}
+
 /**
  * Normalizuje dowolne dane postępu (z pliku lub ze starszej wersji zapisu):
  * odrzuca uszkodzone wpisy zamiast wywracać całą aplikację.
@@ -75,6 +96,18 @@ export function normalizeProgress(raw: unknown): { data: ProgressData; skipped: 
     for (const d of raw.diagnostics) {
       const ok = parseDiagnostic(d);
       if (ok) data.diagnostics.push(ok); else skipped++;
+    }
+  }
+  if (Array.isArray(raw.analyses)) {
+    for (const a of raw.analyses) {
+      const ok = parseAnalysis(a);
+      if (ok) data.analyses.push(ok); else skipped++;
+    }
+  }
+  if (Array.isArray(raw.exams)) {
+    for (const e of raw.exams) {
+      const ok = parseExam(e);
+      if (ok) data.exams.push(ok); else skipped++;
     }
   }
   return { data, skipped };
@@ -113,15 +146,18 @@ export function mergeProgress(current: ProgressData, incoming: ProgressData): Pr
   for (const r of incoming.reviews) if (!seen.has(reviewKey(r))) { reviews.push(r); seen.add(reviewKey(r)); }
   reviews.sort((a, b) => a.date.localeCompare(b.date));
 
-  const diagSeen = new Set(current.diagnostics.map((d) => d.date));
-  const diagnostics = [...current.diagnostics, ...incoming.diagnostics.filter((d) => !diagSeen.has(d.date))]
-    .sort((a, b) => a.date.localeCompare(b.date));
-
   return {
     version: 1,
     reviews,
     settings: { ...incoming.settings },
     scheduleDone: { ...current.scheduleDone, ...incoming.scheduleDone },
-    diagnostics,
+    diagnostics: unionByDate(current.diagnostics, incoming.diagnostics),
+    analyses: unionByDate(current.analyses, incoming.analyses),
+    exams: unionByDate(current.exams, incoming.exams),
   };
+}
+
+function unionByDate<T extends { date: string }>(a: T[], b: T[]): T[] {
+  const seen = new Set(a.map((x) => x.date));
+  return [...a, ...b.filter((x) => !seen.has(x.date))].sort((x, y) => x.date.localeCompare(y.date));
 }

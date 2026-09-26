@@ -40,6 +40,32 @@ export interface DiagnosticResult {
   total: number;
 }
 
+/** Jedna analiza dzieła w trenerze. */
+export interface AnalysisResult {
+  date: string;
+  artworkId: string;
+  /** tryb „dzieło nieznane” (tytuł i autor ukryte do końca) */
+  unknown: boolean;
+  /** numery odhaczonych punktów karty oceny (1–12) */
+  checked: number[];
+  seconds: number;
+}
+
+/** Jeden egzamin próbny: zestaw trzech pytań. */
+export interface ExamResult {
+  date: string;
+  questions: {
+    id: string;
+    /** ile punktów „Musi paść” padło */
+    keyPointsHit: number;
+    keyPointsTotal: number;
+    /** które elementy szkieletu wypowiedzi (1–4: teza, rozwinięcie, przykład, zamknięcie) się pojawiły */
+    structure: number[];
+    seconds: number;
+  }[];
+  prepSeconds: number;
+}
+
 export interface ProgressData {
   version: 1;
   reviews: ReviewLog[];
@@ -47,6 +73,8 @@ export interface ProgressData {
   /** odhaczone zadania harmonogramu, klucz np. "w3:t1" */
   scheduleDone: Record<string, boolean>;
   diagnostics: DiagnosticResult[];
+  analyses: AnalysisResult[];
+  exams: ExamResult[];
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -61,5 +89,5 @@ export const DEFAULT_SETTINGS: Settings = {
 };
 
 export function emptyProgress(): ProgressData {
-  return { version: 1, reviews: [], settings: { ...DEFAULT_SETTINGS }, scheduleDone: {}, diagnostics: [] };
+  return { version: 1, reviews: [], settings: { ...DEFAULT_SETTINGS }, scheduleDone: {}, diagnostics: [], analyses: [], exams: [] };
 }

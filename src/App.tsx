@@ -1,12 +1,15 @@
-import { useEffect } from 'react';
+import { useEffect, type ReactNode } from 'react';
 import { HashRouter, Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { Placeholder } from './components/ui';
+import { AnalysisHome, AnalysisSession, ModelAnalysesList, ModelAnalysisView } from './screens/Analysis';
 import { ArtworkDetail, ArtworksHome } from './screens/Artworks';
 import { Dashboard } from './screens/Dashboard';
+import { ExamHome, ExamSession } from './screens/Exam';
 import { HowToLearn } from './screens/HowToLearn';
 import { QuestionDetail, QuestionSection, QuestionsHome } from './screens/Questions';
 import { QuizMenu, QuizRun } from './screens/Quizzes';
+import { Recordings } from './screens/Recordings';
 import { StudySession } from './screens/StudySession';
 import { MoreMenu, TrainingMenu } from './screens/menus';
 import { Settings } from './screens/Settings';
@@ -53,8 +56,13 @@ export function App() {
           <Route path="trening" element={<TrainingMenu />} />
           <Route path="trening/quizy" element={<QuizMenu />} />
           <Route path="trening/quizy/:kind" element={<QuizRunRoute />} />
-          <Route path="trening/analiza/*" element={<Placeholder title="Trener analizy" stage={5} />} />
-          <Route path="trening/egzamin/*" element={<Placeholder title="Egzamin próbny" stage={5} />} />
+          <Route path="trening/analiza" element={<AnalysisHome />} />
+          <Route path="trening/analiza/sesja" element={<KeyedByLocation><AnalysisSession /></KeyedByLocation>} />
+          <Route path="trening/analiza/wzorcowe" element={<ModelAnalysesList />} />
+          <Route path="trening/analiza/wzorcowe/:id" element={<ModelAnalysisView />} />
+          <Route path="trening/egzamin" element={<ExamHome />} />
+          <Route path="trening/egzamin/start" element={<KeyedByLocation><ExamSession /></KeyedByLocation>} />
+          <Route path="wiecej/nagrania" element={<Recordings />} />
           <Route path="trening/mieszany" element={<Navigate to="/sesja?typ=mieszany" replace />} />
           <Route path="wiecej" element={<MoreMenu />} />
           <Route path="wiecej/harmonogram" element={<Placeholder title="Harmonogram" stage={6} />} />
@@ -80,4 +88,10 @@ function StudySessionRoute() {
 function QuizRunRoute() {
   const { kind } = useParams();
   return <QuizRun key={kind} />;
+}
+
+/** Każde wejście pod ten adres (także ponowne kliknięcie „Kolejny zestaw”) to nowa sesja. */
+function KeyedByLocation({ children }: { children: ReactNode }) {
+  const { key, search } = useLocation();
+  return <div key={`${search}|${key}`}>{children}</div>;
 }

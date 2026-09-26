@@ -1,6 +1,7 @@
 [
   {
     "id": "caravaggio-powolanie-sw-mateusza",
+    "artworkId": "powolanie-sw-mateusza",
     "title": "Powołanie św. Mateusza",
     "artist": "Caravaggio",
     "date": "1599–1600",
@@ -58,6 +59,7 @@
   },
   {
     "id": "matejko-stanczyk",
+    "artworkId": "stanczyk",
     "title": "Stańczyk",
     "artist": "Jan Matejko",
     "date": "1862",
@@ -115,6 +117,7 @@
   },
   {
     "id": "michal-aniol-dawid",
+    "artworkId": "dawid",
     "title": "Dawid",
     "artist": "Michał Anioł",
     "date": "1501–1504",
@@ -172,6 +175,7 @@
   },
   {
     "id": "notre-dame-fasada-zachodnia",
+    "artworkId": "katedra-notre-dame-w-paryzu",
     "title": "Fasada zachodnia katedry Notre-Dame w Paryżu",
     "artist": "budowniczowie anonimowi",
     "date": "1163 – ok. 1345",
@@ -229,6 +233,7 @@
   },
   {
     "id": "mondrian-broadway-boogie-woogie",
+    "artworkId": "broadway-boogie-woogie",
     "title": "Broadway Boogie Woogie",
     "artist": "Piet Mondrian",
     "date": "1942–1943",

@@ -54,6 +54,7 @@ const models = load<ModelAnalysis[]>('modelAnalyses.json');
 report('modelAnalyses.json', models.length, 5);
 for (const m of models) {
   check(m.steps.length === 9 && m.steps.every((s, i) => s.n === i + 1), `analiza ${m.id}: nie ma 9 kroków`);
+  check(artworks.some((a) => a.id === m.artworkId), `analiza ${m.id}: nieznana karta dzieła ${m.artworkId}`);
 }
 
 report('signals.json', load<Signal[]>('signals.json').length, 18);
